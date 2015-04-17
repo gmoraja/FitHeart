@@ -1,0 +1,79 @@
+ [
+  {
+  "uniqueId" : "0",
+  "label" : "Safety First",
+  "notes" : [ {
+             "note" : "Exercise is safe and beneficial for almost everyone. If you have questions about whether it is safe for you to do a specific type of exercise, you can ask your health provider.",
+             "noteAcc" : "Exercise is safe and beneficial for almost everyone. If you have questions about whether it is safe for you to do a specific type of exercise, you can ask your health provider."
+             }
+             ]
+  }, {
+  "uniqueId" : "1",
+  "label" : "Be Active",
+  "notes" : [ {
+             "note" :  "Ideas for physical activity:<br><p><font color='#000000'><ul><li>Take a walk in your neighborhood</li><li>Take a walk at a local shopping center</li><li>Join a gym</li><li>Ride a bike</li><li>Use an arm pedal or foot peddler at home</li><li>Go to a community pool</li><li>Dance</li><li>March in place while watching TV</li></ul></font></p>",
+             "noteAcc" : "Ideas for physical activity:- Take a walk in your neighborhood- Take a walk at a local shopping center- Join a gymRide a bike- Use an arm pedal or foot peddler at home- Go to a community pool- Dance- March in place while watching TV"
+             }
+             ]
+  }, {
+  "uniqueId" : "3",
+  "label" : "How-To",
+  "notes" : [ {
+             "note" : "Here are some tips for achieving that goal:<br><p><font color='#000000'><ul><li>Add physical activity to your schedule every day (or almost every day)</li><li>Get a friend or family member to be active with you</li><li>Take the stairs</li><li>Park your car far away and walk</li><li>Use a fitness video</li><li>Try a fitness video game (like WiiFit)</li><li>Enroll in a cardiac rehab program</li><li>Join a gym</li></ul></font></p>",
+             "noteAcc" : "Here are some ways to help you achieve the recommended 150 minutes/week of physical activity: Add physical activity to your daily schedule. Get family and friends to be active with you. Take the stairs. Park your car far away and walk. Use a fitness video or video game (like WiiFit). Enroll in cardiac rehab. Join a gym"
+             }
+             ]
+  }, {
+  "uniqueId" : "4",
+  "label" : "Intensity",
+  "notes" : [ {
+             "note" : "Rate the intensity of your activity!<br><p><font color='#000000'><ul><li>Very Easy (sedentary, like watching TV or riding in a car)</li><li>Easy (breathing not noticeable, can carry a conversation)</li><li>Somewhat Easy (breathing noticeable, can hold a conversation)</li><li>Somewhat Hard (labored breathing, can hold a short conversation)</li><li>Hard (can only speak a few words)</li><li>Very Hard (can't talk)</li></ul></font></p><br><br>Exert yourself enough that you can still talk, but not sing while you are being active.",
+             "noteAcc" : "Rate the intensity of your activity! Very Easy (sedentary, like watching TV). Easy (breathing unnoticeable, can carry a conversation). Somewhat Easy (breathing noticeable, can hold a conversation). Somewhat Hard (labored breathing, can hold a short conversation). Hard (can only speak a few words). Very Hard (can't talk). Exert yourself enough that you can still talk, but not sing while you are being active."
+             }
+             ]
+  }, {
+  "uniqueId" : "5",
+  "label" : "Examples",
+  "notes" : [ {
+             "note" : "At least moderate intensity activity is best for your heart.<br><br><b>Light</b><br><p><font color='#000000'><ul><li>Easy Walk</li><li>Standing</li><li>Sitting</li></ul></font></p><br><br><b>Moderate</b><br><p><font color='#000000'><ul><li>Brisk walk</li><li>Light cycling or swimming</li><li>Dancing</li><li>Gardening</li><li>Household chores</li></ul></font></p><br><br><b>Hard</b><br><p><font color='#000000'><ul><li>Running</li><li>Fast cycling or swimming</li><li>Vigorous Sports</li></ul></font></p>",
+             "noteAcc" : "At least moderate intensity activity is best for your heart. Light: Easy Walk, Standing, Sitting. Moderate:  Brisk walk, Light cycling or swimming, Dancing, Gardening, Household chores. Hard:  Running,  Fast cycling or swimming, Vigorous Sports"
+             }
+             ]
+  }, {
+  "uniqueId" : "6",
+  "label" : "Benefits",
+  "notes" : [ {
+             "note" : "Being active can improve your health in a lot of ways:<p><font color='#000000'><ul><li>Maintain a healthy weight</li><li>Prevent progression of heart disease</li><li>Improve stamina</li><li>Improve strength</li><li>Improve mood</li><li>Increase energy</li><li>Have fun!</li></ul></font></p>",
+             "noteAcc" : "Being active can improve your health in a lot of ways: Maintain a healthy weight. Prevent progression of heart disease. Improve stamina. Improve strength. Improve mood. Increase energy. Have fun!"
+             }
+             ]
+  }, {
+  "uniqueId" : "7",
+  "label" : "Counting Steps",
+  "notes" : [ {
+             "note" : "Many people like using a pedometer to measure their physical activity. A pedometer counts the number of steps that you take in a day. In an active day, you should try to get to 10,000 steps!",
+             "noteAcc" : "Many people like using a pedometer to measure their physical activity. A pedometer counts the number of steps that you take in a day. In an active day, you should try to get to 10,000 steps!"
+             }
+             ]
+  }
+  , {
+  "uniqueId" : "8",
+  "label" : "Amount",
+  "notes" : [ {
+             "note" : "Exercise ≈ intensity x duration x frequency.<br><br>By increasing intensity, duration, or frequency, you can increase the amount of exercise.",
+             "noteAcc" : "Exercise ≈ intensity x duration x frequency. By increasing intensity, duration, or frequency, you can increase the amount of exercise."
+             }
+             ]
+  }
+  , {
+  "uniqueId" : "9",
+  "label" : "Links",
+  "notes" : [ {
+             "note" : "<a href=\"http://www.heart.org/HEARTORG/Conditions/More/CardiacRehab/Cardiac-Rehab_UCM_002079_SubHomePage.jsp#mainContent\" >American Heart Association (AHA)</a><br><br><a href=\"https://www.cardiosmart.org/Heart-Conditions/Coronary-Artery-Disease\">American College of Cardiology (ACC)</a><br><br><a href=\"https://www.aacvpr.org/CardiacRehabilitationPatients/tabid/503/Default.aspx\">American Association of Cardiovascular and Pulmonary Rehabilitation (AACVPR)</a><br><br><a href=\"http://pcna.net/patients---preventive-cardiovascular-nurses-association\">Preventive Cardiovascular Nurses Association</a>",
+             "noteAcc" : "Link to American Heart Association. Link to American College of Cardiology. Link to American Association of Cardiovascular and Pulmonary Rehabilitation. Link to Preventive Cardiovascular Nurses Association."
+             }
+             ]
+  }
+
+  ]
+

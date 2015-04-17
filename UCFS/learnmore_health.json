@@ -1,0 +1,76 @@
+[
+ {
+ "uniqueId" : "0",
+ "label" : "Quick Tips",
+ "notes" : [ {
+            "note" : "Quick Tips for staying healthy:<p><font color='#000000'><ul><li>Physical activity</li><li>Maintain a healthy weight</li><li>Eat healthy foods</li><li>Monitor blood pressure</li><li>Monitor heart rate</li><li>Lower cholesterol</li><li>Take medications</li><li>If you have Diabetes, monitor blood sugar</li><li>If you smoke, quit.</li></ul></font></p>",
+            "noteAcc" : "Quick Tips for staying healthy: Physical activity. Maintain a healthy weight. Eat healthy foods. Monitor blood pressure. Lower cholesterol. Take medications. If you smoke, quit. If you have Diabetes, monitor blood sugar."
+            }
+            ]
+ }, {
+ "uniqueId" : "20",
+ "label" : "Cardiac Rehab",
+ "notes" : [ {
+            "note" :  "Cardiac rehabilitation is a program for people with heart conditions. It teaches you how to manage your heart condition and focuses on fitness, nutrition, weight management, blood pressure, cholesterol, stress reduction, diabetes, and smoking. This mobile app is designed to help with many of these!<br><br><a href='http://www.heart.org/HEARTORG/Conditions/More/CardiacRehab/CardiacRehab_UCM_002079_SubHomePage.jsp#mainContent'>Learn more about cardiac rehab here.</a>",
+            "noteAcc" : "Cardiac rehabilitation is a program for people with heart conditions. It teaches you how to manage your heart condition and focuses on fitness, nutrition, weight management, blood pressure, cholesterol, stress reduction, diabetes, and smoking. This mobile app is designed to help with many of these! Click here to open the link Learn more about cardiac.",
+            "linkAcc" : "http://www.heart.org/HEARTORG/Conditions/More/CardiacRehab/CardiacRehab_UCM_002079_SubHomePage.jsp#mainContent"
+            }
+            ]
+ }, {
+ "uniqueId" : "1",
+ "label" : "Blood Pressure",
+ "notes" : [ {
+            "note" :  "For most people with heart conditions, it is recommended that blood pressure stay below 140/90. It may require <b>medications</b> to lower your blood pressure. Healthy <b>behavior</b> can also help:<p><font color='#000000'><ul><li>Take medications as directed</li><li>Exercise</li><li>Limit salt intake</li><li>Maintain a healthy <a href='http://dashdiet.org'>diet</a></li><li>Limit alcohol intake</li></ul></font></p><br><br><a href='http://www.heart.org/HEARTORG/Conditions/HighBloodPressure/High-Blood-Pressure_UCM_002020_SubHomePage.jsp#mainContent'>Learn more</a>",
+            "noteAcc" : "For most people with heart conditions, keep your blood pressure below 140/90. It may require medications to lower your blood pressure. Healthy behavior can also help: Take medications as directed. Exercise. Limit salt intake. Maintain a healthy diet. Link to dashdiet.org. Limit alcohol intake. Learn more: link to www.heart.org",
+            "linkAcc" : "http://www.heart.org/HEARTORG/Conditions/HighBloodPressure/High-Blood-Pressure_UCM_002020_SubHomePage.jsp#mainContent"
+            }
+            ]
+ }, {
+ "uniqueId" : "2",
+ "label" : "Cholesterol",
+ "notes" : [ {
+            "note" :  "There a several different types of cholesterol:<p><font color='#000000'><ul><li>LDL ('bad cholesterol')</li><li>HDL ('good cholesterol')</li><li>Triglycerides</li><li>Total cholesterol (a combination of the above)</li></ul></font></p><br><br>Talk to you health provider about developing an individual plan for managing your cholesterol.<br><br><a href='http://www.heart.org/HEARTORG/Conditions/Cholesterol/Cholesterol_UCM_001089_SubHomePage.jsp#mainContent'>Learn more here</a>",
+            "noteAcc" : "There a several different types of cholesterol: LDL (bad cholesterol). HDL (good cholesterol). Triglycerides. Total cholesterol (a combination of the above). Talk to you health provider about developing an individual plan for managing your cholesterol. Learn more here: link to heart.org.",
+            "linkAcc" : "http://www.heart.org/HEARTORG/Conditions/Cholesterol/Cholesterol_UCM_001089_SubHomePage.jsp#mainContent"
+            }
+            ]
+ }, {
+ "uniqueId" : "3",
+ "label" : "Smoking",
+ "notes" : [ {
+            "note" : "If you are already a non-smoker, then you are on the right track!<br>Research has shown that you will live longer and be less likely to have a heart attack if you quit smoking.<br><br><a href='http://www.cdc.gov/tobacco/quit_smoking/how_to_quit/index.htm'>Learn more here</a>",
+            "noteAcc" : "If you are already a non-smoker, then you are on the right track! Research has shown that you will live longer and be less likely to have a heart attack if you quit smoking. Learn more here: link to cdc.gov .",
+            "linkAcc" : "http://www.cdc.gov/tobacco/quit_smoking/how_to_quit/index.htm"
+            }
+            ]
+ }, {
+ "uniqueId" : "4",
+ "label" : "Diabetes",
+ "notes" : [ {
+            "note" : "Diabetes can increase your risk of having heart disease. Many health providers routinely check for Diabetes in their patients with heart disease. Do you know if you have Diabetes?<br><br><a href='http://www.heart.org/HEARTORG/Conditions/Diabetes/Diabetes_UCM_001091_SubHomePage.jsp#mainContent'>Learn more here</a>",
+            "noteAcc" : "Diabetes can increase your risk of having heart disease. Many health providers routinely check for Diabetes in their patients with heart disease. Do you know if you have Diabetes? Learn more here: link to heart.org.",
+            "linkAcc" : "http://www.heart.org/HEARTORG/Conditions/Diabetes/Diabetes_UCM_001091_SubHomePage.jsp#mainContent"
+            }
+            ]
+ }, {
+ "uniqueId" : "5",
+ "label" : "Medications",
+ "notes" : [ {
+            "note" : "Common heart medications work in many different ways to keep you healthy:<p><font color='#000000'><ul><li>Aspirin – helps prevent blood clots from forming in arteries</li><li>ACE-inhibitor or ARB (ends in '–pril' or '–sartan') – lowers blood pressure, helps improve heart function</li><li>Anti-platelet drugs (has 'grel' in the name) – helps prevent blood clots from forming in arteries, especially with stents</li><li>Beta-blockers (ends in 'lol') – lowers heart rate and blood pressure, helps improve heart function</li><li>Statin – lowers cholesterol</li></ul></font></p>",
+            "noteAcc" : "Medications work in different ways to keep you healthy: Aspirin: prevents blood clots from forming in arteries. ACE-inhibitor or ARB (ends in “–pril” or “–sartan”): lowers blood pressure. Anti-platelet drug (has “grel” in the name): prevents blood clots from forming in arteries. Beta-blocker (ends in “lol”): lowers heart rate and blood pressure. Statin: lowers cholesterol"
+            }
+            ]
+ }, {
+ "uniqueId" : "6",
+ "label" : "Links",
+ "notes" : [ {
+            "note" : "<a href=\"http://www.heart.org/HEARTORG/Conditions/More/CardiacRehab/Cardiac-Rehab_UCM_002079_SubHomePage.jsp#mainContent\" >American Heart Association (AHA)</a><br><br><a href=\"https://www.cardiosmart.org/Heart-Conditions/Coronary-Artery-Disease\">American College of Cardiology (ACC)</a><br><br><a href=\"https://www.aacvpr.org/CardiacRehabilitationPatients/tabid/503/Default.aspx\">American Association of Cardiovascular and Pulmonary Rehabilitation (AACVPR)</a><br><br><a href=\"http://pcna.net/patients---preventive-cardiovascular-nurses-association\">Preventive Cardiovascular Nurses Association</a><br><br><a href=\"http://www.cdc.gov/tobacco/quit_smoking/how_to_quit/index.htm\">Quit Smoking</a>",
+            "noteAcc" : "Link to American Heart Association. Link to American College of Cardiology. Link to American Association of Cardiovascular and Pulmonary Rehabilitation. Link to Preventive Cardiovascular Nurses Association. Quit Smoking: link to cdc.gov"
+            }
+            ]
+ }
+ 
+ 
+ 
+ ]
+ 

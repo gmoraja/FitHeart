@@ -1,0 +1,51 @@
+[
+        {
+            "uniqueId" : "0",
+            "label" : "FitHeart",
+            "notes" : [ {
+                    "note" : "FitHeart is designed to help people with heart conditions improve their heart health by increasing physical fitness and providing tools for a healthy lifestyle. This mobile application is not intended to replace professional medical diagnosis or treatment. The main part of the program is designed to resemble a cardiac rehabilitation program. Typical programs guide people through education and fitness training over 12 weeks.",
+                       "noteAcc" : "FitHeart is designed to help people with heart conditions improve their heart health by increasing physical fitness and providing tools for a healthy lifestyle. This mobile application is not intended to replace professional medical diagnosis or treatment. The main part of the program is designed to resemble a cardiac rehabilitation program. Typical programs guide people through education and fitness training over 12 weeks."
+                }
+            ]
+ }, {
+ "uniqueId" : "6",
+ "label" : "Copyright",
+ "notes" : [ {
+            "note" :  "Copyright © 2015<br>The Regents of the University of California<br>All Rights Reserved",
+            "noteAcc" : "Copyright © 2015. The Regents of the University of California. All Rights Reserved"
+            }
+            ]
+        }, {
+            "uniqueId" : "1",
+            "label" : "Project Team",
+            "notes" : [ {
+                    "note" :  "Alexis Beatty, MD<br>Mary Whooley, MD<br>Yoshimi Fukuoka, RN, PhD<br>Judith Moskowitz, PhD, MPH",
+                    "noteAcc" : "Alexis Beatty, MD Mary Whooley, MD Yoshimi Fukuoka, RN, PhD Judith Moskowitz, PhD, MPH"
+                }
+            ]
+        }, {
+            "uniqueId" : "2",
+            "label" : "References",
+            "notes" : [ {
+                    "note" :  "1. Balady GJ, Williams MA, Ades PA, Bittner V, Comoss P, Foody JM, et al. Core components of cardiac rehabilitation/secondary prevention programs: 2007 update: a scientific statement from the American Heart Association Fitness, Cardiac Rehabilitation, and Prevention Committee, the Council on Clinical Cardiology; the Councils on Cardiovascular Nursing, Epidemiology and Prevention, and Nutrition, Physical Activity, and Metabolism; and the American Association of Cardiovascular and Pulmonary Rehabilitation. Circulation. 2007;115(20):2675-82. PMID: 17513578<br><br>2. Smith SC, Jr., Benjamin EJ, Bonow RO, Braun LT, Creager MA, Franklin BA, et al. AHA/ACCF Secondary Prevention and Risk Reduction Therapy for Patients With Coronary and Other Atherosclerotic Vascular Disease: 2011 Update: A Guideline From the American Heart Association and American College of Cardiology Foundation. Circulation. 2011;124(22):2458-73. PMID: 22052934.<br><br>3. Beatty AL, Fukuoka Y, Whooley MA. Using Mobile Technology for Cardiac Rehabilitation: A Review and Framework for Development and Evaluation. Journal of the American Heart Association. 2013. 2: e000568.",
+                    "noteAcc" : "1. Balady GJ, Williams MA, Ades PA, Bittner V, Comoss P, Foody JM, et al. Core components of cardiac rehabilitation/secondary prevention programs: 2007 update: a scientific statement from the American Heart Association Fitness, Cardiac Rehabilitation, and Prevention Committee, the Council on Clinical Cardiology; the Councils on Cardiovascular Nursing, Epidemiology and Prevention, and Nutrition, Physical Activity, and Metabolism; and the American Association of Cardiovascular and Pulmonary Rehabilitation. Circulation. 2007;115(20):2675-82. PMID: 17513578<br><br>2. Smith SC, Jr., Benjamin EJ, Bonow RO, Braun LT, Creager MA, Franklin BA, et al. AHA/ACCF Secondary Prevention and Risk Reduction Therapy for Patients With Coronary and Other Atherosclerotic Vascular Disease: 2011 Update: A Guideline From the American Heart Association and American College of Cardiology Foundation. Circulation. 2011;124(22):2458-73. PMID: 22052934.<br><br>3. Beatty AL, Fukuoka Y, Whooley MA. Using Mobile Technology for Cardiac Rehabilitation: A Review and Framework for Development and Evaluation. Journal of the American Heart Association. 2013. 2: e000568."
+                }
+            ]
+        }, {
+            "uniqueId" : "3",
+            "label" : "Acknowledgements",
+            "notes" : [ {
+                    "note" : "FitHeart was supported by the following organizations and funding sources:<br><br><b>University of California, San Francisco (UCSF)</b> is a leading university dedicated to promoting health worldwide through advanced biomedical research, graduate-level education in the life sciences and health professions, and high-quality patient care.<br><br><b>National Institutes of Health (NIH)</b> This project was supported by NIH/NCRR UL1 RR024131, NIH/ NCATS KL2TR000143, and NIH/NHLBI F32HL110518. Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the NIH.<br><br><b>Department of Veterans Affairs</b>.",
+                    "noteAcc" :"FitHeart was supported by the following organizations and funding sources: University of California, San Francisco (UCSF) is a leading university dedicated to promoting health worldwide through advanced biomedical research, graduate-level education in the life sciences and health professions, and high-quality patient care. National Institutes of Health (NIH) This project was supported by NIH/NCRR UL1 RR024131, NIH/ NCATS KL2TR000143, and NIH/NHLBI F32HL110518. Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the NIH. Department of Veterans Affairs."
+                }
+            ]
+        }, {
+            "uniqueId" : "4",
+            "label" : "Tutorial",
+            "notes" : [ {
+                       "note" : ""
+                  }
+            ]
+        }
+ ]
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[UCFSUtil bottomPositionWithViewHeight:]:UCFSUtil.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[UIScreen mainScreen].bounds.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FitnessHomeViewController updateEntriesWithDateType:]:FitnessHomeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[UCFSUtil initNavigationBar:item:title:bkgFileName:tintColor:isBackVisibile:]:UCFSUtil.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[[UIDevice currentDevice] systemVersion] floatValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FTLogContainerView updateWithGoalData:withLogData:]:FTLogContainerView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FTLogContainerView initOptions]:FTLogContainerView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FTCircularView updateGoalData:withEntries:withDateType:]:FTCircularView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MoodHomeViewController tableView:cellForRowAtIndexPath:]:MoodHomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(cell.frame.size.height==35)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NutritionHomeViewController goalButtonAction:]:NutritionHomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AboutViewController tableView:heightForRowAtIndexPath:]:AboutViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

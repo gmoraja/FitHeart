@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FTHowDoYouFeelViewController">
+            <connections>
+                <outlet property="bottomButton" destination="hgL-sB-1PM" id="cpO-ba-wTz"/>
+                <outlet property="line1ImageView" destination="15Z-2Z-dmH" id="gQJ-mW-Pfx"/>
+                <outlet property="line2ImageView" destination="R93-pG-ovN" id="4EN-Qi-GWS"/>
+                <outlet property="line3ImageView" destination="0XB-qc-tZL" id="0VC-dO-zcH"/>
+                <outlet property="line4ImageView" destination="Dbe-s4-8MD" id="0FJ-P7-1Fb"/>
+                <outlet property="smile1Button" destination="nFj-P5-FtB" id="I1C-o8-1fp"/>
+                <outlet property="smile2Button" destination="HXq-mw-dSk" id="NM9-rS-W2g"/>
+                <outlet property="smile3Button" destination="92N-Dw-iJu" id="6hU-GN-KXg"/>
+                <outlet property="smile4Button" destination="e1J-QY-n5r" id="xGI-XX-mFR"/>
+                <outlet property="smile5Button" destination="vTw-DD-j7e" id="kTp-u2-MLP"/>
+                <outlet property="view" destination="iN0-l3-epB" id="SG6-y3-Pk4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="jxc-PI-Sm9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="508"/>
+                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nFj-P5-FtB" userLabel="Smile1 - VeryBad">
+                            <rect key="frame" x="101" y="376" width="119" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to log a very bad mood" label="very bad mood"/>
+                            <state key="normal" image="mood_smile_5_btn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="moodAction:" destination="-1" eventType="touchUpInside" id="bEr-Gv-Lvr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HXq-mw-dSk" userLabel="Smile2 -Bad">
+                            <rect key="frame" x="101" y="293" width="119" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to log a bad mood" label="bad mood"/>
+                            <state key="normal" image="mood_smile_4_btn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="moodAction:" destination="-1" eventType="touchUpInside" id="zzP-Yd-6Zt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e1J-QY-n5r" userLabel="Smile4 - Good">
+                            <rect key="frame" x="101" y="124" width="119" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to log a good mood" label="good mood"/>
+                            <state key="normal" image="mood_smile_2_btn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="moodAction:" destination="-1" eventType="touchUpInside" id="iTH-ZV-Aey"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vTw-DD-j7e" userLabel="Smile5 - VeryGood">
+                            <rect key="frame" x="101" y="42" width="119" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to log a very good mood" label="very good mood"/>
+                            <state key="normal" image="mood_smile_1_btn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="moodAction:" destination="-1" eventType="touchUpInside" id="XKh-5n-jjD"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray_bar" id="15Z-2Z-dmH">
+                            <rect key="frame" x="60" y="114" width="201" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray_bar" id="R93-pG-ovN">
+                            <rect key="frame" x="60" y="197" width="201" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray_bar" id="0XB-qc-tZL">
+                            <rect key="frame" x="60" y="282" width="201" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray_bar" id="Dbe-s4-8MD">
+                            <rect key="frame" x="60" y="366" width="201" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="92N-Dw-iJu" userLabel="Smile3 - Neutral">
+                            <rect key="frame" x="101" y="207" width="119" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to log a neutral mood" label="neutral mood"/>
+                            <state key="normal" image="mood_smile_3_btn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="moodAction:" destination="-1" eventType="touchUpInside" id="dci-E2-hjk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="22" maxX="0.0" maxY="-22"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hgL-sB-1PM">
+                    <rect key="frame" x="0.0" y="507" width="320" height="61"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <accessibility key="accessibilityConfiguration" hint="Tap to go back" label="How do you feel"/>
+                    <state key="normal" title="HOW DO YOU FEEL?" backgroundImage="mood_btn">
+                        <color key="titleColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="bottomButtonAction:" destination="-1" eventType="touchUpInside" id="2VD-dO-elL"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mood_triangle_up" id="beA-fS-UIe">
+                    <rect key="frame" x="141" y="491" width="37" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gray_bar" width="201" height="2"/>
+        <image name="mood_btn" width="59" height="27"/>
+        <image name="mood_smile_1_btn" width="64" height="64"/>
+        <image name="mood_smile_2_btn" width="64" height="64"/>
+        <image name="mood_smile_3_btn" width="64" height="64"/>
+        <image name="mood_smile_4_btn" width="64" height="64"/>
+        <image name="mood_smile_5_btn" width="64" height="64"/>
+        <image name="mood_triangle_up" width="38" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

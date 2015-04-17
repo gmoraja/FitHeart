@@ -1,0 +1,1507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010490C426E242C3A42FCCF6 /* ZKDescribeQuickActionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4495E59F1133492A9DB0F1F0 /* ZKDescribeQuickActionResult.m */; };
+		011F0C88F5234528BF98F4DD /* ZKDescribeAppMenuResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A032C1446F2442E2A9C109C3 /* ZKDescribeAppMenuResult.m */; };
+		029A1D92D5AD4197AC5EEF97 /* ZKProcessSubmitRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51806BB9559A4ED29448170D /* ZKProcessSubmitRequest.m */; };
+		037F5949734B4CF795A0D27B /* ZKDescribeSearchLayoutResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750D5BD3D9E4B15BE975B4C /* ZKDescribeSearchLayoutResult.h */; };
+		03B71D78E52A47AEB26F250C /* ZKDebuggingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691BA0262B84B848690BB43 /* ZKDebuggingHeader.m */; };
+		03BB8FCFC27F4F4B88A649F2 /* ZKRecordTypeCompactLayoutMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = EF761A0797F44CA881D3C58D /* ZKRecordTypeCompactLayoutMapping.m */; };
+		048321DF641D4754B7913D3C /* ZKPackageVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 918090F8C52A493EA584C2F9 /* ZKPackageVersion.h */; };
+		04A17CFAF59045988E0FCE8B /* ZKLoginResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7871AF13B76B4DC389CF5E03 /* ZKLoginResult.h */; };
+		0516AC58BF1E4B4D8E38134B /* ZKDescribeComponentInstanceProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E8B81EC8EE42AC933F3595 /* ZKDescribeComponentInstanceProperty.h */; };
+		054B7F83A6A04EA1A4918265 /* ZKUserInfo+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B079B3382494194469BD9 /* ZKUserInfo+Extras.m */; };
+		056892B32FC045219F6FD0DA /* ZKDescribeSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = B41344F3C1EA4B76B4E3B2D5 /* ZKDescribeSObject+Extras.m */; };
+		061DC44F1A36465F9B26679E /* ZKUpsertResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 770D04ED20EC48D3B55DFD32 /* ZKUpsertResult.h */; };
+		06B1EA9498B544FCA3EFFD31 /* ZKAllowFieldTruncationHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C8711B1174A0282E30507 /* ZKAllowFieldTruncationHeader.m */; };
+		0B05DB5E09C842CD85DD797E /* Pods-FitHeart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C47EB9A757447DACD67452 /* Pods-FitHeart-dummy.m */; };
+		0BC1C86F7D0145FC8AE7484E /* ZKDescribeQuickActionDefaultValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7EC5CD330E4108AD3E9FE3 /* ZKDescribeQuickActionDefaultValue.h */; };
+		0C5D534ACB4840E7B8BDA6C5 /* zkParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC6198A9A0F4A77B946BABE /* zkParser.h */; };
+		0D120C3EAB544F75BD3514B2 /* ZKEmptyRecycleBinResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED53509ADE4B97B0FBDC60 /* ZKEmptyRecycleBinResult.m */; };
+		0DFEB8E7059F47788B5795FC /* ZKDescribeTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 0999B49D81914E19BEAA149F /* ZKDescribeTab.m */; };
+		0F2DED883EDF4DFD936DF20C /* ZKSaveResult+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC8F76B3663411D8EB9C99C /* ZKSaveResult+Extras.h */; };
+		0FE8B6AD41954DAA80C2858F /* zkSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F2614E43A7C04CAFADB5D89B /* zkSObject.h */; };
+		1027E1FEB8C1486AB50302E4 /* zkAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFEB344FC54BCCBBDA8CAC /* zkAuthentication.m */; };
+		10903D8B9A5E459C934D463E /* ZKEmptyRecycleBinResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F805C56621984F5EAF8FE5B3 /* ZKEmptyRecycleBinResult.h */; };
+		109D83E7DDFA43FAB3786B6F /* ZKMassEmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB711FA3A547B4BDD2EEAB /* ZKMassEmailMessage.m */; };
+		10C072697C1046FCA8FE3520 /* ZKRelatedListColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2E2C1016614AA78DE599B8 /* ZKRelatedListColumn.m */; };
+		113A843DA7774764AFBCD585 /* ZKSaveResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F681A771A645D9B443496E /* ZKSaveResult.h */; };
+		114D48A6174B4FB6984431E6 /* ZKEmailFileAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5857CC05CB4556842D8847 /* ZKEmailFileAttachment.h */; };
+		1293E3EAD1634A78AF08A062 /* ZKMassEmailMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C7CCFBBADE4AA79872DE10 /* ZKMassEmailMessage.h */; };
+		142706A0174147B8B14136E2 /* ZKPerformQuickActionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3905F9A55643B9AC899EA3 /* ZKPerformQuickActionResult.h */; };
+		16E82307FC0F433ABD8E9543 /* ZKProcessRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E45A3E30DF5E47828F479AA6 /* ZKProcessRequest.m */; };
+		172833620DB84FD5990E69FA /* ZKDescribeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C1865E7AB042D2A6716184 /* ZKDescribeLayout.m */; };
+		174F8C80EBA5408FA9752C77 /* ZKDataCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A050FD459A284466B251B3C1 /* ZKDataCategory.h */; };
+		177C02B4473E4FC49D15DD1C /* ZKDescribeSoftphoneLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAEEC1CC6584D3A80607EC0 /* ZKDescribeSoftphoneLayoutItem.m */; };
+		19FCCA49573E4CA5874BA055 /* ZKDescribeAppMenuResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 155516B10C924A22A7CA7902 /* ZKDescribeAppMenuResult.h */; };
+		1B1A8DE201F543A58361100C /* ZKDescribeQuickActionListItemResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 40478C24CFD64173B45EC537 /* ZKDescribeQuickActionListItemResult.m */; };
+		1C0C4D688D9045A1B69F02AE /* ZKEmailHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720050F472A4115A7AB6365 /* ZKEmailHeader.m */; };
+		1C66258F3DC242EF8595259A /* ZKDescribeQuickActionListResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 81895314232B42DA9B70FC45 /* ZKDescribeQuickActionListResult.h */; };
+		1F23C21A0B654B68BE03406A /* ZKDataCategoryGroupSobjectTypePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 14358B89F6B244399484AACD /* ZKDataCategoryGroupSobjectTypePair.m */; };
+		1FDD1575274F4205BF1E42F4 /* ZKDescribeCompactLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B29BCC0D249138DAD563C /* ZKDescribeCompactLayout.m */; };
+		2051A6BAE01243DB8A79C506 /* ZKSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4174FC547E064AB38F627AF1 /* ZKSearchResult.m */; };
+		20C83213C0A546EDA41C4BEF /* Pods-FitHeart-ZKSforce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D036779AA4248BE8971C8 /* Pods-FitHeart-ZKSforce-dummy.m */; };
+		20F0BEBD9AF642B1927538D8 /* ZKRelatedList+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 14875DC26BAD4DBCA3BB558A /* ZKRelatedList+Extras.m */; };
+		22864C2B4D424780987BEC2B /* ZKDescribeFlexiPageResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE6FD2EF7E147FBAF833A66 /* ZKDescribeFlexiPageResult.h */; };
+		22D06E62BB754B43B456B1DB /* ZKResetPasswordResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 05058B1271534C75A011E99E /* ZKResetPasswordResult.m */; };
+		2508DC2E63384DC586A1AB49 /* ZKProcessResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59D168D9FF416E943438AD /* ZKProcessResult.m */; };
+		25403400BDCF4D10A24269A7 /* ZKUndeleteResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACE510449C64B1BA2813672 /* ZKUndeleteResult.h */; };
+		25F35E2EF77E4EC2950B6F18 /* ZKDescribeSoftphoneLayoutInfoField.h in Headers */ = {isa = PBXBuildFile; fileRef = D4699ACE38FB471FAB60333F /* ZKDescribeSoftphoneLayoutInfoField.h */; };
+		27054C4924C24FB8BFBE89C6 /* ZKDescribeSoftphoneScreenPopOption.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B90518C8EA43D0814F4244 /* ZKDescribeSoftphoneScreenPopOption.m */; };
+		283ACDFAC3934967A89FBF24 /* ZKDescribeQuickActionListItemResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1706C139CCCB4D58BBCB1319 /* ZKDescribeQuickActionListItemResult.h */; };
+		299642A1A97742209F0B3A73 /* ZKSoapDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBE77E7659347CBBDD04A9F /* ZKSoapDate.h */; };
+		29B4B747F97242FE917F365F /* ZKDescribeSearchScopeOrderResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5FC3F99C04AFB8406194F /* ZKDescribeSearchScopeOrderResult.m */; };
+		2A921081E81648149921FD42 /* ZKProcessWorkitemRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB20C4B87DC40C1BDA0D22F /* ZKProcessWorkitemRequest.m */; };
+		2AC024D4BF044C37BC093492 /* zkBaseClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8786B8C2FD58438B82991E06 /* zkBaseClient.h */; };
+		2BDDC8D817B54AC1B8EDB4D4 /* zkQueryResult+NSTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97492FC8548545808F941664 /* zkQueryResult+NSTableView.h */; };
+		2C6E855C6F9341F58278715D /* ZKLeadConvertResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 11705A4E47014979929EA6AB /* ZKLeadConvertResult.h */; };
+		2CA14FBFC12345A6BBFFF1C3 /* ZKDescribeTabSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B887AD569D4B49BD6D13D0 /* ZKDescribeTabSetResult.h */; };
+		2CB68A9A119F4D09ABB42D6E /* ZKDescribeCompactLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EEF9A7225140429C5B0F7F /* ZKDescribeCompactLayout.h */; };
+		2DA6DEA4DC1B4B00B4F321A9 /* ZKEmailHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBF15B998ED4DCE8F9B42D6 /* ZKEmailHeader.h */; };
+		2E3D5242448C48609EFC9DAA /* ZKInvalidateSessionsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 363775E731A84EB69F512B1E /* ZKInvalidateSessionsResult.h */; };
+		2F5FC7F350904D68A69184D5 /* ZKSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1FF0F2E4964DF78FEF19C3 /* ZKSearchResult.h */; };
+		3006EFC739F54CC78661F0B3 /* ZKEmailFileAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F2CEABE0644608937FA86D /* ZKEmailFileAttachment.m */; };
+		30F79EE248C94D0D9E285929 /* ZKDescribeGlobalTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D088AD03BD344EBA13A6EE6 /* ZKDescribeGlobalTheme.h */; };
+		3159A79B132241419107A13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793DF2AF4A52416CA42972BA /* Foundation.framework */; };
+		3223DBD0BBA9487FB58E8C09 /* ZKProcessWorkitemRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BC34A1C73E314B8090A0F21A /* ZKProcessWorkitemRequest.h */; };
+		3296AFA123314ADC9CD23741 /* ZKDescribeCompactLayoutsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C462E7EB91F44AFA63A66C1 /* ZKDescribeCompactLayoutsResult.h */; };
+		341B535394F1423595A4EC7C /* ZKDataCategoryGroupSobjectTypePair.h in Headers */ = {isa = PBXBuildFile; fileRef = AA99699B295842E39C46AC9F /* ZKDataCategoryGroupSobjectTypePair.h */; };
+		34D015779DDE4770842C5A6D /* ZKRelatedListSort.h in Headers */ = {isa = PBXBuildFile; fileRef = F64C9FC6C3AD4B8E8D857A63 /* ZKRelatedListSort.h */; };
+		354083FA6A334A66BC0EF3CE /* ZKUserInfo+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1B855FB9A146CA9ECA3019 /* ZKUserInfo+Extras.h */; };
+		36F6095775D54213827DB10B /* ZKChildRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = F1259DC7D1964E0693F633B0 /* ZKChildRelationship.h */; };
+		37C3796C557C4BC699D326A8 /* ZKPackageVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 204CA2B905134425B9472D85 /* ZKPackageVersion.m */; };
+		3B3501E06C624E98B59088F7 /* zkXmlDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = E52FB45C06284B96ACB896C0 /* zkXmlDeserializer.h */; };
+		3C83D3C7AD9B4329A854B1E6 /* ZKDescribeSoftphoneLayoutResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D94931F471A44DCCAF02C338 /* ZKDescribeSoftphoneLayoutResult.h */; };
+		3C95B2A6D245455EA6D6A6A9 /* ZKCallOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3541DC39C48AFB440AC09 /* ZKCallOptions.m */; };
+		3D73176DDE114EE6AB506888 /* ZKDescribeSoftphoneLayoutCallType.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CBEAE6EC954162A688E336 /* ZKDescribeSoftphoneLayoutCallType.h */; };
+		3F98E8B2AAFD49FC823C863B /* zkUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1C711B65947CD8A1A7A83 /* zkUserInfo.m */; };
+		3FF88A8808F840A893DF96D9 /* ZKAllOrNoneHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 254D9AF9951B4E23B874485C /* ZKAllOrNoneHeader.h */; };
+		439CC9B22CD94209939262BC /* ZKDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A7271B9355A84D25BF74DD45 /* ZKDataCategory.m */; };
+		440E0159335A443C8B119CA9 /* ZKDescribeComponentInstanceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C84446CA59498B8EA79355 /* ZKDescribeComponentInstanceProperty.m */; };
+		453DEF675B3E4B0887AFFD9A /* ZKDescribeThemeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2396E40B1644CB959C2B44 /* ZKDescribeThemeResult.m */; };
+		45473DD395464C3D9AF1352E /* zkXmlDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C09F291736794EB2865BE49D /* zkXmlDeserializer.m */; };
+		491ECBF144D642FDA4B0599A /* ZKDescribeLayoutComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9522B6FC96764F58A0D02320 /* ZKDescribeLayoutComponent.m */; };
+		4950C77AD1FA43EC96F00C36 /* ZKSingleEmailMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDB49068D464FD8A04B8B4F /* ZKSingleEmailMessage.h */; };
+		49D397CD9EF1488F9FD5478E /* ZKQueryOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9038C72BB40619A26996F /* ZKQueryOptions.m */; };
+		4AC2FEC3A3EC44478A655A0E /* ZKLocaleOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9389796BE84F53BCE80DD4 /* ZKLocaleOptions.m */; };
+		4B10B7B51CD64E6A9C067197 /* ZKMergeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1352F69BC8A24B2EAF542D54 /* ZKMergeRequest.m */; };
+		4CF5657A7E384555A9235484 /* ZKDescribeLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B99CA1DBD784C8EAC502C88 /* ZKDescribeLayoutSection.m */; };
+		4D5229298FD0431089E3E5A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793DF2AF4A52416CA42972BA /* Foundation.framework */; };
+		4D933B8B9656498B838CB018 /* zkDescribeSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A192C93CDFCE43F7B30393AE /* zkDescribeSObject.m */; };
+		4DE7F7E05B0B4A128422FF2F /* ZKDescribeCompactLayoutsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FA93FC544D294CBAA8E540CB /* ZKDescribeCompactLayoutsResult.m */; };
+		4EB5FA504EA84EBC90D64B8E /* ZKAllOrNoneHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D2074E740438E94055E50 /* ZKAllOrNoneHeader.m */; };
+		4F2EB4632A044442919174AA /* ZKPerformQuickActionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7D2D60C3D743B4B1FA6526 /* ZKPerformQuickActionRequest.h */; };
+		4F7629DD506E40D588A9C906 /* ZKDescribeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F851D2317D5242B3A9BB8C79 /* ZKDescribeLayout.h */; };
+		501731F6B568478A8A4A2C39 /* zkSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE683728A4DF0A5539A2C /* zkSObject.m */; };
+		50CFB661FCC54B408B836770 /* ZKLocaleOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B3676B07D1964D2E93369B45 /* ZKLocaleOptions.h */; };
+		53020045263A4F2A9BDCE164 /* zkSforceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D37CD5C91F4777B412C95F /* zkSforceClient.h */; };
+		53B8F5CA26DA406FBEBF03F3 /* ZKMruHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D144914C99A460088214FFB /* ZKMruHeader.m */; };
+		53BB229E1DD74956B1B1F7BB /* ZKDescribeLayoutRow.m in Sources */ = {isa = PBXBuildFile; fileRef = EF589553E5DE4FBB94B17B5A /* ZKDescribeLayoutRow.m */; };
+		5656E9A5C9ED4ACDBC202742 /* ZKGetServerTimestampResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E96CE7831A249B8B7882402 /* ZKGetServerTimestampResult.h */; };
+		57429174E76E4D1FB3DBC4C7 /* ZKDescribeSoftphoneLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CCBA08F48412F9095D086 /* ZKDescribeSoftphoneLayoutSection.m */; };
+		58EFB1E323C64777B733BA81 /* zkSforceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 066866E1470A45F78F839971 /* zkSforceClient.m */; };
+		5981EEECEF9247C696FE8761 /* zkSforceClient+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = E19A438AB27D429588DEFF40 /* zkSforceClient+Operations.m */; };
+		5BB9AA28091E4E879E56F245 /* ZKPicklistEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F60906E0BCA4F619381CE5F /* ZKPicklistEntry.h */; };
+		5BBA06A56C494D75B7204FF8 /* zkAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CFB1DC24F84F92BED5CED4 /* zkAuthentication.h */; };
+		5C3C6A06C1044E3FB9A80412 /* ZKSendEmailError.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A04E301E9A4CB8AD06B391 /* ZKSendEmailError.h */; };
+		5EB98ECFBFF34264BA6E2BEC /* ZKDescribeThemeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4199AE84184041B3A13D3A14 /* ZKDescribeThemeItem.h */; };
+		5EEE47770962484486374F04 /* ZKAssignmentRuleHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC0803885E94DA8A3BE5CEF /* ZKAssignmentRuleHeader.h */; };
+		615626A5A04B473E90F7A2AC /* ZKDescribeLayoutResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4D12476BE41F1B2967BE8 /* ZKDescribeLayoutResult.m */; };
+		617F0D4524094BE4B905C2C3 /* ZKDescribeField.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E1C10305A4415BBC2B0ABC /* ZKDescribeField.h */; };
+		6254B2E7F3344ED88B2247BC /* ZKDescribeColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3B990B03CC4477BB91F26A /* ZKDescribeColumn.h */; };
+		63236AED7FE343B4B5B8E849 /* ZKDescribeFlexiPageResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 888476F9E20141A0BDA2753D /* ZKDescribeFlexiPageResult.m */; };
+		67418E5031C040C08FF647EA /* ZKOwnerChangeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = E34D2E1B0D104393A7F0A047 /* ZKOwnerChangeOptions.h */; };
+		680258100D664CD1867E973F /* ZKSetPasswordResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 59463DE3948D4867B799F6F7 /* ZKSetPasswordResult.h */; };
+		684A434D76EF42D3A99921EB /* ZKXMLSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F8C2BBAF924E93B013ECEA /* ZKXMLSerializable.h */; };
+		685EA3B20B7D4E0CB2D2DD06 /* ZKRelatedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F18B8EAFC0544E191D95218 /* ZKRelatedList.h */; };
+		68C3853766DA4C2FAF053B76 /* ZKDescribeField+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDCC96FBE9B4003BA1FBA12 /* ZKDescribeField+Extras.h */; };
+		6C26638D15BE42C58FE5ED8C /* zkDescribeGlobalSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAA4E8CD8D04A95B751E010 /* zkDescribeGlobalSObject.h */; };
+		6DB188A57CA04B8093873652 /* ZKError.h in Headers */ = {isa = PBXBuildFile; fileRef = C007F57B61624AF9ADB0EDAE /* ZKError.h */; };
+		6E1F9D462A054C1D85009F7C /* ZKPicklistForRecordType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B661CCF1DD448DCBF4A9830 /* ZKPicklistForRecordType.h */; };
+		6EED22AE700F4166A2180611 /* ZKReportChartComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3ADF8E2FF44BB8AE106D11 /* ZKReportChartComponent.h */; };
+		6F736BE7C54C4925A84E96A8 /* libPods-FitHeart-ZKSforce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 055FA0E7B7E647D5942811DE /* libPods-FitHeart-ZKSforce.a */; };
+		7147FB35BACE46B0A2A0C1A2 /* ZKDescribeLayoutButtonSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C21B10F00545D39AA96298 /* ZKDescribeLayoutButtonSection.m */; };
+		71D305ABADA943AEB6433B97 /* zkEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = E92FCF4359E849338C6B29B8 /* zkEnvelope.h */; };
+		7236D1918AD445FC8490E59A /* ZKUserTerritoryDeleteHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E4B22C81A74E2D843E3C90 /* ZKUserTerritoryDeleteHeader.h */; };
+		73788C65CF0648AAB92F2236 /* ZKEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 733F22A8926342668E653B05 /* ZKEmail.h */; };
+		7388E559885C4B0AB0DF161F /* ZKDescribeSoftphoneLayoutCallType.m in Sources */ = {isa = PBXBuildFile; fileRef = D976A5E2DA1C41A3AB918DF2 /* ZKDescribeSoftphoneLayoutCallType.m */; };
+		73FE22FCE15F4AD59F8EBE31 /* ZKDescribeAppMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C533CC9B714BE58A6251D0 /* ZKDescribeAppMenuItem.h */; };
+		745EE7D3C6034828AF86FC1D /* ZKRecordTypeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DDB0FB2BFAD4379A3E91B85 /* ZKRecordTypeInfo.h */; };
+		74BC22B6BB3044E38E8505DF /* ZKReportChartComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5EB88D4DC64233803972EF /* ZKReportChartComponent.m */; };
+		74D2FAFAE3A84559932199AC /* ZKDescribeIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = AE51CDC7655F472AA6059404 /* ZKDescribeIcon.h */; };
+		7668A9DFE34E439A846E1897 /* ZKSingleEmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA044E32C3044F1A002735C /* ZKSingleEmailMessage.m */; };
+		7A83D1CED7BF4FBE97D4A62D /* ZKPicklistEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A87B9BFD5DD24BC98DA9472E /* ZKPicklistEntry.m */; };
+		7AA91006D2B14DEBAD9B2D12 /* ZKDescribeColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 965ED6359A3C4658ACBA4806 /* ZKDescribeColumn.m */; };
+		7EF81951C3284CFC967F1858 /* ZKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 06997D2D63C946CA9B602DD2 /* ZKBase64.m */; };
+		7F9721CB77E641469591E622 /* ZKInvalidateSessionsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C93CEFE77A754217B30797D2 /* ZKInvalidateSessionsResult.m */; };
+		801C4856EAE84AB99D730856 /* ZKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 53986DA7E40447D5BE9B41E6 /* ZKBase64.h */; };
+		806D286B6EEF4D6AB6D8DA7F /* ZKDescribeLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBD43DB5AD4ACEA9BF1CEC /* ZKDescribeLayoutItem.m */; };
+		81095FB3EF704B88AAA5CFCF /* ZKDescribeSObject+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4A21B3B34F4F6CBF4E010A /* ZKDescribeSObject+Extras.h */; };
+		816C4EA9983842228D138801 /* ZKDescribeLayoutComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F9A9D9E2B941E3A3A85FB7 /* ZKDescribeLayoutComponent.h */; };
+		81F75AC20D2C497782B8ACD4 /* ZKDescribeDataCategoryGroupResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F4A389FE74B2C880612D3 /* ZKDescribeDataCategoryGroupResult.m */; };
+		825BC136BB594EC9B1DCFFCC /* ZKRecordTypeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D15CE13C70E44B83B167F37D /* ZKRecordTypeInfo.m */; };
+		832D52C8620240B19AD01071 /* ZKDisableFeedTrackingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2484EA935CE045B99455D313 /* ZKDisableFeedTrackingHeader.m */; };
+		836362C3ADDB49CFB21299A6 /* zkQueryResult+NSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552BCF16FF34BADA2BEC3B2 /* zkQueryResult+NSTableView.m */; };
+		837F19D7098142A498762F13 /* ZKDescribeLayoutRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC160967D2F4682947057B7 /* ZKDescribeLayoutRow.h */; };
+		842EE3B027C5413CBBB68229 /* ZKPicklistForRecordType.m in Sources */ = {isa = PBXBuildFile; fileRef = F01BA49BDF4C42E6B12F7416 /* ZKPicklistForRecordType.m */; };
+		84932E6A9DC147EF800AB92B /* ZKProcessSubmitRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC6801E74424CDF925C2E50 /* ZKProcessSubmitRequest.h */; };
+		8625953D63E94FEE9A519C6C /* ZKPackageVersionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFFDCCAC1FE4280B926E1D8 /* ZKPackageVersionHeader.h */; };
+		86AFFD9255D1454EBC575EFA /* ZKDescribeRelatedContentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A6DF233E564ABA9A4A2259 /* ZKDescribeRelatedContentItem.h */; };
+		88594C47F5D8468BADB8759B /* ZKRelatedListSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1D60B1718646AA9270D815 /* ZKRelatedListSort.m */; };
+		897430EE8D4C45DE83660DEA /* zkSforce.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D31765E2C7F46BF963ADF84 /* zkSforce.h */; };
+		899D7C2C98CE40AEBD9D7705 /* ZKDescribeColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1459DAC4B64F8B9487DBDF /* ZKDescribeColor.h */; };
+		8C0A60B1792740AFAE173304 /* ZKDescribeLayoutResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FB1B5E4E6343A9972E90AD /* ZKDescribeLayoutResult.h */; };
+		8C44707773044E72A8D17CB0 /* ZKDescribeDataCategoryGroupStructureResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FB32350261447EBDF6291D /* ZKDescribeDataCategoryGroupStructureResult.m */; };
+		8CA61B522FAD4D8D99F44AB0 /* ZKMergeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F97768573054477BFCE3221 /* ZKMergeResult.h */; };
+		8E7A6D3AA6D24A9BB4CA4FF4 /* ZKDescribeSoftphoneLayoutInfoField.m in Sources */ = {isa = PBXBuildFile; fileRef = 25928DF49B414780836656FD /* ZKDescribeSoftphoneLayoutInfoField.m */; };
+		8F9C836788494830B8DB6D8C /* ZKQueryOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C25144920C054E67A2966EA6 /* ZKQueryOptions.h */; };
+		9112B55332854F229557FD64 /* ZKDescribeField+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 41319D3C26134C9EB5A44C02 /* ZKDescribeField+Extras.m */; };
+		915EA8C8077E40EBA7588AA8 /* ZKGetUpdatedResult.h in Headers */ = {isa = PBXBuildFile; fileRef = B21B474CB4A74D44BD93D13F /* ZKGetUpdatedResult.h */; };
+		91EA4A21460C4C8BA9795AB7 /* ZKLeadConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 44808BDE453A4D43B636F888 /* ZKLeadConvert.m */; };
+		925153C902F44A97907919E6 /* ZKRecordTypeCompactLayoutMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 298E24A754C54538845D7A16 /* ZKRecordTypeCompactLayoutMapping.h */; };
+		93126272E3FD4115821BD81B /* ZKPerformQuickActionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 986DBFE5F1304889B40DFF4A /* ZKPerformQuickActionResult.m */; };
+		94DCB9CD2CF0454495D5803A /* ZKSendEmailResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 516C214D55F54159A7D50BC7 /* ZKSendEmailResult.m */; };
+		952CE9B964444EE49A3E067B /* ZKSaveResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 178891E3E8E54BDE8D72F768 /* ZKSaveResult.m */; };
+		975FFF2E5FED455B8C0534F9 /* zkSoapException.m in Sources */ = {isa = PBXBuildFile; fileRef = D58FEC95B11D441391CB2A8E /* zkSoapException.m */; };
+		9940B3D878D448DC91AA5A4B /* ZKDescribeLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FA461B41CAE44C1FA113FCA0 /* ZKDescribeLayoutButton.m */; };
+		99CB20399017455C895D8E11 /* ZKSessionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 455B5B58D175415FB0A12AB4 /* ZKSessionHeader.h */; };
+		9A374ED5C67344C692356F18 /* ZKRecordTypeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BE1D4785E4483B0AE880D /* ZKRecordTypeMapping.m */; };
+		9C3B5A9FC6D54C809E28C0D3 /* ZKDebuggingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 819ACFF958BA43369CA2816B /* ZKDebuggingHeader.h */; };
+		9CB60C4C3D2A4602969CFF6A /* ZKLimitInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B05C5DE145469DBEDE0EA1 /* ZKLimitInfo.m */; };
+		9D0CFD3C5F294C109D1FFCE0 /* ZKSendEmailError.m in Sources */ = {isa = PBXBuildFile; fileRef = 752204A5751F4D6BAF58FEB6 /* ZKSendEmailError.m */; };
+		9D7A1E0F05D14DBFB996DF85 /* ZKRelatedContent.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF69C1E8C75429982F779A5 /* ZKRelatedContent.h */; };
+		9F69BBEBE6DD4B10BAF3346A /* ZKLimitInfoHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6F0ABDC8C347F3A61D2A4A /* ZKLimitInfoHeader.h */; };
+		9F70C33D0F6744A284D5A777 /* ZKDescribeSoftphoneLayoutResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613C3F260D0401FA29B29F3 /* ZKDescribeSoftphoneLayoutResult.m */; };
+		A0754AAED4FC4952929CD3B6 /* ZKSendEmailResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C6B6A3485348A08DFA8D8C /* ZKSendEmailResult.h */; };
+		A1391A6172FA44488679D272 /* zkEnvelope.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E264FDFA81455CB640C78A /* zkEnvelope.m */; };
+		A41E8661E95349EC80459BE9 /* ZKSearchRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = E17D0A80DB1C4E28A7821396 /* ZKSearchRecord.h */; };
+		A43D531C2CB94E19A4BC2661 /* ZKPartnerEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B43237C3D154B43972A51F2 /* ZKPartnerEnvelope.h */; };
+		A53F5ECFC15747B1BEAEEFFA /* ZKRelatedList+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 9054E7E07A94496D81AEC248 /* ZKRelatedList+Extras.h */; };
+		A586D34AABE14C1A87E7C8A0 /* ZKDescribeQuickActionDefaultValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D617CDBD247244038BEAD5E0 /* ZKDescribeQuickActionDefaultValue.m */; };
+		A63BA0543E9746AEAC10752C /* zkBaseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A46C107BA58B4B289E5FE402 /* zkBaseClient.m */; };
+		A66135D3979B4D98B6245486 /* zkQueryResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B259C94D3B24FB1A31FBC81 /* zkQueryResult.h */; };
+		A69EE9C4375748CF9526BB42 /* ZKDescribeTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 19897B043F654F94BEFE4B81 /* ZKDescribeTab.h */; };
+		A80DCB09D8D2497A9CD39DAD /* ZKUserTerritoryDeleteHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F29A303D3F724856B1D4F4C5 /* ZKUserTerritoryDeleteHeader.m */; };
+		A975635A25B14E4CB44D2752 /* zkQueryResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC89F7A40FE4852B997AF09 /* zkQueryResult.m */; };
+		A9990B1C29FA48638FC0A5E8 /* ZKResetPasswordResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF4CEDF6E3C42A7933A8C37 /* ZKResetPasswordResult.h */; };
+		AAF284BF57C74BBAA9EED4EC /* zkSforceClient+Operations.h in Headers */ = {isa = PBXBuildFile; fileRef = 300D2F235E9843DA8ACA3ED5 /* zkSforceClient+Operations.h */; };
+		AC067493405A4EC7B408102B /* ZKRecordTypeMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD8BC67EB4F4975B13E31AB /* ZKRecordTypeMapping.h */; };
+		AC7E640DDC6547049D6E9312 /* ZKUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 733B8DB7FAC846F2A43C4438 /* ZKUserInfo.h */; };
+		AE7600AD681844B7ADB291F4 /* ZKDescribeDataCategoryGroupStructureResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C685B8BF60425C98359E47 /* ZKDescribeDataCategoryGroupStructureResult.h */; };
+		AF4DAA47B7F44D63B071CD47 /* ZKDescribeField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9A74509554507BB78B2A0 /* ZKDescribeField.m */; };
+		B24BFF467F774056907B6ECB /* ZKUpsertResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A364F91EF748C19FDC46CE /* ZKUpsertResult.m */; };
+		B2BE1D89C9A84A3D9E711A27 /* ZKLoginScopeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BC301FC5532449D7B420B6B5 /* ZKLoginScopeHeader.h */; };
+		B32B0BB00379442AA8B7D18B /* ZKLimitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3122D6ADAD4127B2555EC6 /* ZKLimitInfo.h */; };
+		B610A0DEBAC247E19F9C9C42 /* ZKCallOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 294439F93EAB47B690DA781F /* ZKCallOptions.h */; };
+		B683D7804B6E48F3B82089D8 /* ZKDescribeRelatedContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 888F195B3E7942C8A8AD55AF /* ZKDescribeRelatedContentItem.m */; };
+		B7E3F19DFAA1423ABAEDC996 /* ZKAllowFieldTruncationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D78C7BCCBB438DB1FFCB3B /* ZKAllowFieldTruncationHeader.h */; };
+		B804E575BC7042BA89E93156 /* zkDescribeGlobalSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE83287425E4AE98C37D5D7 /* zkDescribeGlobalSObject.m */; };
+		B81813F3FCEC47E199A3C011 /* ZKDescribeSoftphoneLayoutSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5627AE9DF8BE424A972BE7DA /* ZKDescribeSoftphoneLayoutSection.h */; };
+		B94C2E7A1FCA487A94C9B1E1 /* ZKChildRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DE7BD8D9024CAA9DBC7D44 /* ZKChildRelationship.m */; };
+		BC75A585297F431DAF73CF0D /* ZKDescribeLayoutSection.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD8A36230AF4538BE6BF90D /* ZKDescribeLayoutSection.h */; };
+		BD9831FA162D43BDB5B72DA7 /* ZKRelatedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E07625620A4B4C378093717C /* ZKRelatedList.m */; };
+		BE10E0FA2E3848C889EA6351 /* ZKDescribeSearchScopeOrderResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5329C447265B4634A72E2526 /* ZKDescribeSearchScopeOrderResult.h */; };
+		BE466E4D21694D439CE32367 /* ZKDescribeGlobalResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D2306DF9E65040868C5ADF9B /* ZKDescribeGlobalResult.h */; };
+		C0C83C928A3A4814ABCDC180 /* ZKLimitInfoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C16864EEF6848F884690300 /* ZKLimitInfoHeader.m */; };
+		C1500D6D0A6D45BE8E775E4B /* ZKLoginScopeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C882749DBA48F79AC63F3C /* ZKLoginScopeHeader.m */; };
+		C222113E8DA340C0B0DFD517 /* ZKGetUpdatedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C5B7C4A9443F917DE7C5 /* ZKGetUpdatedResult.m */; };
+		C32628D28E8A40809162013B /* ZKPackageVersionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C753B7AA92414EAA9D24CA94 /* ZKPackageVersionHeader.m */; };
+		C354C2C05F0D49B09BFBD8FE /* ZKPerformQuickActionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D4B5E44594CACBBCA7667 /* ZKPerformQuickActionRequest.m */; };
+		C3C9F1E8F378495385410EB7 /* ZKEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F55E6267640E9860D94E6 /* ZKEmail.m */; };
+		C72CCC628BC64FAD899E96A1 /* ZKLoginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261A618093A44ACA01BC497 /* ZKLoginResult.m */; };
+		CAE036676C364ECABF7D8EE6 /* ZKDeleteResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E96E6F55FB41179DAAAF83 /* ZKDeleteResult.h */; };
+		CBF2930505224EE9BA57A762 /* ZKSoapDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45165ACCA8ED449A9CE02AE9 /* ZKSoapDate.m */; };
+		CD563F9BBDEA4C86B3E6EBED /* ZKGetDeletedResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 625DB6A1C6494CBD82951EE8 /* ZKGetDeletedResult.h */; };
+		D09472A203934D118F7A78E7 /* zkDescribeSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C287B8EE06A4EE980E406BE /* zkDescribeSObject.h */; };
+		D0B23CF886F1445FA832A613 /* ZKRelatedContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C6ADAC4356483D8D6BA425 /* ZKRelatedContent.m */; };
+		D0D4BE2B3F7746C9BECE7163 /* ZKDescribeComponentInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 603618F9DFB34C168427A89E /* ZKDescribeComponentInstance.m */; };
+		D16D9E29924C4983ABCBBC69 /* ZKDisableFeedTrackingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5115A267242D4299B4CC756D /* ZKDisableFeedTrackingHeader.h */; };
+		D2C4D8DFB77542B585FFE567 /* ZKMruHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1186F5F5ABE1416093EADD00 /* ZKMruHeader.h */; };
+		D3764536AB3744A883A70381 /* ZKDescribeThemeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFF6124E1094FB8822F46B1 /* ZKDescribeThemeResult.h */; };
+		D41E36527876421A9AA4E80B /* ZKDescribeLayoutButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D041981550004648A6E966B9 /* ZKDescribeLayoutButton.h */; };
+		D4628E6BB7164ACE8AAA20CB /* ZKDescribeSoftphoneScreenPopOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 075A498CE20F4E149F2820E0 /* ZKDescribeSoftphoneScreenPopOption.h */; };
+		D5B47E8F15BC47A89DC291D1 /* ZKDescribeComponentInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB8C8047A6646B2ADF9BFE6 /* ZKDescribeComponentInstance.h */; };
+		D5E53680DBC14B72B5ABBEB6 /* ZKSetPasswordResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F6BB3C37BC4B619CB9957D /* ZKSetPasswordResult.m */; };
+		D665D06C44E249B69B9789D3 /* ZKDeleteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B32D5FB4A64FFA9C2A3046 /* ZKDeleteResult.m */; };
+		DA8B7B8A9F97488CAA2AA56F /* ZKError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6467C77C0FC14F0DBFD51B5D /* ZKError.m */; };
+		DA93AA1E916A48F2B95A5677 /* ZKSaveResult+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = A9464DF6986142CD84B75B69 /* ZKSaveResult+Extras.m */; };
+		DB6C4406B5B64B27861C5DBE /* ZKDescribeAppMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FED3102565458FBDF73FD2 /* ZKDescribeAppMenuItem.m */; };
+		DCD3BF8BAA554D52B0E3004A /* ZKProcessRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B1687B89F747479D9F9492B5 /* ZKProcessRequest.h */; };
+		DEEDB9CB32304B04BCA9E226 /* ZKAssignmentRuleHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C687BD8A69148B3A528D9B1 /* ZKAssignmentRuleHeader.m */; };
+		DF43E637FB5543DFB46F873B /* ZKGetDeletedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C114E736A4D7DA236F270 /* ZKGetDeletedResult.m */; };
+		E24E6907D4C24D00917BB50D /* ZKDescribeFlexiPageRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = A11A0EC2528C4509B837A43F /* ZKDescribeFlexiPageRegion.h */; };
+		E2AA9B574E2D4CE2A9C2C6B5 /* ZKDescribeIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B8515EDB745CDA459F857 /* ZKDescribeIcon.m */; };
+		E398DEDCB37747DDAE8729E5 /* ZKDescribeQuickActionListResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E056BB8AE40CC88AFCF80 /* ZKDescribeQuickActionListResult.m */; };
+		E3DDC18BC5A145C492FCB30F /* ZKDescribeLayoutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DE406AE3E31046F69C8CA42A /* ZKDescribeLayoutItem.h */; };
+		E4FF5A0EE5B745D5BFF4D920 /* ZKStreamingEnabledHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B3D78601B541428319D93A /* ZKStreamingEnabledHeader.h */; };
+		E58F0378CFD04F60B400A397 /* ZKLeadConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E0B0BF0F7E42F28A00BC62 /* ZKLeadConvert.h */; };
+		E6E80251A0CE42F09DE88950 /* ZKGetServerTimestampResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E09B5FE54443369823C4DC /* ZKGetServerTimestampResult.m */; };
+		E7E3BCA31E334DB3B4C48500 /* ZKMergeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D93F14B2B4E09A81B0FD4 /* ZKMergeResult.m */; };
+		E83F1B2A9AB942039A0163B2 /* zkSoapException.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A895C0489549B09B19AE69 /* zkSoapException.h */; };
+		E9058D98EF784A888754024B /* ZKDescribeDataCategoryGroupResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 765B6DD16A12416CBE3B1FB6 /* ZKDescribeDataCategoryGroupResult.h */; };
+		E9D3CA4EB21F4320AFB0C375 /* ZKDeletedRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 738B331C92DB4B0082912320 /* ZKDeletedRecord.m */; };
+		EB8D333C69C84F70BD3607F1 /* zkParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 34314D2C587643CAA43CCF7B /* zkParser.m */; };
+		EB9850EF365545DCA4F1E6BF /* ZKPartnerEnvelope.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E62293F12426B9BE16945 /* ZKPartnerEnvelope.m */; };
+		EE4AF93A3F9E4CE8A02F01FB /* zkSforceClient+zkAsyncQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF589B193C4F1CA54BAD15 /* zkSforceClient+zkAsyncQuery.h */; };
+		EE8B9192FEFB43749FAF7DBB /* ZKDescribeFlexiPageRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F591DB6DCD4556A71BEED1 /* ZKDescribeFlexiPageRegion.m */; };
+		EFCDB1837E7641628A07FDFD /* ZKDescribeQuickActionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A67D2214864802AC9C4201 /* ZKDescribeQuickActionResult.h */; };
+		EFDD4FF4C07B4BFF8D38DBEC /* ZKDescribeAvailableQuickActionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E71C4E8C7BB346A19A6908B1 /* ZKDescribeAvailableQuickActionResult.h */; };
+		EFE35E414BC14F5AA5C3657B /* ZKProcessResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A620A759E2EA42B9941F54B0 /* ZKProcessResult.h */; };
+		F10DDE5FDB044F3FA9325B1C /* ZKDescribeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0AE4DFCDDB43FEBCC3A2BA /* ZKDescribeColor.m */; };
+		F1951FF20CE94E42B6546305 /* ZKDescribeSearchLayoutResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5481A416A449C5B56D99AC /* ZKDescribeSearchLayoutResult.m */; };
+		F2459DDBBF0F4E479949F6CE /* ZKDescribeThemeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0C23C75CE04219A0222801 /* ZKDescribeThemeItem.m */; };
+		F4C05F9F62884E778CDE78FC /* ZKDescribeTabSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B47EB94414E489B3D753A /* ZKDescribeTabSetResult.m */; };
+		F4E83025238946378EF342D6 /* zkSforceClient+zkAsyncQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C3199B13F4694A487B982 /* zkSforceClient+zkAsyncQuery.m */; };
+		F5D2DCFBBEDD435CAD56AB54 /* ZKRelatedListColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = E8560B18838C4DAE963FDC4F /* ZKRelatedListColumn.h */; };
+		F63F35A1106A4F4F99DDB3B6 /* ZKUndeleteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DB433E0473734F04B7E73571 /* ZKUndeleteResult.m */; };
+		F7DE8E44941B4A31ABCB5316 /* ZKStreamingEnabledHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D66ED5546A6A81F03BE /* ZKStreamingEnabledHeader.m */; };
+		F8A6776A0D4745A4A2C64275 /* ZKMergeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EA7EC024404E92AC84F272 /* ZKMergeRequest.h */; };
+		F90A53D99BCC4980B0BE0943 /* ZKDescribeGlobalTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E469E2CB87437CA6610D2A /* ZKDescribeGlobalTheme.m */; };
+		F9C81A12C87B4ECFBCDC8CC0 /* ZKSearchRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CA96D947AF439E9B1CFE44 /* ZKSearchRecord.m */; };
+		FAA83DC7FB7D4D0EBD66F1D6 /* ZKDeletedRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 918787D4411B4436A342E01C /* ZKDeletedRecord.h */; };
+		FAD9DEBBFAB340809C1E784B /* ZKOwnerChangeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC60C7DD75D54378BB48DD7A /* ZKOwnerChangeOptions.m */; };
+		FD50269873274E1F92F372FD /* ZKDescribeGlobalResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 30402D729EA94614845BFDCF /* ZKDescribeGlobalResult.m */; };
+		FD8FC210214D4A83A61A199C /* ZKLeadConvertResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F6A8E2F78466CA7B12CEF /* ZKLeadConvertResult.m */; };
+		FE2E0C8F58554947954CD729 /* ZKSessionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F53C7D2C4D58B91DBF7A /* ZKSessionHeader.m */; };
+		FF0225EB42434B3EAFD805B8 /* ZKDescribeLayoutButtonSection.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BB00D9258246BE99259D26 /* ZKDescribeLayoutButtonSection.h */; };
+		FF0EF0F03E0B457EAADD6779 /* ZKDescribeSoftphoneLayoutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E674160B4A463DABB44829 /* ZKDescribeSoftphoneLayoutItem.h */; };
+		FFC02B29D516444DA5E3111E /* ZKDescribeAvailableQuickActionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 893B0D40B24D4AA7A65BDA3F /* ZKDescribeAvailableQuickActionResult.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB1C640220343C7B2C6FF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF476622A31F4C22923939B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0950CED9D8E14D51A7C5CAE0;
+			remoteInfo = "Pods-FitHeart-ZKSforce";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FB1B5E4E6343A9972E90AD /* ZKDescribeLayoutResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayoutResult.h; path = zkSforce/ZKDescribeLayoutResult.h; sourceTree = "<group>"; };
+		05058B1271534C75A011E99E /* ZKResetPasswordResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKResetPasswordResult.m; path = zkSforce/ZKResetPasswordResult.m; sourceTree = "<group>"; };
+		055FA0E7B7E647D5942811DE /* libPods-FitHeart-ZKSforce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitHeart-ZKSforce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		066866E1470A45F78F839971 /* zkSforceClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkSforceClient.m; path = zkSforce/zkSforceClient.m; sourceTree = "<group>"; };
+		06997D2D63C946CA9B602DD2 /* ZKBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKBase64.m; path = zkSforce/ZKBase64.m; sourceTree = "<group>"; };
+		06FDB0CD821D4B8FA70B7D65 /* Pods-FitHeart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitHeart.xcconfig"; sourceTree = "<group>"; };
+		075A498CE20F4E149F2820E0 /* ZKDescribeSoftphoneScreenPopOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSoftphoneScreenPopOption.h; path = zkSforce/ZKDescribeSoftphoneScreenPopOption.h; sourceTree = "<group>"; };
+		08F9A9D9E2B941E3A3A85FB7 /* ZKDescribeLayoutComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayoutComponent.h; path = zkSforce/ZKDescribeLayoutComponent.h; sourceTree = "<group>"; };
+		0999B49D81914E19BEAA149F /* ZKDescribeTab.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeTab.m; path = zkSforce/ZKDescribeTab.m; sourceTree = "<group>"; };
+		0CCFEB344FC54BCCBBDA8CAC /* zkAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkAuthentication.m; path = zkSforce/zkAuthentication.m; sourceTree = "<group>"; };
+		0E3122D6ADAD4127B2555EC6 /* ZKLimitInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLimitInfo.h; path = zkSforce/ZKLimitInfo.h; sourceTree = "<group>"; };
+		0EC6198A9A0F4A77B946BABE /* zkParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkParser.h; path = zkSforce/zkParser.h; sourceTree = "<group>"; };
+		0EEF19C1FAC04D3DB2AC4F0A /* libPods-FitHeart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitHeart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F60906E0BCA4F619381CE5F /* ZKPicklistEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKPicklistEntry.h; path = zkSforce/ZKPicklistEntry.h; sourceTree = "<group>"; };
+		0F6F0ABDC8C347F3A61D2A4A /* ZKLimitInfoHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLimitInfoHeader.h; path = zkSforce/ZKLimitInfoHeader.h; sourceTree = "<group>"; };
+		0FC6801E74424CDF925C2E50 /* ZKProcessSubmitRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKProcessSubmitRequest.h; path = zkSforce/ZKProcessSubmitRequest.h; sourceTree = "<group>"; };
+		0FE83287425E4AE98C37D5D7 /* zkDescribeGlobalSObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkDescribeGlobalSObject.m; path = zkSforce/zkDescribeGlobalSObject.m; sourceTree = "<group>"; };
+		110F6A8E2F78466CA7B12CEF /* ZKLeadConvertResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLeadConvertResult.m; path = zkSforce/ZKLeadConvertResult.m; sourceTree = "<group>"; };
+		11705A4E47014979929EA6AB /* ZKLeadConvertResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLeadConvertResult.h; path = zkSforce/ZKLeadConvertResult.h; sourceTree = "<group>"; };
+		1186F5F5ABE1416093EADD00 /* ZKMruHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKMruHeader.h; path = zkSforce/ZKMruHeader.h; sourceTree = "<group>"; };
+		11B3D78601B541428319D93A /* ZKStreamingEnabledHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKStreamingEnabledHeader.h; path = zkSforce/ZKStreamingEnabledHeader.h; sourceTree = "<group>"; };
+		12CBEAE6EC954162A688E336 /* ZKDescribeSoftphoneLayoutCallType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSoftphoneLayoutCallType.h; path = zkSforce/ZKDescribeSoftphoneLayoutCallType.h; sourceTree = "<group>"; };
+		1352F69BC8A24B2EAF542D54 /* ZKMergeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKMergeRequest.m; path = zkSforce/ZKMergeRequest.m; sourceTree = "<group>"; };
+		14358B89F6B244399484AACD /* ZKDataCategoryGroupSobjectTypePair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDataCategoryGroupSobjectTypePair.m; path = zkSforce/ZKDataCategoryGroupSobjectTypePair.m; sourceTree = "<group>"; };
+		14875DC26BAD4DBCA3BB558A /* ZKRelatedList+Extras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZKRelatedList+Extras.m"; path = "zkSforce/ZKRelatedList+Extras.m"; sourceTree = "<group>"; };
+		14A6DF233E564ABA9A4A2259 /* ZKDescribeRelatedContentItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeRelatedContentItem.h; path = zkSforce/ZKDescribeRelatedContentItem.h; sourceTree = "<group>"; };
+		155516B10C924A22A7CA7902 /* ZKDescribeAppMenuResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeAppMenuResult.h; path = zkSforce/ZKDescribeAppMenuResult.h; sourceTree = "<group>"; };
+		165D036779AA4248BE8971C8 /* Pods-FitHeart-ZKSforce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitHeart-ZKSforce-dummy.m"; sourceTree = "<group>"; };
+		1706C139CCCB4D58BBCB1319 /* ZKDescribeQuickActionListItemResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeQuickActionListItemResult.h; path = zkSforce/ZKDescribeQuickActionListItemResult.h; sourceTree = "<group>"; };
+		178891E3E8E54BDE8D72F768 /* ZKSaveResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSaveResult.m; path = zkSforce/ZKSaveResult.m; sourceTree = "<group>"; };
+		18C3541DC39C48AFB440AC09 /* ZKCallOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKCallOptions.m; path = zkSforce/ZKCallOptions.m; sourceTree = "<group>"; };
+		190A2627ED394C15AAE8D39F /* Pods-FitHeart-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitHeart-environment.h"; sourceTree = "<group>"; };
+		19897B043F654F94BEFE4B81 /* ZKDescribeTab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeTab.h; path = zkSforce/ZKDescribeTab.h; sourceTree = "<group>"; };
+		1A7EC5CD330E4108AD3E9FE3 /* ZKDescribeQuickActionDefaultValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeQuickActionDefaultValue.h; path = zkSforce/ZKDescribeQuickActionDefaultValue.h; sourceTree = "<group>"; };
+		1A9389796BE84F53BCE80DD4 /* ZKLocaleOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLocaleOptions.m; path = zkSforce/ZKLocaleOptions.m; sourceTree = "<group>"; };
+		1ACE510449C64B1BA2813672 /* ZKUndeleteResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKUndeleteResult.h; path = zkSforce/ZKUndeleteResult.h; sourceTree = "<group>"; };
+		1B3ADF8E2FF44BB8AE106D11 /* ZKReportChartComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKReportChartComponent.h; path = zkSforce/ZKReportChartComponent.h; sourceTree = "<group>"; };
+		1C687BD8A69148B3A528D9B1 /* ZKAssignmentRuleHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKAssignmentRuleHeader.m; path = zkSforce/ZKAssignmentRuleHeader.m; sourceTree = "<group>"; };
+		1D144914C99A460088214FFB /* ZKMruHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKMruHeader.m; path = zkSforce/ZKMruHeader.m; sourceTree = "<group>"; };
+		1D31765E2C7F46BF963ADF84 /* zkSforce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkSforce.h; path = zkSforce/zkSforce.h; sourceTree = "<group>"; };
+		204CA2B905134425B9472D85 /* ZKPackageVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKPackageVersion.m; path = zkSforce/ZKPackageVersion.m; sourceTree = "<group>"; };
+		22A67D2214864802AC9C4201 /* ZKDescribeQuickActionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeQuickActionResult.h; path = zkSforce/ZKDescribeQuickActionResult.h; sourceTree = "<group>"; };
+		2484EA935CE045B99455D313 /* ZKDisableFeedTrackingHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDisableFeedTrackingHeader.m; path = zkSforce/ZKDisableFeedTrackingHeader.m; sourceTree = "<group>"; };
+		24EA7EC024404E92AC84F272 /* ZKMergeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKMergeRequest.h; path = zkSforce/ZKMergeRequest.h; sourceTree = "<group>"; };
+		254D9AF9951B4E23B874485C /* ZKAllOrNoneHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKAllOrNoneHeader.h; path = zkSforce/ZKAllOrNoneHeader.h; sourceTree = "<group>"; };
+		25928DF49B414780836656FD /* ZKDescribeSoftphoneLayoutInfoField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSoftphoneLayoutInfoField.m; path = zkSforce/ZKDescribeSoftphoneLayoutInfoField.m; sourceTree = "<group>"; };
+		26BF589B193C4F1CA54BAD15 /* zkSforceClient+zkAsyncQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "zkSforceClient+zkAsyncQuery.h"; path = "zkSforce/zkSforceClient+zkAsyncQuery.h"; sourceTree = "<group>"; };
+		294439F93EAB47B690DA781F /* ZKCallOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCallOptions.h; path = zkSforce/ZKCallOptions.h; sourceTree = "<group>"; };
+		298E24A754C54538845D7A16 /* ZKRecordTypeCompactLayoutMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKRecordTypeCompactLayoutMapping.h; path = zkSforce/ZKRecordTypeCompactLayoutMapping.h; sourceTree = "<group>"; };
+		2EB8C8047A6646B2ADF9BFE6 /* ZKDescribeComponentInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeComponentInstance.h; path = zkSforce/ZKDescribeComponentInstance.h; sourceTree = "<group>"; };
+		2FF4CEDF6E3C42A7933A8C37 /* ZKResetPasswordResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKResetPasswordResult.h; path = zkSforce/ZKResetPasswordResult.h; sourceTree = "<group>"; };
+		300D2F235E9843DA8ACA3ED5 /* zkSforceClient+Operations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "zkSforceClient+Operations.h"; path = "zkSforce/zkSforceClient+Operations.h"; sourceTree = "<group>"; };
+		30402D729EA94614845BFDCF /* ZKDescribeGlobalResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeGlobalResult.m; path = zkSforce/ZKDescribeGlobalResult.m; sourceTree = "<group>"; };
+		31B32D5FB4A64FFA9C2A3046 /* ZKDeleteResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDeleteResult.m; path = zkSforce/ZKDeleteResult.m; sourceTree = "<group>"; };
+		34314D2C587643CAA43CCF7B /* zkParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkParser.m; path = zkSforce/zkParser.m; sourceTree = "<group>"; };
+		363775E731A84EB69F512B1E /* ZKInvalidateSessionsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKInvalidateSessionsResult.h; path = zkSforce/ZKInvalidateSessionsResult.h; sourceTree = "<group>"; };
+		38E674160B4A463DABB44829 /* ZKDescribeSoftphoneLayoutItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSoftphoneLayoutItem.h; path = zkSforce/ZKDescribeSoftphoneLayoutItem.h; sourceTree = "<group>"; };
+		3B43237C3D154B43972A51F2 /* ZKPartnerEnvelope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKPartnerEnvelope.h; path = zkSforce/ZKPartnerEnvelope.h; sourceTree = "<group>"; };
+		3B661CCF1DD448DCBF4A9830 /* ZKPicklistForRecordType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKPicklistForRecordType.h; path = zkSforce/ZKPicklistForRecordType.h; sourceTree = "<group>"; };
+		3BC9A74509554507BB78B2A0 /* ZKDescribeField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeField.m; path = zkSforce/ZKDescribeField.m; sourceTree = "<group>"; };
+		40478C24CFD64173B45EC537 /* ZKDescribeQuickActionListItemResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeQuickActionListItemResult.m; path = zkSforce/ZKDescribeQuickActionListItemResult.m; sourceTree = "<group>"; };
+		40F2CEABE0644608937FA86D /* ZKEmailFileAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKEmailFileAttachment.m; path = zkSforce/ZKEmailFileAttachment.m; sourceTree = "<group>"; };
+		41319D3C26134C9EB5A44C02 /* ZKDescribeField+Extras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZKDescribeField+Extras.m"; path = "zkSforce/ZKDescribeField+Extras.m"; sourceTree = "<group>"; };
+		413BE1D4785E4483B0AE880D /* ZKRecordTypeMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKRecordTypeMapping.m; path = zkSforce/ZKRecordTypeMapping.m; sourceTree = "<group>"; };
+		4174FC547E064AB38F627AF1 /* ZKSearchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSearchResult.m; path = zkSforce/ZKSearchResult.m; sourceTree = "<group>"; };
+		4199AE84184041B3A13D3A14 /* ZKDescribeThemeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeThemeItem.h; path = zkSforce/ZKDescribeThemeItem.h; sourceTree = "<group>"; };
+		41CA96D947AF439E9B1CFE44 /* ZKSearchRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSearchRecord.m; path = zkSforce/ZKSearchRecord.m; sourceTree = "<group>"; };
+		43E1C10305A4415BBC2B0ABC /* ZKDescribeField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeField.h; path = zkSforce/ZKDescribeField.h; sourceTree = "<group>"; };
+		44808BDE453A4D43B636F888 /* ZKLeadConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLeadConvert.m; path = zkSforce/ZKLeadConvert.m; sourceTree = "<group>"; };
+		4495E59F1133492A9DB0F1F0 /* ZKDescribeQuickActionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeQuickActionResult.m; path = zkSforce/ZKDescribeQuickActionResult.m; sourceTree = "<group>"; };
+		45165ACCA8ED449A9CE02AE9 /* ZKSoapDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSoapDate.m; path = zkSforce/ZKSoapDate.m; sourceTree = "<group>"; };
+		455B5B58D175415FB0A12AB4 /* ZKSessionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSessionHeader.h; path = zkSforce/ZKSessionHeader.h; sourceTree = "<group>"; };
+		47C47EB9A757447DACD67452 /* Pods-FitHeart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitHeart-dummy.m"; sourceTree = "<group>"; };
+		490BE683728A4DF0A5539A2C /* zkSObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkSObject.m; path = zkSforce/zkSObject.m; sourceTree = "<group>"; };
+		4A0AE4DFCDDB43FEBCC3A2BA /* ZKDescribeColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeColor.m; path = zkSforce/ZKDescribeColor.m; sourceTree = "<group>"; };
+		4C16864EEF6848F884690300 /* ZKLimitInfoHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLimitInfoHeader.m; path = zkSforce/ZKLimitInfoHeader.m; sourceTree = "<group>"; };
+		4C287B8EE06A4EE980E406BE /* zkDescribeSObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkDescribeSObject.h; path = zkSforce/zkDescribeSObject.h; sourceTree = "<group>"; };
+		4C5481A416A449C5B56D99AC /* ZKDescribeSearchLayoutResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSearchLayoutResult.m; path = zkSforce/ZKDescribeSearchLayoutResult.m; sourceTree = "<group>"; };
+		5030F1321DD045CBAAC35B87 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5047C5B7C4A9443F917DE7C5 /* ZKGetUpdatedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKGetUpdatedResult.m; path = zkSforce/ZKGetUpdatedResult.m; sourceTree = "<group>"; };
+		5115A267242D4299B4CC756D /* ZKDisableFeedTrackingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDisableFeedTrackingHeader.h; path = zkSforce/ZKDisableFeedTrackingHeader.h; sourceTree = "<group>"; };
+		516C214D55F54159A7D50BC7 /* ZKSendEmailResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSendEmailResult.m; path = zkSforce/ZKSendEmailResult.m; sourceTree = "<group>"; };
+		51806BB9559A4ED29448170D /* ZKProcessSubmitRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKProcessSubmitRequest.m; path = zkSforce/ZKProcessSubmitRequest.m; sourceTree = "<group>"; };
+		5261A618093A44ACA01BC497 /* ZKLoginResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLoginResult.m; path = zkSforce/ZKLoginResult.m; sourceTree = "<group>"; };
+		5329C447265B4634A72E2526 /* ZKDescribeSearchScopeOrderResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSearchScopeOrderResult.h; path = zkSforce/ZKDescribeSearchScopeOrderResult.h; sourceTree = "<group>"; };
+		53986DA7E40447D5BE9B41E6 /* ZKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKBase64.h; path = zkSforce/ZKBase64.h; sourceTree = "<group>"; };
+		53C21B10F00545D39AA96298 /* ZKDescribeLayoutButtonSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayoutButtonSection.m; path = zkSforce/ZKDescribeLayoutButtonSection.m; sourceTree = "<group>"; };
+		53EEF9A7225140429C5B0F7F /* ZKDescribeCompactLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeCompactLayout.h; path = zkSforce/ZKDescribeCompactLayout.h; sourceTree = "<group>"; };
+		543C114E736A4D7DA236F270 /* ZKGetDeletedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKGetDeletedResult.m; path = zkSforce/ZKGetDeletedResult.m; sourceTree = "<group>"; };
+		54C533CC9B714BE58A6251D0 /* ZKDescribeAppMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeAppMenuItem.h; path = zkSforce/ZKDescribeAppMenuItem.h; sourceTree = "<group>"; };
+		5552BCF16FF34BADA2BEC3B2 /* zkQueryResult+NSTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "zkQueryResult+NSTableView.m"; path = "zkSforce/zkQueryResult+NSTableView.m"; sourceTree = "<group>"; };
+		5627AE9DF8BE424A972BE7DA /* ZKDescribeSoftphoneLayoutSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSoftphoneLayoutSection.h; path = zkSforce/ZKDescribeSoftphoneLayoutSection.h; sourceTree = "<group>"; };
+		56C6ADAC4356483D8D6BA425 /* ZKRelatedContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKRelatedContent.m; path = zkSforce/ZKRelatedContent.m; sourceTree = "<group>"; };
+		57E0F53C7D2C4D58B91DBF7A /* ZKSessionHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSessionHeader.m; path = zkSforce/ZKSessionHeader.m; sourceTree = "<group>"; };
+		57E264FDFA81455CB640C78A /* zkEnvelope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkEnvelope.m; path = zkSforce/zkEnvelope.m; sourceTree = "<group>"; };
+		59463DE3948D4867B799F6F7 /* ZKSetPasswordResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSetPasswordResult.h; path = zkSforce/ZKSetPasswordResult.h; sourceTree = "<group>"; };
+		5AD5FC3F99C04AFB8406194F /* ZKDescribeSearchScopeOrderResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSearchScopeOrderResult.m; path = zkSforce/ZKDescribeSearchScopeOrderResult.m; sourceTree = "<group>"; };
+		5B99CA1DBD784C8EAC502C88 /* ZKDescribeLayoutSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayoutSection.m; path = zkSforce/ZKDescribeLayoutSection.m; sourceTree = "<group>"; };
+		5CCBD43DB5AD4ACEA9BF1CEC /* ZKDescribeLayoutItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayoutItem.m; path = zkSforce/ZKDescribeLayoutItem.m; sourceTree = "<group>"; };
+		5DD8BC67EB4F4975B13E31AB /* ZKRecordTypeMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKRecordTypeMapping.h; path = zkSforce/ZKRecordTypeMapping.h; sourceTree = "<group>"; };
+		5DDB0FB2BFAD4379A3E91B85 /* ZKRecordTypeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKRecordTypeInfo.h; path = zkSforce/ZKRecordTypeInfo.h; sourceTree = "<group>"; };
+		5E59D168D9FF416E943438AD /* ZKProcessResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKProcessResult.m; path = zkSforce/ZKProcessResult.m; sourceTree = "<group>"; };
+		5F97768573054477BFCE3221 /* ZKMergeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKMergeResult.h; path = zkSforce/ZKMergeResult.h; sourceTree = "<group>"; };
+		603618F9DFB34C168427A89E /* ZKDescribeComponentInstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeComponentInstance.m; path = zkSforce/ZKDescribeComponentInstance.m; sourceTree = "<group>"; };
+		604D4B5E44594CACBBCA7667 /* ZKPerformQuickActionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKPerformQuickActionRequest.m; path = zkSforce/ZKPerformQuickActionRequest.m; sourceTree = "<group>"; };
+		60C7CCFBBADE4AA79872DE10 /* ZKMassEmailMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKMassEmailMessage.h; path = zkSforce/ZKMassEmailMessage.h; sourceTree = "<group>"; };
+		625DB6A1C6494CBD82951EE8 /* ZKGetDeletedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKGetDeletedResult.h; path = zkSforce/ZKGetDeletedResult.h; sourceTree = "<group>"; };
+		62C84446CA59498B8EA79355 /* ZKDescribeComponentInstanceProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeComponentInstanceProperty.m; path = zkSforce/ZKDescribeComponentInstanceProperty.m; sourceTree = "<group>"; };
+		62ED53509ADE4B97B0FBDC60 /* ZKEmptyRecycleBinResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKEmptyRecycleBinResult.m; path = zkSforce/ZKEmptyRecycleBinResult.m; sourceTree = "<group>"; };
+		6467C77C0FC14F0DBFD51B5D /* ZKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKError.m; path = zkSforce/ZKError.m; sourceTree = "<group>"; };
+		64B887AD569D4B49BD6D13D0 /* ZKDescribeTabSetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeTabSetResult.h; path = zkSforce/ZKDescribeTabSetResult.h; sourceTree = "<group>"; };
+		6613C3F260D0401FA29B29F3 /* ZKDescribeSoftphoneLayoutResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSoftphoneLayoutResult.m; path = zkSforce/ZKDescribeSoftphoneLayoutResult.m; sourceTree = "<group>"; };
+		66F8C2BBAF924E93B013ECEA /* ZKXMLSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKXMLSerializable.h; path = zkSforce/ZKXMLSerializable.h; sourceTree = "<group>"; };
+		6B1B855FB9A146CA9ECA3019 /* ZKUserInfo+Extras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZKUserInfo+Extras.h"; path = "zkSforce/ZKUserInfo+Extras.h"; sourceTree = "<group>"; };
+		6B259C94D3B24FB1A31FBC81 /* zkQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkQueryResult.h; path = zkSforce/zkQueryResult.h; sourceTree = "<group>"; };
+		6BC160967D2F4682947057B7 /* ZKDescribeLayoutRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayoutRow.h; path = zkSforce/ZKDescribeLayoutRow.h; sourceTree = "<group>"; };
+		6C462E7EB91F44AFA63A66C1 /* ZKDescribeCompactLayoutsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeCompactLayoutsResult.h; path = zkSforce/ZKDescribeCompactLayoutsResult.h; sourceTree = "<group>"; };
+		6F1D60B1718646AA9270D815 /* ZKRelatedListSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKRelatedListSort.m; path = zkSforce/ZKRelatedListSort.m; sourceTree = "<group>"; };
+		733B8DB7FAC846F2A43C4438 /* ZKUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKUserInfo.h; path = zkSforce/ZKUserInfo.h; sourceTree = "<group>"; };
+		733F22A8926342668E653B05 /* ZKEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKEmail.h; path = zkSforce/ZKEmail.h; sourceTree = "<group>"; };
+		738B331C92DB4B0082912320 /* ZKDeletedRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDeletedRecord.m; path = zkSforce/ZKDeletedRecord.m; sourceTree = "<group>"; };
+		752204A5751F4D6BAF58FEB6 /* ZKSendEmailError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSendEmailError.m; path = zkSforce/ZKSendEmailError.m; sourceTree = "<group>"; };
+		765B6DD16A12416CBE3B1FB6 /* ZKDescribeDataCategoryGroupResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeDataCategoryGroupResult.h; path = zkSforce/ZKDescribeDataCategoryGroupResult.h; sourceTree = "<group>"; };
+		7691BA0262B84B848690BB43 /* ZKDebuggingHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDebuggingHeader.m; path = zkSforce/ZKDebuggingHeader.m; sourceTree = "<group>"; };
+		76A04E301E9A4CB8AD06B391 /* ZKSendEmailError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSendEmailError.h; path = zkSforce/ZKSendEmailError.h; sourceTree = "<group>"; };
+		76C6B6A3485348A08DFA8D8C /* ZKSendEmailResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSendEmailResult.h; path = zkSforce/ZKSendEmailResult.h; sourceTree = "<group>"; };
+		770D04ED20EC48D3B55DFD32 /* ZKUpsertResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKUpsertResult.h; path = zkSforce/ZKUpsertResult.h; sourceTree = "<group>"; };
+		7720050F472A4115A7AB6365 /* ZKEmailHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKEmailHeader.m; path = zkSforce/ZKEmailHeader.m; sourceTree = "<group>"; };
+		7871AF13B76B4DC389CF5E03 /* ZKLoginResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLoginResult.h; path = zkSforce/ZKLoginResult.h; sourceTree = "<group>"; };
+		793DF2AF4A52416CA42972BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		796B079B3382494194469BD9 /* ZKUserInfo+Extras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZKUserInfo+Extras.m"; path = "zkSforce/ZKUserInfo+Extras.m"; sourceTree = "<group>"; };
+		7B2F4A389FE74B2C880612D3 /* ZKDescribeDataCategoryGroupResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeDataCategoryGroupResult.m; path = zkSforce/ZKDescribeDataCategoryGroupResult.m; sourceTree = "<group>"; };
+		7C8B47EB94414E489B3D753A /* ZKDescribeTabSetResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeTabSetResult.m; path = zkSforce/ZKDescribeTabSetResult.m; sourceTree = "<group>"; };
+		7CAEEC1CC6584D3A80607EC0 /* ZKDescribeSoftphoneLayoutItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSoftphoneLayoutItem.m; path = zkSforce/ZKDescribeSoftphoneLayoutItem.m; sourceTree = "<group>"; };
+		7D0B29BCC0D249138DAD563C /* ZKDescribeCompactLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeCompactLayout.m; path = zkSforce/ZKDescribeCompactLayout.m; sourceTree = "<group>"; };
+		7E6A36FC2FB74742AC33D0AF /* Pods-FitHeart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitHeart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F18B8EAFC0544E191D95218 /* ZKRelatedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKRelatedList.h; path = zkSforce/ZKRelatedList.h; sourceTree = "<group>"; };
+		811D93F14B2B4E09A81B0FD4 /* ZKMergeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKMergeResult.m; path = zkSforce/ZKMergeResult.m; sourceTree = "<group>"; };
+		81895314232B42DA9B70FC45 /* ZKDescribeQuickActionListResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeQuickActionListResult.h; path = zkSforce/ZKDescribeQuickActionListResult.h; sourceTree = "<group>"; };
+		819ACFF958BA43369CA2816B /* ZKDebuggingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDebuggingHeader.h; path = zkSforce/ZKDebuggingHeader.h; sourceTree = "<group>"; };
+		83E8B81EC8EE42AC933F3595 /* ZKDescribeComponentInstanceProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeComponentInstanceProperty.h; path = zkSforce/ZKDescribeComponentInstanceProperty.h; sourceTree = "<group>"; };
+		85D0BB3F1BD24D94939D180D /* Pods-FitHeart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitHeart-acknowledgements.plist"; sourceTree = "<group>"; };
+		8750D5BD3D9E4B15BE975B4C /* ZKDescribeSearchLayoutResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSearchLayoutResult.h; path = zkSforce/ZKDescribeSearchLayoutResult.h; sourceTree = "<group>"; };
+		8786B8C2FD58438B82991E06 /* zkBaseClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkBaseClient.h; path = zkSforce/zkBaseClient.h; sourceTree = "<group>"; };
+		888476F9E20141A0BDA2753D /* ZKDescribeFlexiPageResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeFlexiPageResult.m; path = zkSforce/ZKDescribeFlexiPageResult.m; sourceTree = "<group>"; };
+		888F195B3E7942C8A8AD55AF /* ZKDescribeRelatedContentItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeRelatedContentItem.m; path = zkSforce/ZKDescribeRelatedContentItem.m; sourceTree = "<group>"; };
+		893B0D40B24D4AA7A65BDA3F /* ZKDescribeAvailableQuickActionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeAvailableQuickActionResult.m; path = zkSforce/ZKDescribeAvailableQuickActionResult.m; sourceTree = "<group>"; };
+		8D088AD03BD344EBA13A6EE6 /* ZKDescribeGlobalTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeGlobalTheme.h; path = zkSforce/ZKDescribeGlobalTheme.h; sourceTree = "<group>"; };
+		8D2396E40B1644CB959C2B44 /* ZKDescribeThemeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeThemeResult.m; path = zkSforce/ZKDescribeThemeResult.m; sourceTree = "<group>"; };
+		8E7D2D60C3D743B4B1FA6526 /* ZKPerformQuickActionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKPerformQuickActionRequest.h; path = zkSforce/ZKPerformQuickActionRequest.h; sourceTree = "<group>"; };
+		8E96CE7831A249B8B7882402 /* ZKGetServerTimestampResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKGetServerTimestampResult.h; path = zkSforce/ZKGetServerTimestampResult.h; sourceTree = "<group>"; };
+		8EA044E32C3044F1A002735C /* ZKSingleEmailMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSingleEmailMessage.m; path = zkSforce/ZKSingleEmailMessage.m; sourceTree = "<group>"; };
+		8FA04C2CF4C5469D9DC660F2 /* Pods-FitHeart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitHeart-resources.sh"; sourceTree = "<group>"; };
+		8FBE77E7659347CBBDD04A9F /* ZKSoapDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSoapDate.h; path = zkSforce/ZKSoapDate.h; sourceTree = "<group>"; };
+		9054E7E07A94496D81AEC248 /* ZKRelatedList+Extras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZKRelatedList+Extras.h"; path = "zkSforce/ZKRelatedList+Extras.h"; sourceTree = "<group>"; };
+		918090F8C52A493EA584C2F9 /* ZKPackageVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKPackageVersion.h; path = zkSforce/ZKPackageVersion.h; sourceTree = "<group>"; };
+		918787D4411B4436A342E01C /* ZKDeletedRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDeletedRecord.h; path = zkSforce/ZKDeletedRecord.h; sourceTree = "<group>"; };
+		91C685B8BF60425C98359E47 /* ZKDescribeDataCategoryGroupStructureResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeDataCategoryGroupStructureResult.h; path = zkSforce/ZKDescribeDataCategoryGroupStructureResult.h; sourceTree = "<group>"; };
+		92A895C0489549B09B19AE69 /* zkSoapException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkSoapException.h; path = zkSforce/zkSoapException.h; sourceTree = "<group>"; };
+		92BF9845E24444ABA0842EE8 /* Pods-FitHeart-ZKSforce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitHeart-ZKSforce-prefix.pch"; sourceTree = "<group>"; };
+		9522B6FC96764F58A0D02320 /* ZKDescribeLayoutComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayoutComponent.m; path = zkSforce/ZKDescribeLayoutComponent.m; sourceTree = "<group>"; };
+		95B05C5DE145469DBEDE0EA1 /* ZKLimitInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLimitInfo.m; path = zkSforce/ZKLimitInfo.m; sourceTree = "<group>"; };
+		95E0B0BF0F7E42F28A00BC62 /* ZKLeadConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLeadConvert.h; path = zkSforce/ZKLeadConvert.h; sourceTree = "<group>"; };
+		965ED6359A3C4658ACBA4806 /* ZKDescribeColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeColumn.m; path = zkSforce/ZKDescribeColumn.m; sourceTree = "<group>"; };
+		96C882749DBA48F79AC63F3C /* ZKLoginScopeHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLoginScopeHeader.m; path = zkSforce/ZKLoginScopeHeader.m; sourceTree = "<group>"; };
+		97492FC8548545808F941664 /* zkQueryResult+NSTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "zkQueryResult+NSTableView.h"; path = "zkSforce/zkQueryResult+NSTableView.h"; sourceTree = "<group>"; };
+		986DBFE5F1304889B40DFF4A /* ZKPerformQuickActionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKPerformQuickActionResult.m; path = zkSforce/ZKPerformQuickActionResult.m; sourceTree = "<group>"; };
+		9BFF6124E1094FB8822F46B1 /* ZKDescribeThemeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeThemeResult.h; path = zkSforce/ZKDescribeThemeResult.h; sourceTree = "<group>"; };
+		9D6E056BB8AE40CC88AFCF80 /* ZKDescribeQuickActionListResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeQuickActionListResult.m; path = zkSforce/ZKDescribeQuickActionListResult.m; sourceTree = "<group>"; };
+		9DE6FD2EF7E147FBAF833A66 /* ZKDescribeFlexiPageResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeFlexiPageResult.h; path = zkSforce/ZKDescribeFlexiPageResult.h; sourceTree = "<group>"; };
+		9F7D2074E740438E94055E50 /* ZKAllOrNoneHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKAllOrNoneHeader.m; path = zkSforce/ZKAllOrNoneHeader.m; sourceTree = "<group>"; };
+		9FB20C4B87DC40C1BDA0D22F /* ZKProcessWorkitemRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKProcessWorkitemRequest.m; path = zkSforce/ZKProcessWorkitemRequest.m; sourceTree = "<group>"; };
+		A032C1446F2442E2A9C109C3 /* ZKDescribeAppMenuResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeAppMenuResult.m; path = zkSforce/ZKDescribeAppMenuResult.m; sourceTree = "<group>"; };
+		A050FD459A284466B251B3C1 /* ZKDataCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDataCategory.h; path = zkSforce/ZKDataCategory.h; sourceTree = "<group>"; };
+		A11A0EC2528C4509B837A43F /* ZKDescribeFlexiPageRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeFlexiPageRegion.h; path = zkSforce/ZKDescribeFlexiPageRegion.h; sourceTree = "<group>"; };
+		A192C93CDFCE43F7B30393AE /* zkDescribeSObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkDescribeSObject.m; path = zkSforce/zkDescribeSObject.m; sourceTree = "<group>"; };
+		A46C107BA58B4B289E5FE402 /* zkBaseClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkBaseClient.m; path = zkSforce/zkBaseClient.m; sourceTree = "<group>"; };
+		A58B8515EDB745CDA459F857 /* ZKDescribeIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeIcon.m; path = zkSforce/ZKDescribeIcon.m; sourceTree = "<group>"; };
+		A620A759E2EA42B9941F54B0 /* ZKProcessResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKProcessResult.h; path = zkSforce/ZKProcessResult.h; sourceTree = "<group>"; };
+		A7271B9355A84D25BF74DD45 /* ZKDataCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDataCategory.m; path = zkSforce/ZKDataCategory.m; sourceTree = "<group>"; };
+		A7BB00D9258246BE99259D26 /* ZKDescribeLayoutButtonSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayoutButtonSection.h; path = zkSforce/ZKDescribeLayoutButtonSection.h; sourceTree = "<group>"; };
+		A7FED3102565458FBDF73FD2 /* ZKDescribeAppMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeAppMenuItem.m; path = zkSforce/ZKDescribeAppMenuItem.m; sourceTree = "<group>"; };
+		A87B9BFD5DD24BC98DA9472E /* ZKPicklistEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKPicklistEntry.m; path = zkSforce/ZKPicklistEntry.m; sourceTree = "<group>"; };
+		A8EB711FA3A547B4BDD2EEAB /* ZKMassEmailMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKMassEmailMessage.m; path = zkSforce/ZKMassEmailMessage.m; sourceTree = "<group>"; };
+		A9464DF6986142CD84B75B69 /* ZKSaveResult+Extras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZKSaveResult+Extras.m"; path = "zkSforce/ZKSaveResult+Extras.m"; sourceTree = "<group>"; };
+		AA99699B295842E39C46AC9F /* ZKDataCategoryGroupSobjectTypePair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDataCategoryGroupSobjectTypePair.h; path = zkSforce/ZKDataCategoryGroupSobjectTypePair.h; sourceTree = "<group>"; };
+		AB2F55E6267640E9860D94E6 /* ZKEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKEmail.m; path = zkSforce/ZKEmail.m; sourceTree = "<group>"; };
+		ABC0803885E94DA8A3BE5CEF /* ZKAssignmentRuleHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKAssignmentRuleHeader.h; path = zkSforce/ZKAssignmentRuleHeader.h; sourceTree = "<group>"; };
+		ABDB49068D464FD8A04B8B4F /* ZKSingleEmailMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSingleEmailMessage.h; path = zkSforce/ZKSingleEmailMessage.h; sourceTree = "<group>"; };
+		ACBF15B998ED4DCE8F9B42D6 /* ZKEmailHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKEmailHeader.h; path = zkSforce/ZKEmailHeader.h; sourceTree = "<group>"; };
+		ADF69C1E8C75429982F779A5 /* ZKRelatedContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKRelatedContent.h; path = zkSforce/ZKRelatedContent.h; sourceTree = "<group>"; };
+		AE3B990B03CC4477BB91F26A /* ZKDescribeColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeColumn.h; path = zkSforce/ZKDescribeColumn.h; sourceTree = "<group>"; };
+		AE51CDC7655F472AA6059404 /* ZKDescribeIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeIcon.h; path = zkSforce/ZKDescribeIcon.h; sourceTree = "<group>"; };
+		AEAA4E8CD8D04A95B751E010 /* zkDescribeGlobalSObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkDescribeGlobalSObject.h; path = zkSforce/zkDescribeGlobalSObject.h; sourceTree = "<group>"; };
+		AF3905F9A55643B9AC899EA3 /* ZKPerformQuickActionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKPerformQuickActionResult.h; path = zkSforce/ZKPerformQuickActionResult.h; sourceTree = "<group>"; };
+		B0DE7BD8D9024CAA9DBC7D44 /* ZKChildRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKChildRelationship.m; path = zkSforce/ZKChildRelationship.m; sourceTree = "<group>"; };
+		B1687B89F747479D9F9492B5 /* ZKProcessRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKProcessRequest.h; path = zkSforce/ZKProcessRequest.h; sourceTree = "<group>"; };
+		B21B474CB4A74D44BD93D13F /* ZKGetUpdatedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKGetUpdatedResult.h; path = zkSforce/ZKGetUpdatedResult.h; sourceTree = "<group>"; };
+		B3676B07D1964D2E93369B45 /* ZKLocaleOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLocaleOptions.h; path = zkSforce/ZKLocaleOptions.h; sourceTree = "<group>"; };
+		B41344F3C1EA4B76B4E3B2D5 /* ZKDescribeSObject+Extras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZKDescribeSObject+Extras.m"; path = "zkSforce/ZKDescribeSObject+Extras.m"; sourceTree = "<group>"; };
+		B6A364F91EF748C19FDC46CE /* ZKUpsertResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKUpsertResult.m; path = zkSforce/ZKUpsertResult.m; sourceTree = "<group>"; };
+		B80C3199B13F4694A487B982 /* zkSforceClient+zkAsyncQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "zkSforceClient+zkAsyncQuery.m"; path = "zkSforce/zkSforceClient+zkAsyncQuery.m"; sourceTree = "<group>"; };
+		BBDCC96FBE9B4003BA1FBA12 /* ZKDescribeField+Extras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZKDescribeField+Extras.h"; path = "zkSforce/ZKDescribeField+Extras.h"; sourceTree = "<group>"; };
+		BC301FC5532449D7B420B6B5 /* ZKLoginScopeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLoginScopeHeader.h; path = zkSforce/ZKLoginScopeHeader.h; sourceTree = "<group>"; };
+		BC34A1C73E314B8090A0F21A /* ZKProcessWorkitemRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKProcessWorkitemRequest.h; path = zkSforce/ZKProcessWorkitemRequest.h; sourceTree = "<group>"; };
+		BC6DB76999B042379CA71A91 /* Pods-FitHeart-ZKSforce-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitHeart-ZKSforce-Private.xcconfig"; sourceTree = "<group>"; };
+		BD1459DAC4B64F8B9487DBDF /* ZKDescribeColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeColor.h; path = zkSforce/ZKDescribeColor.h; sourceTree = "<group>"; };
+		BDC4D12476BE41F1B2967BE8 /* ZKDescribeLayoutResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayoutResult.m; path = zkSforce/ZKDescribeLayoutResult.m; sourceTree = "<group>"; };
+		BDFFDCCAC1FE4280B926E1D8 /* ZKPackageVersionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKPackageVersionHeader.h; path = zkSforce/ZKPackageVersionHeader.h; sourceTree = "<group>"; };
+		BE4C8711B1174A0282E30507 /* ZKAllowFieldTruncationHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKAllowFieldTruncationHeader.m; path = zkSforce/ZKAllowFieldTruncationHeader.m; sourceTree = "<group>"; };
+		BE5EB88D4DC64233803972EF /* ZKReportChartComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKReportChartComponent.m; path = zkSforce/ZKReportChartComponent.m; sourceTree = "<group>"; };
+		BF4A21B3B34F4F6CBF4E010A /* ZKDescribeSObject+Extras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZKDescribeSObject+Extras.h"; path = "zkSforce/ZKDescribeSObject+Extras.h"; sourceTree = "<group>"; };
+		BFA9038C72BB40619A26996F /* ZKQueryOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKQueryOptions.m; path = zkSforce/ZKQueryOptions.m; sourceTree = "<group>"; };
+		C007F57B61624AF9ADB0EDAE /* ZKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKError.h; path = zkSforce/ZKError.h; sourceTree = "<group>"; };
+		C09F291736794EB2865BE49D /* zkXmlDeserializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkXmlDeserializer.m; path = zkSforce/zkXmlDeserializer.m; sourceTree = "<group>"; };
+		C25144920C054E67A2966EA6 /* ZKQueryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKQueryOptions.h; path = zkSforce/ZKQueryOptions.h; sourceTree = "<group>"; };
+		C4E4B22C81A74E2D843E3C90 /* ZKUserTerritoryDeleteHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKUserTerritoryDeleteHeader.h; path = zkSforce/ZKUserTerritoryDeleteHeader.h; sourceTree = "<group>"; };
+		C753B7AA92414EAA9D24CA94 /* ZKPackageVersionHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKPackageVersionHeader.m; path = zkSforce/ZKPackageVersionHeader.m; sourceTree = "<group>"; };
+		C7FB32350261447EBDF6291D /* ZKDescribeDataCategoryGroupStructureResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeDataCategoryGroupStructureResult.m; path = zkSforce/ZKDescribeDataCategoryGroupStructureResult.m; sourceTree = "<group>"; };
+		C8E469E2CB87437CA6610D2A /* ZKDescribeGlobalTheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeGlobalTheme.m; path = zkSforce/ZKDescribeGlobalTheme.m; sourceTree = "<group>"; };
+		C93CEFE77A754217B30797D2 /* ZKInvalidateSessionsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKInvalidateSessionsResult.m; path = zkSforce/ZKInvalidateSessionsResult.m; sourceTree = "<group>"; };
+		D00CCBA08F48412F9095D086 /* ZKDescribeSoftphoneLayoutSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSoftphoneLayoutSection.m; path = zkSforce/ZKDescribeSoftphoneLayoutSection.m; sourceTree = "<group>"; };
+		D041981550004648A6E966B9 /* ZKDescribeLayoutButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayoutButton.h; path = zkSforce/ZKDescribeLayoutButton.h; sourceTree = "<group>"; };
+		D0B90518C8EA43D0814F4244 /* ZKDescribeSoftphoneScreenPopOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSoftphoneScreenPopOption.m; path = zkSforce/ZKDescribeSoftphoneScreenPopOption.m; sourceTree = "<group>"; };
+		D15CE13C70E44B83B167F37D /* ZKRecordTypeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKRecordTypeInfo.m; path = zkSforce/ZKRecordTypeInfo.m; sourceTree = "<group>"; };
+		D2306DF9E65040868C5ADF9B /* ZKDescribeGlobalResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeGlobalResult.h; path = zkSforce/ZKDescribeGlobalResult.h; sourceTree = "<group>"; };
+		D2E7B7A472F6485DA245D3AD /* Pods-FitHeart-ZKSforce.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitHeart-ZKSforce.xcconfig"; sourceTree = "<group>"; };
+		D3F681A771A645D9B443496E /* ZKSaveResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSaveResult.h; path = zkSforce/ZKSaveResult.h; sourceTree = "<group>"; };
+		D4699ACE38FB471FAB60333F /* ZKDescribeSoftphoneLayoutInfoField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSoftphoneLayoutInfoField.h; path = zkSforce/ZKDescribeSoftphoneLayoutInfoField.h; sourceTree = "<group>"; };
+		D58FEC95B11D441391CB2A8E /* zkSoapException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkSoapException.m; path = zkSforce/zkSoapException.m; sourceTree = "<group>"; };
+		D617CDBD247244038BEAD5E0 /* ZKDescribeQuickActionDefaultValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeQuickActionDefaultValue.m; path = zkSforce/ZKDescribeQuickActionDefaultValue.m; sourceTree = "<group>"; };
+		D6D37CD5C91F4777B412C95F /* zkSforceClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkSforceClient.h; path = zkSforce/zkSforceClient.h; sourceTree = "<group>"; };
+		D8CB2D66ED5546A6A81F03BE /* ZKStreamingEnabledHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKStreamingEnabledHeader.m; path = zkSforce/ZKStreamingEnabledHeader.m; sourceTree = "<group>"; };
+		D94931F471A44DCCAF02C338 /* ZKDescribeSoftphoneLayoutResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeSoftphoneLayoutResult.h; path = zkSforce/ZKDescribeSoftphoneLayoutResult.h; sourceTree = "<group>"; };
+		D976A5E2DA1C41A3AB918DF2 /* ZKDescribeSoftphoneLayoutCallType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeSoftphoneLayoutCallType.m; path = zkSforce/ZKDescribeSoftphoneLayoutCallType.m; sourceTree = "<group>"; };
+		DB433E0473734F04B7E73571 /* ZKUndeleteResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKUndeleteResult.m; path = zkSforce/ZKUndeleteResult.m; sourceTree = "<group>"; };
+		DE0C23C75CE04219A0222801 /* ZKDescribeThemeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeThemeItem.m; path = zkSforce/ZKDescribeThemeItem.m; sourceTree = "<group>"; };
+		DE2E2C1016614AA78DE599B8 /* ZKRelatedListColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKRelatedListColumn.m; path = zkSforce/ZKRelatedListColumn.m; sourceTree = "<group>"; };
+		DE406AE3E31046F69C8CA42A /* ZKDescribeLayoutItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayoutItem.h; path = zkSforce/ZKDescribeLayoutItem.h; sourceTree = "<group>"; };
+		DF1FF0F2E4964DF78FEF19C3 /* ZKSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSearchResult.h; path = zkSforce/ZKSearchResult.h; sourceTree = "<group>"; };
+		DF5857CC05CB4556842D8847 /* ZKEmailFileAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKEmailFileAttachment.h; path = zkSforce/ZKEmailFileAttachment.h; sourceTree = "<group>"; };
+		E07625620A4B4C378093717C /* ZKRelatedList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKRelatedList.m; path = zkSforce/ZKRelatedList.m; sourceTree = "<group>"; };
+		E0C1865E7AB042D2A6716184 /* ZKDescribeLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayout.m; path = zkSforce/ZKDescribeLayout.m; sourceTree = "<group>"; };
+		E17D0A80DB1C4E28A7821396 /* ZKSearchRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKSearchRecord.h; path = zkSforce/ZKSearchRecord.h; sourceTree = "<group>"; };
+		E19A438AB27D429588DEFF40 /* zkSforceClient+Operations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "zkSforceClient+Operations.m"; path = "zkSforce/zkSforceClient+Operations.m"; sourceTree = "<group>"; };
+		E1CFB1DC24F84F92BED5CED4 /* zkAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkAuthentication.h; path = zkSforce/zkAuthentication.h; sourceTree = "<group>"; };
+		E34D2E1B0D104393A7F0A047 /* ZKOwnerChangeOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKOwnerChangeOptions.h; path = zkSforce/ZKOwnerChangeOptions.h; sourceTree = "<group>"; };
+		E45A3E30DF5E47828F479AA6 /* ZKProcessRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKProcessRequest.m; path = zkSforce/ZKProcessRequest.m; sourceTree = "<group>"; };
+		E52FB45C06284B96ACB896C0 /* zkXmlDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkXmlDeserializer.h; path = zkSforce/zkXmlDeserializer.h; sourceTree = "<group>"; };
+		E71C4E8C7BB346A19A6908B1 /* ZKDescribeAvailableQuickActionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeAvailableQuickActionResult.h; path = zkSforce/ZKDescribeAvailableQuickActionResult.h; sourceTree = "<group>"; };
+		E8560B18838C4DAE963FDC4F /* ZKRelatedListColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKRelatedListColumn.h; path = zkSforce/ZKRelatedListColumn.h; sourceTree = "<group>"; };
+		E92FCF4359E849338C6B29B8 /* zkEnvelope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkEnvelope.h; path = zkSforce/zkEnvelope.h; sourceTree = "<group>"; };
+		E9F6BB3C37BC4B619CB9957D /* ZKSetPasswordResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKSetPasswordResult.m; path = zkSforce/ZKSetPasswordResult.m; sourceTree = "<group>"; };
+		EC60C7DD75D54378BB48DD7A /* ZKOwnerChangeOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKOwnerChangeOptions.m; path = zkSforce/ZKOwnerChangeOptions.m; sourceTree = "<group>"; };
+		ECC8F76B3663411D8EB9C99C /* ZKSaveResult+Extras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZKSaveResult+Extras.h"; path = "zkSforce/ZKSaveResult+Extras.h"; sourceTree = "<group>"; };
+		ECD8A36230AF4538BE6BF90D /* ZKDescribeLayoutSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayoutSection.h; path = zkSforce/ZKDescribeLayoutSection.h; sourceTree = "<group>"; };
+		EF589553E5DE4FBB94B17B5A /* ZKDescribeLayoutRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayoutRow.m; path = zkSforce/ZKDescribeLayoutRow.m; sourceTree = "<group>"; };
+		EF761A0797F44CA881D3C58D /* ZKRecordTypeCompactLayoutMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKRecordTypeCompactLayoutMapping.m; path = zkSforce/ZKRecordTypeCompactLayoutMapping.m; sourceTree = "<group>"; };
+		F01BA49BDF4C42E6B12F7416 /* ZKPicklistForRecordType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKPicklistForRecordType.m; path = zkSforce/ZKPicklistForRecordType.m; sourceTree = "<group>"; };
+		F0D78C7BCCBB438DB1FFCB3B /* ZKAllowFieldTruncationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKAllowFieldTruncationHeader.h; path = zkSforce/ZKAllowFieldTruncationHeader.h; sourceTree = "<group>"; };
+		F0E96E6F55FB41179DAAAF83 /* ZKDeleteResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDeleteResult.h; path = zkSforce/ZKDeleteResult.h; sourceTree = "<group>"; };
+		F1259DC7D1964E0693F633B0 /* ZKChildRelationship.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKChildRelationship.h; path = zkSforce/ZKChildRelationship.h; sourceTree = "<group>"; };
+		F1E09B5FE54443369823C4DC /* ZKGetServerTimestampResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKGetServerTimestampResult.m; path = zkSforce/ZKGetServerTimestampResult.m; sourceTree = "<group>"; };
+		F2614E43A7C04CAFADB5D89B /* zkSObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zkSObject.h; path = zkSforce/zkSObject.h; sourceTree = "<group>"; };
+		F29A303D3F724856B1D4F4C5 /* ZKUserTerritoryDeleteHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKUserTerritoryDeleteHeader.m; path = zkSforce/ZKUserTerritoryDeleteHeader.m; sourceTree = "<group>"; };
+		F64C9FC6C3AD4B8E8D857A63 /* ZKRelatedListSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKRelatedListSort.h; path = zkSforce/ZKRelatedListSort.h; sourceTree = "<group>"; };
+		F805C56621984F5EAF8FE5B3 /* ZKEmptyRecycleBinResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKEmptyRecycleBinResult.h; path = zkSforce/ZKEmptyRecycleBinResult.h; sourceTree = "<group>"; };
+		F84E62293F12426B9BE16945 /* ZKPartnerEnvelope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKPartnerEnvelope.m; path = zkSforce/ZKPartnerEnvelope.m; sourceTree = "<group>"; };
+		F851D2317D5242B3A9BB8C79 /* ZKDescribeLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDescribeLayout.h; path = zkSforce/ZKDescribeLayout.h; sourceTree = "<group>"; };
+		F9F591DB6DCD4556A71BEED1 /* ZKDescribeFlexiPageRegion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeFlexiPageRegion.m; path = zkSforce/ZKDescribeFlexiPageRegion.m; sourceTree = "<group>"; };
+		FA461B41CAE44C1FA113FCA0 /* ZKDescribeLayoutButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeLayoutButton.m; path = zkSforce/ZKDescribeLayoutButton.m; sourceTree = "<group>"; };
+		FA93FC544D294CBAA8E540CB /* ZKDescribeCompactLayoutsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDescribeCompactLayoutsResult.m; path = zkSforce/ZKDescribeCompactLayoutsResult.m; sourceTree = "<group>"; };
+		FDA1C711B65947CD8A1A7A83 /* zkUserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkUserInfo.m; path = zkSforce/zkUserInfo.m; sourceTree = "<group>"; };
+		FEC89F7A40FE4852B997AF09 /* zkQueryResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zkQueryResult.m; path = zkSforce/zkQueryResult.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B10C1EF40A34A94966614BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5229298FD0431089E3E5A2 /* Foundation.framework in Frameworks */,
+				6F736BE7C54C4925A84E96A8 /* libPods-FitHeart-ZKSforce.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A690179170934F578DBE053E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159A79B132241419107A13B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CABFD522A145A7B0C9E34E /* Pods-FitHeart */ = {
+			isa = PBXGroup;
+			children = (
+				06FDB0CD821D4B8FA70B7D65 /* Pods-FitHeart.xcconfig */,
+				7E6A36FC2FB74742AC33D0AF /* Pods-FitHeart-acknowledgements.markdown */,
+				85D0BB3F1BD24D94939D180D /* Pods-FitHeart-acknowledgements.plist */,
+				47C47EB9A757447DACD67452 /* Pods-FitHeart-dummy.m */,
+				190A2627ED394C15AAE8D39F /* Pods-FitHeart-environment.h */,
+				8FA04C2CF4C5469D9DC660F2 /* Pods-FitHeart-resources.sh */,
+			);
+			name = "Pods-FitHeart";
+			sourceTree = "<group>";
+		};
+		382490F3D62D4CA6BA78A42F = {
+			isa = PBXGroup;
+			children = (
+				5030F1321DD045CBAAC35B87 /* Podfile */,
+				6D94EF837C6E4DF6858662CE /* Frameworks */,
+				F50B116E7F3B4BFB869D0362 /* Pods */,
+				A1126FC9B09B4C94AA55A586 /* Products */,
+				C9629CB498C04D67B384ED49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6D94EF837C6E4DF6858662CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7382507874CA0B41122BB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95E714314C0541E08B3AF19D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E7B7A472F6485DA245D3AD /* Pods-FitHeart-ZKSforce.xcconfig */,
+				BC6DB76999B042379CA71A91 /* Pods-FitHeart-ZKSforce-Private.xcconfig */,
+				165D036779AA4248BE8971C8 /* Pods-FitHeart-ZKSforce-dummy.m */,
+				92BF9845E24444ABA0842EE8 /* Pods-FitHeart-ZKSforce-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		A1126FC9B09B4C94AA55A586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEF19C1FAC04D3DB2AC4F0A /* libPods-FitHeart.a */,
+				055FA0E7B7E647D5942811DE /* libPods-FitHeart-ZKSforce.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9629CB498C04D67B384ED49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CABFD522A145A7B0C9E34E /* Pods-FitHeart */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDE30F0469DC40E8A79E6543 /* ZKSforce */ = {
+			isa = PBXGroup;
+			children = (
+				254D9AF9951B4E23B874485C /* ZKAllOrNoneHeader.h */,
+				9F7D2074E740438E94055E50 /* ZKAllOrNoneHeader.m */,
+				F0D78C7BCCBB438DB1FFCB3B /* ZKAllowFieldTruncationHeader.h */,
+				BE4C8711B1174A0282E30507 /* ZKAllowFieldTruncationHeader.m */,
+				ABC0803885E94DA8A3BE5CEF /* ZKAssignmentRuleHeader.h */,
+				1C687BD8A69148B3A528D9B1 /* ZKAssignmentRuleHeader.m */,
+				53986DA7E40447D5BE9B41E6 /* ZKBase64.h */,
+				06997D2D63C946CA9B602DD2 /* ZKBase64.m */,
+				294439F93EAB47B690DA781F /* ZKCallOptions.h */,
+				18C3541DC39C48AFB440AC09 /* ZKCallOptions.m */,
+				F1259DC7D1964E0693F633B0 /* ZKChildRelationship.h */,
+				B0DE7BD8D9024CAA9DBC7D44 /* ZKChildRelationship.m */,
+				A050FD459A284466B251B3C1 /* ZKDataCategory.h */,
+				A7271B9355A84D25BF74DD45 /* ZKDataCategory.m */,
+				AA99699B295842E39C46AC9F /* ZKDataCategoryGroupSobjectTypePair.h */,
+				14358B89F6B244399484AACD /* ZKDataCategoryGroupSobjectTypePair.m */,
+				819ACFF958BA43369CA2816B /* ZKDebuggingHeader.h */,
+				7691BA0262B84B848690BB43 /* ZKDebuggingHeader.m */,
+				F0E96E6F55FB41179DAAAF83 /* ZKDeleteResult.h */,
+				31B32D5FB4A64FFA9C2A3046 /* ZKDeleteResult.m */,
+				918787D4411B4436A342E01C /* ZKDeletedRecord.h */,
+				738B331C92DB4B0082912320 /* ZKDeletedRecord.m */,
+				54C533CC9B714BE58A6251D0 /* ZKDescribeAppMenuItem.h */,
+				A7FED3102565458FBDF73FD2 /* ZKDescribeAppMenuItem.m */,
+				155516B10C924A22A7CA7902 /* ZKDescribeAppMenuResult.h */,
+				A032C1446F2442E2A9C109C3 /* ZKDescribeAppMenuResult.m */,
+				E71C4E8C7BB346A19A6908B1 /* ZKDescribeAvailableQuickActionResult.h */,
+				893B0D40B24D4AA7A65BDA3F /* ZKDescribeAvailableQuickActionResult.m */,
+				BD1459DAC4B64F8B9487DBDF /* ZKDescribeColor.h */,
+				4A0AE4DFCDDB43FEBCC3A2BA /* ZKDescribeColor.m */,
+				AE3B990B03CC4477BB91F26A /* ZKDescribeColumn.h */,
+				965ED6359A3C4658ACBA4806 /* ZKDescribeColumn.m */,
+				53EEF9A7225140429C5B0F7F /* ZKDescribeCompactLayout.h */,
+				7D0B29BCC0D249138DAD563C /* ZKDescribeCompactLayout.m */,
+				6C462E7EB91F44AFA63A66C1 /* ZKDescribeCompactLayoutsResult.h */,
+				FA93FC544D294CBAA8E540CB /* ZKDescribeCompactLayoutsResult.m */,
+				2EB8C8047A6646B2ADF9BFE6 /* ZKDescribeComponentInstance.h */,
+				603618F9DFB34C168427A89E /* ZKDescribeComponentInstance.m */,
+				83E8B81EC8EE42AC933F3595 /* ZKDescribeComponentInstanceProperty.h */,
+				62C84446CA59498B8EA79355 /* ZKDescribeComponentInstanceProperty.m */,
+				765B6DD16A12416CBE3B1FB6 /* ZKDescribeDataCategoryGroupResult.h */,
+				7B2F4A389FE74B2C880612D3 /* ZKDescribeDataCategoryGroupResult.m */,
+				91C685B8BF60425C98359E47 /* ZKDescribeDataCategoryGroupStructureResult.h */,
+				C7FB32350261447EBDF6291D /* ZKDescribeDataCategoryGroupStructureResult.m */,
+				43E1C10305A4415BBC2B0ABC /* ZKDescribeField.h */,
+				3BC9A74509554507BB78B2A0 /* ZKDescribeField.m */,
+				BBDCC96FBE9B4003BA1FBA12 /* ZKDescribeField+Extras.h */,
+				41319D3C26134C9EB5A44C02 /* ZKDescribeField+Extras.m */,
+				A11A0EC2528C4509B837A43F /* ZKDescribeFlexiPageRegion.h */,
+				F9F591DB6DCD4556A71BEED1 /* ZKDescribeFlexiPageRegion.m */,
+				9DE6FD2EF7E147FBAF833A66 /* ZKDescribeFlexiPageResult.h */,
+				888476F9E20141A0BDA2753D /* ZKDescribeFlexiPageResult.m */,
+				D2306DF9E65040868C5ADF9B /* ZKDescribeGlobalResult.h */,
+				30402D729EA94614845BFDCF /* ZKDescribeGlobalResult.m */,
+				8D088AD03BD344EBA13A6EE6 /* ZKDescribeGlobalTheme.h */,
+				C8E469E2CB87437CA6610D2A /* ZKDescribeGlobalTheme.m */,
+				AE51CDC7655F472AA6059404 /* ZKDescribeIcon.h */,
+				A58B8515EDB745CDA459F857 /* ZKDescribeIcon.m */,
+				F851D2317D5242B3A9BB8C79 /* ZKDescribeLayout.h */,
+				E0C1865E7AB042D2A6716184 /* ZKDescribeLayout.m */,
+				D041981550004648A6E966B9 /* ZKDescribeLayoutButton.h */,
+				FA461B41CAE44C1FA113FCA0 /* ZKDescribeLayoutButton.m */,
+				A7BB00D9258246BE99259D26 /* ZKDescribeLayoutButtonSection.h */,
+				53C21B10F00545D39AA96298 /* ZKDescribeLayoutButtonSection.m */,
+				08F9A9D9E2B941E3A3A85FB7 /* ZKDescribeLayoutComponent.h */,
+				9522B6FC96764F58A0D02320 /* ZKDescribeLayoutComponent.m */,
+				DE406AE3E31046F69C8CA42A /* ZKDescribeLayoutItem.h */,
+				5CCBD43DB5AD4ACEA9BF1CEC /* ZKDescribeLayoutItem.m */,
+				02FB1B5E4E6343A9972E90AD /* ZKDescribeLayoutResult.h */,
+				BDC4D12476BE41F1B2967BE8 /* ZKDescribeLayoutResult.m */,
+				6BC160967D2F4682947057B7 /* ZKDescribeLayoutRow.h */,
+				EF589553E5DE4FBB94B17B5A /* ZKDescribeLayoutRow.m */,
+				ECD8A36230AF4538BE6BF90D /* ZKDescribeLayoutSection.h */,
+				5B99CA1DBD784C8EAC502C88 /* ZKDescribeLayoutSection.m */,
+				1A7EC5CD330E4108AD3E9FE3 /* ZKDescribeQuickActionDefaultValue.h */,
+				D617CDBD247244038BEAD5E0 /* ZKDescribeQuickActionDefaultValue.m */,
+				1706C139CCCB4D58BBCB1319 /* ZKDescribeQuickActionListItemResult.h */,
+				40478C24CFD64173B45EC537 /* ZKDescribeQuickActionListItemResult.m */,
+				81895314232B42DA9B70FC45 /* ZKDescribeQuickActionListResult.h */,
+				9D6E056BB8AE40CC88AFCF80 /* ZKDescribeQuickActionListResult.m */,
+				22A67D2214864802AC9C4201 /* ZKDescribeQuickActionResult.h */,
+				4495E59F1133492A9DB0F1F0 /* ZKDescribeQuickActionResult.m */,
+				14A6DF233E564ABA9A4A2259 /* ZKDescribeRelatedContentItem.h */,
+				888F195B3E7942C8A8AD55AF /* ZKDescribeRelatedContentItem.m */,
+				BF4A21B3B34F4F6CBF4E010A /* ZKDescribeSObject+Extras.h */,
+				B41344F3C1EA4B76B4E3B2D5 /* ZKDescribeSObject+Extras.m */,
+				8750D5BD3D9E4B15BE975B4C /* ZKDescribeSearchLayoutResult.h */,
+				4C5481A416A449C5B56D99AC /* ZKDescribeSearchLayoutResult.m */,
+				5329C447265B4634A72E2526 /* ZKDescribeSearchScopeOrderResult.h */,
+				5AD5FC3F99C04AFB8406194F /* ZKDescribeSearchScopeOrderResult.m */,
+				12CBEAE6EC954162A688E336 /* ZKDescribeSoftphoneLayoutCallType.h */,
+				D976A5E2DA1C41A3AB918DF2 /* ZKDescribeSoftphoneLayoutCallType.m */,
+				D4699ACE38FB471FAB60333F /* ZKDescribeSoftphoneLayoutInfoField.h */,
+				25928DF49B414780836656FD /* ZKDescribeSoftphoneLayoutInfoField.m */,
+				38E674160B4A463DABB44829 /* ZKDescribeSoftphoneLayoutItem.h */,
+				7CAEEC1CC6584D3A80607EC0 /* ZKDescribeSoftphoneLayoutItem.m */,
+				D94931F471A44DCCAF02C338 /* ZKDescribeSoftphoneLayoutResult.h */,
+				6613C3F260D0401FA29B29F3 /* ZKDescribeSoftphoneLayoutResult.m */,
+				5627AE9DF8BE424A972BE7DA /* ZKDescribeSoftphoneLayoutSection.h */,
+				D00CCBA08F48412F9095D086 /* ZKDescribeSoftphoneLayoutSection.m */,
+				075A498CE20F4E149F2820E0 /* ZKDescribeSoftphoneScreenPopOption.h */,
+				D0B90518C8EA43D0814F4244 /* ZKDescribeSoftphoneScreenPopOption.m */,
+				19897B043F654F94BEFE4B81 /* ZKDescribeTab.h */,
+				0999B49D81914E19BEAA149F /* ZKDescribeTab.m */,
+				64B887AD569D4B49BD6D13D0 /* ZKDescribeTabSetResult.h */,
+				7C8B47EB94414E489B3D753A /* ZKDescribeTabSetResult.m */,
+				4199AE84184041B3A13D3A14 /* ZKDescribeThemeItem.h */,
+				DE0C23C75CE04219A0222801 /* ZKDescribeThemeItem.m */,
+				9BFF6124E1094FB8822F46B1 /* ZKDescribeThemeResult.h */,
+				8D2396E40B1644CB959C2B44 /* ZKDescribeThemeResult.m */,
+				5115A267242D4299B4CC756D /* ZKDisableFeedTrackingHeader.h */,
+				2484EA935CE045B99455D313 /* ZKDisableFeedTrackingHeader.m */,
+				733F22A8926342668E653B05 /* ZKEmail.h */,
+				AB2F55E6267640E9860D94E6 /* ZKEmail.m */,
+				DF5857CC05CB4556842D8847 /* ZKEmailFileAttachment.h */,
+				40F2CEABE0644608937FA86D /* ZKEmailFileAttachment.m */,
+				ACBF15B998ED4DCE8F9B42D6 /* ZKEmailHeader.h */,
+				7720050F472A4115A7AB6365 /* ZKEmailHeader.m */,
+				F805C56621984F5EAF8FE5B3 /* ZKEmptyRecycleBinResult.h */,
+				62ED53509ADE4B97B0FBDC60 /* ZKEmptyRecycleBinResult.m */,
+				C007F57B61624AF9ADB0EDAE /* ZKError.h */,
+				6467C77C0FC14F0DBFD51B5D /* ZKError.m */,
+				625DB6A1C6494CBD82951EE8 /* ZKGetDeletedResult.h */,
+				543C114E736A4D7DA236F270 /* ZKGetDeletedResult.m */,
+				8E96CE7831A249B8B7882402 /* ZKGetServerTimestampResult.h */,
+				F1E09B5FE54443369823C4DC /* ZKGetServerTimestampResult.m */,
+				B21B474CB4A74D44BD93D13F /* ZKGetUpdatedResult.h */,
+				5047C5B7C4A9443F917DE7C5 /* ZKGetUpdatedResult.m */,
+				363775E731A84EB69F512B1E /* ZKInvalidateSessionsResult.h */,
+				C93CEFE77A754217B30797D2 /* ZKInvalidateSessionsResult.m */,
+				95E0B0BF0F7E42F28A00BC62 /* ZKLeadConvert.h */,
+				44808BDE453A4D43B636F888 /* ZKLeadConvert.m */,
+				11705A4E47014979929EA6AB /* ZKLeadConvertResult.h */,
+				110F6A8E2F78466CA7B12CEF /* ZKLeadConvertResult.m */,
+				0E3122D6ADAD4127B2555EC6 /* ZKLimitInfo.h */,
+				95B05C5DE145469DBEDE0EA1 /* ZKLimitInfo.m */,
+				0F6F0ABDC8C347F3A61D2A4A /* ZKLimitInfoHeader.h */,
+				4C16864EEF6848F884690300 /* ZKLimitInfoHeader.m */,
+				B3676B07D1964D2E93369B45 /* ZKLocaleOptions.h */,
+				1A9389796BE84F53BCE80DD4 /* ZKLocaleOptions.m */,
+				7871AF13B76B4DC389CF5E03 /* ZKLoginResult.h */,
+				5261A618093A44ACA01BC497 /* ZKLoginResult.m */,
+				BC301FC5532449D7B420B6B5 /* ZKLoginScopeHeader.h */,
+				96C882749DBA48F79AC63F3C /* ZKLoginScopeHeader.m */,
+				60C7CCFBBADE4AA79872DE10 /* ZKMassEmailMessage.h */,
+				A8EB711FA3A547B4BDD2EEAB /* ZKMassEmailMessage.m */,
+				24EA7EC024404E92AC84F272 /* ZKMergeRequest.h */,
+				1352F69BC8A24B2EAF542D54 /* ZKMergeRequest.m */,
+				5F97768573054477BFCE3221 /* ZKMergeResult.h */,
+				811D93F14B2B4E09A81B0FD4 /* ZKMergeResult.m */,
+				1186F5F5ABE1416093EADD00 /* ZKMruHeader.h */,
+				1D144914C99A460088214FFB /* ZKMruHeader.m */,
+				E34D2E1B0D104393A7F0A047 /* ZKOwnerChangeOptions.h */,
+				EC60C7DD75D54378BB48DD7A /* ZKOwnerChangeOptions.m */,
+				918090F8C52A493EA584C2F9 /* ZKPackageVersion.h */,
+				204CA2B905134425B9472D85 /* ZKPackageVersion.m */,
+				BDFFDCCAC1FE4280B926E1D8 /* ZKPackageVersionHeader.h */,
+				C753B7AA92414EAA9D24CA94 /* ZKPackageVersionHeader.m */,
+				3B43237C3D154B43972A51F2 /* ZKPartnerEnvelope.h */,
+				F84E62293F12426B9BE16945 /* ZKPartnerEnvelope.m */,
+				8E7D2D60C3D743B4B1FA6526 /* ZKPerformQuickActionRequest.h */,
+				604D4B5E44594CACBBCA7667 /* ZKPerformQuickActionRequest.m */,
+				AF3905F9A55643B9AC899EA3 /* ZKPerformQuickActionResult.h */,
+				986DBFE5F1304889B40DFF4A /* ZKPerformQuickActionResult.m */,
+				0F60906E0BCA4F619381CE5F /* ZKPicklistEntry.h */,
+				A87B9BFD5DD24BC98DA9472E /* ZKPicklistEntry.m */,
+				3B661CCF1DD448DCBF4A9830 /* ZKPicklistForRecordType.h */,
+				F01BA49BDF4C42E6B12F7416 /* ZKPicklistForRecordType.m */,
+				B1687B89F747479D9F9492B5 /* ZKProcessRequest.h */,
+				E45A3E30DF5E47828F479AA6 /* ZKProcessRequest.m */,
+				A620A759E2EA42B9941F54B0 /* ZKProcessResult.h */,
+				5E59D168D9FF416E943438AD /* ZKProcessResult.m */,
+				0FC6801E74424CDF925C2E50 /* ZKProcessSubmitRequest.h */,
+				51806BB9559A4ED29448170D /* ZKProcessSubmitRequest.m */,
+				BC34A1C73E314B8090A0F21A /* ZKProcessWorkitemRequest.h */,
+				9FB20C4B87DC40C1BDA0D22F /* ZKProcessWorkitemRequest.m */,
+				C25144920C054E67A2966EA6 /* ZKQueryOptions.h */,
+				BFA9038C72BB40619A26996F /* ZKQueryOptions.m */,
+				298E24A754C54538845D7A16 /* ZKRecordTypeCompactLayoutMapping.h */,
+				EF761A0797F44CA881D3C58D /* ZKRecordTypeCompactLayoutMapping.m */,
+				5DDB0FB2BFAD4379A3E91B85 /* ZKRecordTypeInfo.h */,
+				D15CE13C70E44B83B167F37D /* ZKRecordTypeInfo.m */,
+				5DD8BC67EB4F4975B13E31AB /* ZKRecordTypeMapping.h */,
+				413BE1D4785E4483B0AE880D /* ZKRecordTypeMapping.m */,
+				ADF69C1E8C75429982F779A5 /* ZKRelatedContent.h */,
+				56C6ADAC4356483D8D6BA425 /* ZKRelatedContent.m */,
+				7F18B8EAFC0544E191D95218 /* ZKRelatedList.h */,
+				E07625620A4B4C378093717C /* ZKRelatedList.m */,
+				9054E7E07A94496D81AEC248 /* ZKRelatedList+Extras.h */,
+				14875DC26BAD4DBCA3BB558A /* ZKRelatedList+Extras.m */,
+				E8560B18838C4DAE963FDC4F /* ZKRelatedListColumn.h */,
+				DE2E2C1016614AA78DE599B8 /* ZKRelatedListColumn.m */,
+				F64C9FC6C3AD4B8E8D857A63 /* ZKRelatedListSort.h */,
+				6F1D60B1718646AA9270D815 /* ZKRelatedListSort.m */,
+				1B3ADF8E2FF44BB8AE106D11 /* ZKReportChartComponent.h */,
+				BE5EB88D4DC64233803972EF /* ZKReportChartComponent.m */,
+				2FF4CEDF6E3C42A7933A8C37 /* ZKResetPasswordResult.h */,
+				05058B1271534C75A011E99E /* ZKResetPasswordResult.m */,
+				D3F681A771A645D9B443496E /* ZKSaveResult.h */,
+				178891E3E8E54BDE8D72F768 /* ZKSaveResult.m */,
+				ECC8F76B3663411D8EB9C99C /* ZKSaveResult+Extras.h */,
+				A9464DF6986142CD84B75B69 /* ZKSaveResult+Extras.m */,
+				E17D0A80DB1C4E28A7821396 /* ZKSearchRecord.h */,
+				41CA96D947AF439E9B1CFE44 /* ZKSearchRecord.m */,
+				DF1FF0F2E4964DF78FEF19C3 /* ZKSearchResult.h */,
+				4174FC547E064AB38F627AF1 /* ZKSearchResult.m */,
+				76A04E301E9A4CB8AD06B391 /* ZKSendEmailError.h */,
+				752204A5751F4D6BAF58FEB6 /* ZKSendEmailError.m */,
+				76C6B6A3485348A08DFA8D8C /* ZKSendEmailResult.h */,
+				516C214D55F54159A7D50BC7 /* ZKSendEmailResult.m */,
+				455B5B58D175415FB0A12AB4 /* ZKSessionHeader.h */,
+				57E0F53C7D2C4D58B91DBF7A /* ZKSessionHeader.m */,
+				59463DE3948D4867B799F6F7 /* ZKSetPasswordResult.h */,
+				E9F6BB3C37BC4B619CB9957D /* ZKSetPasswordResult.m */,
+				ABDB49068D464FD8A04B8B4F /* ZKSingleEmailMessage.h */,
+				8EA044E32C3044F1A002735C /* ZKSingleEmailMessage.m */,
+				8FBE77E7659347CBBDD04A9F /* ZKSoapDate.h */,
+				45165ACCA8ED449A9CE02AE9 /* ZKSoapDate.m */,
+				11B3D78601B541428319D93A /* ZKStreamingEnabledHeader.h */,
+				D8CB2D66ED5546A6A81F03BE /* ZKStreamingEnabledHeader.m */,
+				1ACE510449C64B1BA2813672 /* ZKUndeleteResult.h */,
+				DB433E0473734F04B7E73571 /* ZKUndeleteResult.m */,
+				770D04ED20EC48D3B55DFD32 /* ZKUpsertResult.h */,
+				B6A364F91EF748C19FDC46CE /* ZKUpsertResult.m */,
+				733B8DB7FAC846F2A43C4438 /* ZKUserInfo.h */,
+				6B1B855FB9A146CA9ECA3019 /* ZKUserInfo+Extras.h */,
+				796B079B3382494194469BD9 /* ZKUserInfo+Extras.m */,
+				C4E4B22C81A74E2D843E3C90 /* ZKUserTerritoryDeleteHeader.h */,
+				F29A303D3F724856B1D4F4C5 /* ZKUserTerritoryDeleteHeader.m */,
+				66F8C2BBAF924E93B013ECEA /* ZKXMLSerializable.h */,
+				E1CFB1DC24F84F92BED5CED4 /* zkAuthentication.h */,
+				0CCFEB344FC54BCCBBDA8CAC /* zkAuthentication.m */,
+				8786B8C2FD58438B82991E06 /* zkBaseClient.h */,
+				A46C107BA58B4B289E5FE402 /* zkBaseClient.m */,
+				AEAA4E8CD8D04A95B751E010 /* zkDescribeGlobalSObject.h */,
+				0FE83287425E4AE98C37D5D7 /* zkDescribeGlobalSObject.m */,
+				4C287B8EE06A4EE980E406BE /* zkDescribeSObject.h */,
+				A192C93CDFCE43F7B30393AE /* zkDescribeSObject.m */,
+				E92FCF4359E849338C6B29B8 /* zkEnvelope.h */,
+				57E264FDFA81455CB640C78A /* zkEnvelope.m */,
+				0EC6198A9A0F4A77B946BABE /* zkParser.h */,
+				34314D2C587643CAA43CCF7B /* zkParser.m */,
+				6B259C94D3B24FB1A31FBC81 /* zkQueryResult.h */,
+				FEC89F7A40FE4852B997AF09 /* zkQueryResult.m */,
+				97492FC8548545808F941664 /* zkQueryResult+NSTableView.h */,
+				5552BCF16FF34BADA2BEC3B2 /* zkQueryResult+NSTableView.m */,
+				F2614E43A7C04CAFADB5D89B /* zkSObject.h */,
+				490BE683728A4DF0A5539A2C /* zkSObject.m */,
+				1D31765E2C7F46BF963ADF84 /* zkSforce.h */,
+				D6D37CD5C91F4777B412C95F /* zkSforceClient.h */,
+				066866E1470A45F78F839971 /* zkSforceClient.m */,
+				300D2F235E9843DA8ACA3ED5 /* zkSforceClient+Operations.h */,
+				E19A438AB27D429588DEFF40 /* zkSforceClient+Operations.m */,
+				26BF589B193C4F1CA54BAD15 /* zkSforceClient+zkAsyncQuery.h */,
+				B80C3199B13F4694A487B982 /* zkSforceClient+zkAsyncQuery.m */,
+				92A895C0489549B09B19AE69 /* zkSoapException.h */,
+				D58FEC95B11D441391CB2A8E /* zkSoapException.m */,
+				FDA1C711B65947CD8A1A7A83 /* zkUserInfo.m */,
+				E52FB45C06284B96ACB896C0 /* zkXmlDeserializer.h */,
+				C09F291736794EB2865BE49D /* zkXmlDeserializer.m */,
+				95E714314C0541E08B3AF19D /* Support Files */,
+			);
+			path = ZKSforce;
+			sourceTree = "<group>";
+		};
+		E3D7382507874CA0B41122BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				793DF2AF4A52416CA42972BA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F50B116E7F3B4BFB869D0362 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDE30F0469DC40E8A79E6543 /* ZKSforce */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA427251CBF54331AE2595E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF88A8808F840A893DF96D9 /* ZKAllOrNoneHeader.h in Headers */,
+				B7E3F19DFAA1423ABAEDC996 /* ZKAllowFieldTruncationHeader.h in Headers */,
+				5EEE47770962484486374F04 /* ZKAssignmentRuleHeader.h in Headers */,
+				801C4856EAE84AB99D730856 /* ZKBase64.h in Headers */,
+				B610A0DEBAC247E19F9C9C42 /* ZKCallOptions.h in Headers */,
+				36F6095775D54213827DB10B /* ZKChildRelationship.h in Headers */,
+				174F8C80EBA5408FA9752C77 /* ZKDataCategory.h in Headers */,
+				341B535394F1423595A4EC7C /* ZKDataCategoryGroupSobjectTypePair.h in Headers */,
+				9C3B5A9FC6D54C809E28C0D3 /* ZKDebuggingHeader.h in Headers */,
+				CAE036676C364ECABF7D8EE6 /* ZKDeleteResult.h in Headers */,
+				FAA83DC7FB7D4D0EBD66F1D6 /* ZKDeletedRecord.h in Headers */,
+				73FE22FCE15F4AD59F8EBE31 /* ZKDescribeAppMenuItem.h in Headers */,
+				19FCCA49573E4CA5874BA055 /* ZKDescribeAppMenuResult.h in Headers */,
+				EFDD4FF4C07B4BFF8D38DBEC /* ZKDescribeAvailableQuickActionResult.h in Headers */,
+				899D7C2C98CE40AEBD9D7705 /* ZKDescribeColor.h in Headers */,
+				6254B2E7F3344ED88B2247BC /* ZKDescribeColumn.h in Headers */,
+				2CB68A9A119F4D09ABB42D6E /* ZKDescribeCompactLayout.h in Headers */,
+				3296AFA123314ADC9CD23741 /* ZKDescribeCompactLayoutsResult.h in Headers */,
+				D5B47E8F15BC47A89DC291D1 /* ZKDescribeComponentInstance.h in Headers */,
+				0516AC58BF1E4B4D8E38134B /* ZKDescribeComponentInstanceProperty.h in Headers */,
+				E9058D98EF784A888754024B /* ZKDescribeDataCategoryGroupResult.h in Headers */,
+				AE7600AD681844B7ADB291F4 /* ZKDescribeDataCategoryGroupStructureResult.h in Headers */,
+				68C3853766DA4C2FAF053B76 /* ZKDescribeField+Extras.h in Headers */,
+				617F0D4524094BE4B905C2C3 /* ZKDescribeField.h in Headers */,
+				E24E6907D4C24D00917BB50D /* ZKDescribeFlexiPageRegion.h in Headers */,
+				22864C2B4D424780987BEC2B /* ZKDescribeFlexiPageResult.h in Headers */,
+				BE466E4D21694D439CE32367 /* ZKDescribeGlobalResult.h in Headers */,
+				30F79EE248C94D0D9E285929 /* ZKDescribeGlobalTheme.h in Headers */,
+				74D2FAFAE3A84559932199AC /* ZKDescribeIcon.h in Headers */,
+				4F7629DD506E40D588A9C906 /* ZKDescribeLayout.h in Headers */,
+				D41E36527876421A9AA4E80B /* ZKDescribeLayoutButton.h in Headers */,
+				FF0225EB42434B3EAFD805B8 /* ZKDescribeLayoutButtonSection.h in Headers */,
+				816C4EA9983842228D138801 /* ZKDescribeLayoutComponent.h in Headers */,
+				E3DDC18BC5A145C492FCB30F /* ZKDescribeLayoutItem.h in Headers */,
+				8C0A60B1792740AFAE173304 /* ZKDescribeLayoutResult.h in Headers */,
+				837F19D7098142A498762F13 /* ZKDescribeLayoutRow.h in Headers */,
+				BC75A585297F431DAF73CF0D /* ZKDescribeLayoutSection.h in Headers */,
+				0BC1C86F7D0145FC8AE7484E /* ZKDescribeQuickActionDefaultValue.h in Headers */,
+				283ACDFAC3934967A89FBF24 /* ZKDescribeQuickActionListItemResult.h in Headers */,
+				1C66258F3DC242EF8595259A /* ZKDescribeQuickActionListResult.h in Headers */,
+				EFCDB1837E7641628A07FDFD /* ZKDescribeQuickActionResult.h in Headers */,
+				86AFFD9255D1454EBC575EFA /* ZKDescribeRelatedContentItem.h in Headers */,
+				81095FB3EF704B88AAA5CFCF /* ZKDescribeSObject+Extras.h in Headers */,
+				037F5949734B4CF795A0D27B /* ZKDescribeSearchLayoutResult.h in Headers */,
+				BE10E0FA2E3848C889EA6351 /* ZKDescribeSearchScopeOrderResult.h in Headers */,
+				3D73176DDE114EE6AB506888 /* ZKDescribeSoftphoneLayoutCallType.h in Headers */,
+				25F35E2EF77E4EC2950B6F18 /* ZKDescribeSoftphoneLayoutInfoField.h in Headers */,
+				FF0EF0F03E0B457EAADD6779 /* ZKDescribeSoftphoneLayoutItem.h in Headers */,
+				3C83D3C7AD9B4329A854B1E6 /* ZKDescribeSoftphoneLayoutResult.h in Headers */,
+				B81813F3FCEC47E199A3C011 /* ZKDescribeSoftphoneLayoutSection.h in Headers */,
+				D4628E6BB7164ACE8AAA20CB /* ZKDescribeSoftphoneScreenPopOption.h in Headers */,
+				A69EE9C4375748CF9526BB42 /* ZKDescribeTab.h in Headers */,
+				2CA14FBFC12345A6BBFFF1C3 /* ZKDescribeTabSetResult.h in Headers */,
+				5EB98ECFBFF34264BA6E2BEC /* ZKDescribeThemeItem.h in Headers */,
+				D3764536AB3744A883A70381 /* ZKDescribeThemeResult.h in Headers */,
+				D16D9E29924C4983ABCBBC69 /* ZKDisableFeedTrackingHeader.h in Headers */,
+				73788C65CF0648AAB92F2236 /* ZKEmail.h in Headers */,
+				114D48A6174B4FB6984431E6 /* ZKEmailFileAttachment.h in Headers */,
+				2DA6DEA4DC1B4B00B4F321A9 /* ZKEmailHeader.h in Headers */,
+				10903D8B9A5E459C934D463E /* ZKEmptyRecycleBinResult.h in Headers */,
+				6DB188A57CA04B8093873652 /* ZKError.h in Headers */,
+				CD563F9BBDEA4C86B3E6EBED /* ZKGetDeletedResult.h in Headers */,
+				5656E9A5C9ED4ACDBC202742 /* ZKGetServerTimestampResult.h in Headers */,
+				915EA8C8077E40EBA7588AA8 /* ZKGetUpdatedResult.h in Headers */,
+				2E3D5242448C48609EFC9DAA /* ZKInvalidateSessionsResult.h in Headers */,
+				E58F0378CFD04F60B400A397 /* ZKLeadConvert.h in Headers */,
+				2C6E855C6F9341F58278715D /* ZKLeadConvertResult.h in Headers */,
+				B32B0BB00379442AA8B7D18B /* ZKLimitInfo.h in Headers */,
+				9F69BBEBE6DD4B10BAF3346A /* ZKLimitInfoHeader.h in Headers */,
+				50CFB661FCC54B408B836770 /* ZKLocaleOptions.h in Headers */,
+				04A17CFAF59045988E0FCE8B /* ZKLoginResult.h in Headers */,
+				B2BE1D89C9A84A3D9E711A27 /* ZKLoginScopeHeader.h in Headers */,
+				1293E3EAD1634A78AF08A062 /* ZKMassEmailMessage.h in Headers */,
+				F8A6776A0D4745A4A2C64275 /* ZKMergeRequest.h in Headers */,
+				8CA61B522FAD4D8D99F44AB0 /* ZKMergeResult.h in Headers */,
+				D2C4D8DFB77542B585FFE567 /* ZKMruHeader.h in Headers */,
+				67418E5031C040C08FF647EA /* ZKOwnerChangeOptions.h in Headers */,
+				048321DF641D4754B7913D3C /* ZKPackageVersion.h in Headers */,
+				8625953D63E94FEE9A519C6C /* ZKPackageVersionHeader.h in Headers */,
+				A43D531C2CB94E19A4BC2661 /* ZKPartnerEnvelope.h in Headers */,
+				4F2EB4632A044442919174AA /* ZKPerformQuickActionRequest.h in Headers */,
+				142706A0174147B8B14136E2 /* ZKPerformQuickActionResult.h in Headers */,
+				5BB9AA28091E4E879E56F245 /* ZKPicklistEntry.h in Headers */,
+				6E1F9D462A054C1D85009F7C /* ZKPicklistForRecordType.h in Headers */,
+				DCD3BF8BAA554D52B0E3004A /* ZKProcessRequest.h in Headers */,
+				EFE35E414BC14F5AA5C3657B /* ZKProcessResult.h in Headers */,
+				84932E6A9DC147EF800AB92B /* ZKProcessSubmitRequest.h in Headers */,
+				3223DBD0BBA9487FB58E8C09 /* ZKProcessWorkitemRequest.h in Headers */,
+				8F9C836788494830B8DB6D8C /* ZKQueryOptions.h in Headers */,
+				925153C902F44A97907919E6 /* ZKRecordTypeCompactLayoutMapping.h in Headers */,
+				745EE7D3C6034828AF86FC1D /* ZKRecordTypeInfo.h in Headers */,
+				AC067493405A4EC7B408102B /* ZKRecordTypeMapping.h in Headers */,
+				9D7A1E0F05D14DBFB996DF85 /* ZKRelatedContent.h in Headers */,
+				A53F5ECFC15747B1BEAEEFFA /* ZKRelatedList+Extras.h in Headers */,
+				685EA3B20B7D4E0CB2D2DD06 /* ZKRelatedList.h in Headers */,
+				F5D2DCFBBEDD435CAD56AB54 /* ZKRelatedListColumn.h in Headers */,
+				34D015779DDE4770842C5A6D /* ZKRelatedListSort.h in Headers */,
+				6EED22AE700F4166A2180611 /* ZKReportChartComponent.h in Headers */,
+				A9990B1C29FA48638FC0A5E8 /* ZKResetPasswordResult.h in Headers */,
+				0F2DED883EDF4DFD936DF20C /* ZKSaveResult+Extras.h in Headers */,
+				113A843DA7774764AFBCD585 /* ZKSaveResult.h in Headers */,
+				A41E8661E95349EC80459BE9 /* ZKSearchRecord.h in Headers */,
+				2F5FC7F350904D68A69184D5 /* ZKSearchResult.h in Headers */,
+				5C3C6A06C1044E3FB9A80412 /* ZKSendEmailError.h in Headers */,
+				A0754AAED4FC4952929CD3B6 /* ZKSendEmailResult.h in Headers */,
+				99CB20399017455C895D8E11 /* ZKSessionHeader.h in Headers */,
+				680258100D664CD1867E973F /* ZKSetPasswordResult.h in Headers */,
+				4950C77AD1FA43EC96F00C36 /* ZKSingleEmailMessage.h in Headers */,
+				299642A1A97742209F0B3A73 /* ZKSoapDate.h in Headers */,
+				E4FF5A0EE5B745D5BFF4D920 /* ZKStreamingEnabledHeader.h in Headers */,
+				25403400BDCF4D10A24269A7 /* ZKUndeleteResult.h in Headers */,
+				061DC44F1A36465F9B26679E /* ZKUpsertResult.h in Headers */,
+				354083FA6A334A66BC0EF3CE /* ZKUserInfo+Extras.h in Headers */,
+				AC7E640DDC6547049D6E9312 /* ZKUserInfo.h in Headers */,
+				7236D1918AD445FC8490E59A /* ZKUserTerritoryDeleteHeader.h in Headers */,
+				684A434D76EF42D3A99921EB /* ZKXMLSerializable.h in Headers */,
+				5BBA06A56C494D75B7204FF8 /* zkAuthentication.h in Headers */,
+				2AC024D4BF044C37BC093492 /* zkBaseClient.h in Headers */,
+				6C26638D15BE42C58FE5ED8C /* zkDescribeGlobalSObject.h in Headers */,
+				D09472A203934D118F7A78E7 /* zkDescribeSObject.h in Headers */,
+				71D305ABADA943AEB6433B97 /* zkEnvelope.h in Headers */,
+				0C5D534ACB4840E7B8BDA6C5 /* zkParser.h in Headers */,
+				2BDDC8D817B54AC1B8EDB4D4 /* zkQueryResult+NSTableView.h in Headers */,
+				A66135D3979B4D98B6245486 /* zkQueryResult.h in Headers */,
+				0FE8B6AD41954DAA80C2858F /* zkSObject.h in Headers */,
+				897430EE8D4C45DE83660DEA /* zkSforce.h in Headers */,
+				AAF284BF57C74BBAA9EED4EC /* zkSforceClient+Operations.h in Headers */,
+				EE4AF93A3F9E4CE8A02F01FB /* zkSforceClient+zkAsyncQuery.h in Headers */,
+				53020045263A4F2A9BDCE164 /* zkSforceClient.h in Headers */,
+				E83F1B2A9AB942039A0163B2 /* zkSoapException.h in Headers */,
+				3B3501E06C624E98B59088F7 /* zkXmlDeserializer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0950CED9D8E14D51A7C5CAE0 /* Pods-FitHeart-ZKSforce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BA74CB192F48948589DE69 /* Build configuration list for PBXNativeTarget "Pods-FitHeart-ZKSforce" */;
+			buildPhases = (
+				AE19391571114D92A7CC85C5 /* Sources */,
+				A690179170934F578DBE053E /* Frameworks */,
+				BA427251CBF54331AE2595E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FitHeart-ZKSforce";
+			productName = "Pods-FitHeart-ZKSforce";
+			productReference = 055FA0E7B7E647D5942811DE /* libPods-FitHeart-ZKSforce.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		48E667F803BF437FBA8F8D50 /* Pods-FitHeart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381A3842FF4F4B83B44CA39F /* Build configuration list for PBXNativeTarget "Pods-FitHeart" */;
+			buildPhases = (
+				AC6CE80F48DB41B6BB298C8C /* Sources */,
+				4B10C1EF40A34A94966614BC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5660EE8928F4898B64BCDBA /* PBXTargetDependency */,
+			);
+			name = "Pods-FitHeart";
+			productName = "Pods-FitHeart";
+			productReference = 0EEF19C1FAC04D3DB2AC4F0A /* libPods-FitHeart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF476622A31F4C22923939B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = DAE9FC356EAA4A3E942EFDD9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 382490F3D62D4CA6BA78A42F;
+			productRefGroup = A1126FC9B09B4C94AA55A586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E667F803BF437FBA8F8D50 /* Pods-FitHeart */,
+				0950CED9D8E14D51A7C5CAE0 /* Pods-FitHeart-ZKSforce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC6CE80F48DB41B6BB298C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B05DB5E09C842CD85DD797E /* Pods-FitHeart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19391571114D92A7CC85C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C83213C0A546EDA41C4BEF /* Pods-FitHeart-ZKSforce-dummy.m in Sources */,
+				4EB5FA504EA84EBC90D64B8E /* ZKAllOrNoneHeader.m in Sources */,
+				06B1EA9498B544FCA3EFFD31 /* ZKAllowFieldTruncationHeader.m in Sources */,
+				DEEDB9CB32304B04BCA9E226 /* ZKAssignmentRuleHeader.m in Sources */,
+				7EF81951C3284CFC967F1858 /* ZKBase64.m in Sources */,
+				3C95B2A6D245455EA6D6A6A9 /* ZKCallOptions.m in Sources */,
+				B94C2E7A1FCA487A94C9B1E1 /* ZKChildRelationship.m in Sources */,
+				439CC9B22CD94209939262BC /* ZKDataCategory.m in Sources */,
+				1F23C21A0B654B68BE03406A /* ZKDataCategoryGroupSobjectTypePair.m in Sources */,
+				03B71D78E52A47AEB26F250C /* ZKDebuggingHeader.m in Sources */,
+				D665D06C44E249B69B9789D3 /* ZKDeleteResult.m in Sources */,
+				E9D3CA4EB21F4320AFB0C375 /* ZKDeletedRecord.m in Sources */,
+				DB6C4406B5B64B27861C5DBE /* ZKDescribeAppMenuItem.m in Sources */,
+				011F0C88F5234528BF98F4DD /* ZKDescribeAppMenuResult.m in Sources */,
+				FFC02B29D516444DA5E3111E /* ZKDescribeAvailableQuickActionResult.m in Sources */,
+				F10DDE5FDB044F3FA9325B1C /* ZKDescribeColor.m in Sources */,
+				7AA91006D2B14DEBAD9B2D12 /* ZKDescribeColumn.m in Sources */,
+				1FDD1575274F4205BF1E42F4 /* ZKDescribeCompactLayout.m in Sources */,
+				4DE7F7E05B0B4A128422FF2F /* ZKDescribeCompactLayoutsResult.m in Sources */,
+				D0D4BE2B3F7746C9BECE7163 /* ZKDescribeComponentInstance.m in Sources */,
+				440E0159335A443C8B119CA9 /* ZKDescribeComponentInstanceProperty.m in Sources */,
+				81F75AC20D2C497782B8ACD4 /* ZKDescribeDataCategoryGroupResult.m in Sources */,
+				8C44707773044E72A8D17CB0 /* ZKDescribeDataCategoryGroupStructureResult.m in Sources */,
+				9112B55332854F229557FD64 /* ZKDescribeField+Extras.m in Sources */,
+				AF4DAA47B7F44D63B071CD47 /* ZKDescribeField.m in Sources */,
+				EE8B9192FEFB43749FAF7DBB /* ZKDescribeFlexiPageRegion.m in Sources */,
+				63236AED7FE343B4B5B8E849 /* ZKDescribeFlexiPageResult.m in Sources */,
+				FD50269873274E1F92F372FD /* ZKDescribeGlobalResult.m in Sources */,
+				F90A53D99BCC4980B0BE0943 /* ZKDescribeGlobalTheme.m in Sources */,
+				E2AA9B574E2D4CE2A9C2C6B5 /* ZKDescribeIcon.m in Sources */,
+				172833620DB84FD5990E69FA /* ZKDescribeLayout.m in Sources */,
+				9940B3D878D448DC91AA5A4B /* ZKDescribeLayoutButton.m in Sources */,
+				7147FB35BACE46B0A2A0C1A2 /* ZKDescribeLayoutButtonSection.m in Sources */,
+				491ECBF144D642FDA4B0599A /* ZKDescribeLayoutComponent.m in Sources */,
+				806D286B6EEF4D6AB6D8DA7F /* ZKDescribeLayoutItem.m in Sources */,
+				615626A5A04B473E90F7A2AC /* ZKDescribeLayoutResult.m in Sources */,
+				53BB229E1DD74956B1B1F7BB /* ZKDescribeLayoutRow.m in Sources */,
+				4CF5657A7E384555A9235484 /* ZKDescribeLayoutSection.m in Sources */,
+				A586D34AABE14C1A87E7C8A0 /* ZKDescribeQuickActionDefaultValue.m in Sources */,
+				1B1A8DE201F543A58361100C /* ZKDescribeQuickActionListItemResult.m in Sources */,
+				E398DEDCB37747DDAE8729E5 /* ZKDescribeQuickActionListResult.m in Sources */,
+				010490C426E242C3A42FCCF6 /* ZKDescribeQuickActionResult.m in Sources */,
+				B683D7804B6E48F3B82089D8 /* ZKDescribeRelatedContentItem.m in Sources */,
+				056892B32FC045219F6FD0DA /* ZKDescribeSObject+Extras.m in Sources */,
+				F1951FF20CE94E42B6546305 /* ZKDescribeSearchLayoutResult.m in Sources */,
+				29B4B747F97242FE917F365F /* ZKDescribeSearchScopeOrderResult.m in Sources */,
+				7388E559885C4B0AB0DF161F /* ZKDescribeSoftphoneLayoutCallType.m in Sources */,
+				8E7A6D3AA6D24A9BB4CA4FF4 /* ZKDescribeSoftphoneLayoutInfoField.m in Sources */,
+				177C02B4473E4FC49D15DD1C /* ZKDescribeSoftphoneLayoutItem.m in Sources */,
+				9F70C33D0F6744A284D5A777 /* ZKDescribeSoftphoneLayoutResult.m in Sources */,
+				57429174E76E4D1FB3DBC4C7 /* ZKDescribeSoftphoneLayoutSection.m in Sources */,
+				27054C4924C24FB8BFBE89C6 /* ZKDescribeSoftphoneScreenPopOption.m in Sources */,
+				0DFEB8E7059F47788B5795FC /* ZKDescribeTab.m in Sources */,
+				F4C05F9F62884E778CDE78FC /* ZKDescribeTabSetResult.m in Sources */,
+				F2459DDBBF0F4E479949F6CE /* ZKDescribeThemeItem.m in Sources */,
+				453DEF675B3E4B0887AFFD9A /* ZKDescribeThemeResult.m in Sources */,
+				832D52C8620240B19AD01071 /* ZKDisableFeedTrackingHeader.m in Sources */,
+				C3C9F1E8F378495385410EB7 /* ZKEmail.m in Sources */,
+				3006EFC739F54CC78661F0B3 /* ZKEmailFileAttachment.m in Sources */,
+				1C0C4D688D9045A1B69F02AE /* ZKEmailHeader.m in Sources */,
+				0D120C3EAB544F75BD3514B2 /* ZKEmptyRecycleBinResult.m in Sources */,
+				DA8B7B8A9F97488CAA2AA56F /* ZKError.m in Sources */,
+				DF43E637FB5543DFB46F873B /* ZKGetDeletedResult.m in Sources */,
+				E6E80251A0CE42F09DE88950 /* ZKGetServerTimestampResult.m in Sources */,
+				C222113E8DA340C0B0DFD517 /* ZKGetUpdatedResult.m in Sources */,
+				7F9721CB77E641469591E622 /* ZKInvalidateSessionsResult.m in Sources */,
+				91EA4A21460C4C8BA9795AB7 /* ZKLeadConvert.m in Sources */,
+				FD8FC210214D4A83A61A199C /* ZKLeadConvertResult.m in Sources */,
+				9CB60C4C3D2A4602969CFF6A /* ZKLimitInfo.m in Sources */,
+				C0C83C928A3A4814ABCDC180 /* ZKLimitInfoHeader.m in Sources */,
+				4AC2FEC3A3EC44478A655A0E /* ZKLocaleOptions.m in Sources */,
+				C72CCC628BC64FAD899E96A1 /* ZKLoginResult.m in Sources */,
+				C1500D6D0A6D45BE8E775E4B /* ZKLoginScopeHeader.m in Sources */,
+				109D83E7DDFA43FAB3786B6F /* ZKMassEmailMessage.m in Sources */,
+				4B10B7B51CD64E6A9C067197 /* ZKMergeRequest.m in Sources */,
+				E7E3BCA31E334DB3B4C48500 /* ZKMergeResult.m in Sources */,
+				53B8F5CA26DA406FBEBF03F3 /* ZKMruHeader.m in Sources */,
+				FAD9DEBBFAB340809C1E784B /* ZKOwnerChangeOptions.m in Sources */,
+				37C3796C557C4BC699D326A8 /* ZKPackageVersion.m in Sources */,
+				C32628D28E8A40809162013B /* ZKPackageVersionHeader.m in Sources */,
+				EB9850EF365545DCA4F1E6BF /* ZKPartnerEnvelope.m in Sources */,
+				C354C2C05F0D49B09BFBD8FE /* ZKPerformQuickActionRequest.m in Sources */,
+				93126272E3FD4115821BD81B /* ZKPerformQuickActionResult.m in Sources */,
+				7A83D1CED7BF4FBE97D4A62D /* ZKPicklistEntry.m in Sources */,
+				842EE3B027C5413CBBB68229 /* ZKPicklistForRecordType.m in Sources */,
+				16E82307FC0F433ABD8E9543 /* ZKProcessRequest.m in Sources */,
+				2508DC2E63384DC586A1AB49 /* ZKProcessResult.m in Sources */,
+				029A1D92D5AD4197AC5EEF97 /* ZKProcessSubmitRequest.m in Sources */,
+				2A921081E81648149921FD42 /* ZKProcessWorkitemRequest.m in Sources */,
+				49D397CD9EF1488F9FD5478E /* ZKQueryOptions.m in Sources */,
+				03BB8FCFC27F4F4B88A649F2 /* ZKRecordTypeCompactLayoutMapping.m in Sources */,
+				825BC136BB594EC9B1DCFFCC /* ZKRecordTypeInfo.m in Sources */,
+				9A374ED5C67344C692356F18 /* ZKRecordTypeMapping.m in Sources */,
+				D0B23CF886F1445FA832A613 /* ZKRelatedContent.m in Sources */,
+				20F0BEBD9AF642B1927538D8 /* ZKRelatedList+Extras.m in Sources */,
+				BD9831FA162D43BDB5B72DA7 /* ZKRelatedList.m in Sources */,
+				10C072697C1046FCA8FE3520 /* ZKRelatedListColumn.m in Sources */,
+				88594C47F5D8468BADB8759B /* ZKRelatedListSort.m in Sources */,
+				74BC22B6BB3044E38E8505DF /* ZKReportChartComponent.m in Sources */,
+				22D06E62BB754B43B456B1DB /* ZKResetPasswordResult.m in Sources */,
+				DA93AA1E916A48F2B95A5677 /* ZKSaveResult+Extras.m in Sources */,
+				952CE9B964444EE49A3E067B /* ZKSaveResult.m in Sources */,
+				F9C81A12C87B4ECFBCDC8CC0 /* ZKSearchRecord.m in Sources */,
+				2051A6BAE01243DB8A79C506 /* ZKSearchResult.m in Sources */,
+				9D0CFD3C5F294C109D1FFCE0 /* ZKSendEmailError.m in Sources */,
+				94DCB9CD2CF0454495D5803A /* ZKSendEmailResult.m in Sources */,
+				FE2E0C8F58554947954CD729 /* ZKSessionHeader.m in Sources */,
+				D5E53680DBC14B72B5ABBEB6 /* ZKSetPasswordResult.m in Sources */,
+				7668A9DFE34E439A846E1897 /* ZKSingleEmailMessage.m in Sources */,
+				CBF2930505224EE9BA57A762 /* ZKSoapDate.m in Sources */,
+				F7DE8E44941B4A31ABCB5316 /* ZKStreamingEnabledHeader.m in Sources */,
+				F63F35A1106A4F4F99DDB3B6 /* ZKUndeleteResult.m in Sources */,
+				B24BFF467F774056907B6ECB /* ZKUpsertResult.m in Sources */,
+				054B7F83A6A04EA1A4918265 /* ZKUserInfo+Extras.m in Sources */,
+				A80DCB09D8D2497A9CD39DAD /* ZKUserTerritoryDeleteHeader.m in Sources */,
+				1027E1FEB8C1486AB50302E4 /* zkAuthentication.m in Sources */,
+				A63BA0543E9746AEAC10752C /* zkBaseClient.m in Sources */,
+				B804E575BC7042BA89E93156 /* zkDescribeGlobalSObject.m in Sources */,
+				4D933B8B9656498B838CB018 /* zkDescribeSObject.m in Sources */,
+				A1391A6172FA44488679D272 /* zkEnvelope.m in Sources */,
+				EB8D333C69C84F70BD3607F1 /* zkParser.m in Sources */,
+				836362C3ADDB49CFB21299A6 /* zkQueryResult+NSTableView.m in Sources */,
+				A975635A25B14E4CB44D2752 /* zkQueryResult.m in Sources */,
+				501731F6B568478A8A4A2C39 /* zkSObject.m in Sources */,
+				5981EEECEF9247C696FE8761 /* zkSforceClient+Operations.m in Sources */,
+				F4E83025238946378EF342D6 /* zkSforceClient+zkAsyncQuery.m in Sources */,
+				58EFB1E323C64777B733BA81 /* zkSforceClient.m in Sources */,
+				975FFF2E5FED455B8C0534F9 /* zkSoapException.m in Sources */,
+				3F98E8B2AAFD49FC823C863B /* zkUserInfo.m in Sources */,
+				45473DD395464C3D9AF1352E /* zkXmlDeserializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5660EE8928F4898B64BCDBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0950CED9D8E14D51A7C5CAE0 /* Pods-FitHeart-ZKSforce */;
+			targetProxy = 9DB1C640220343C7B2C6FF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2876AEE2176E48838BC39039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		316F2F6C6A0C47F9BCAE3590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6DB76999B042379CA71A91 /* Pods-FitHeart-ZKSforce-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-FitHeart-ZKSforce-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		4B311A1FAB4644A080F180C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FDB0CD821D4B8FA70B7D65 /* Pods-FitHeart.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		A24850A588834BD1A17B95A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FDB0CD821D4B8FA70B7D65 /* Pods-FitHeart.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		AC44AD7E514149E1A89C358E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6DB76999B042379CA71A91 /* Pods-FitHeart-ZKSforce-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-FitHeart-ZKSforce-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		ACF7B782831E44F7ADC83943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381A3842FF4F4B83B44CA39F /* Build configuration list for PBXNativeTarget "Pods-FitHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24850A588834BD1A17B95A0 /* Debug */,
+				4B311A1FAB4644A080F180C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BA74CB192F48948589DE69 /* Build configuration list for PBXNativeTarget "Pods-FitHeart-ZKSforce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC44AD7E514149E1A89C358E /* Debug */,
+				316F2F6C6A0C47F9BCAE3590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE9FC356EAA4A3E942EFDD9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF7B782831E44F7ADC83943 /* Debug */,
+				2876AEE2176E48838BC39039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF476622A31F4C22923939B7 /* Project object */;
+}

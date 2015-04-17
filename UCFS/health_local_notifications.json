@@ -1,0 +1,319 @@
+[
+ {
+ "uniqueId" : "64", "index" : "50", "section" : "1", "goal" : "0", "datetype" : "1",
+ "message" : "Please enter today's weight.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "65", "index" : "51", "section" : "1", "goal" : "0", "datetype" : "1",
+ "message" : "Did you weigh yourself today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "66", "index" : "52", "section" : "1", "goal" : "0", "datetype" : "2",
+ "message" : "Have you weighed yourself recently?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "67", "index" : "53", "section" : "1", "goal" : "0", "datetype" : "2",
+ "message" : "Please enter your weight.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "68", "index" : "54", "section" : "1", "goal" : "0", "datetype" : "3",
+ "message" : "Managing your weight is an important part of staying healthy.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "69", "index" : "55", "section" : "1", "goal" : "0", "datetype" : "3",
+ "message" : "You can manage your weight by watching what you eat and being active.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "70", "index" : "56", "section" : "1", "goal" : "0", "datetype" : "3",
+ "message" : "Would you like to enter your weight?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "7", "index" : "0", "section" : "1", "goal" : "1", "datetype" : "1",
+ "message" : "Please enter your heart rate for today.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "8", "index" : "1", "section" : "1", "goal" : "1", "datetype" : "1",
+ "message" : "Did you measure your heart rate today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "9", "index" : "2", "section" : "1", "goal" : "1", "datetype" : "1",
+ "message" : "Did you check your heart rate when you were active today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "10", "index" : "3", "section" : "1", "goal" : "1", "datetype" : "2",
+ "message" : "Would you like to monitor your heart rate this week?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "11", "index" : "4", "section" : "1", "goal" : "1", "datetype" : "3",
+ "message" : "Would you like to monitor your heart rate?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "12", "index" : "5", "section" : "1", "goal" : "1", "datetype" : "3",
+ "message" : "Do you need to change your goals for heart rate?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "13", "index" : "0", "section" : "1", "goal" : "1", "datetype" : "1",
+ "message" : "Please enter your heart rate for today.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "14", "index" : "1", "section" : "1", "goal" : "1", "datetype" : "1",
+ "message" : "Did you measure your heart rate today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "15", "index" : "2", "section" : "1", "goal" : "1", "datetype" : "1",
+ "message" : "Did you check your heart rate when you were active today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "16", "index" : "3", "section" : "1", "goal" : "1", "datetype" : "2",
+ "message" : "Would you like to monitor your heart rate this week?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "17", "index" : "4", "section" : "1", "goal" : "1", "datetype" : "3",
+ "message" : "Would you like to monitor your heart rate?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "18", "index" : "5", "section" : "1", "goal" : "1", "datetype" : "3",
+ "message" : "Do you need to change your goals for heart rate?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "19", "index" : "6", "section" : "1", "goal" : "2", "datetype" : "1",
+ "message" : "Please enter your blood pressure.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "20", "index" : "7", "section" : "1", "goal" : "2", "datetype" : "1",
+ "message" : "Did you check your blood pressure today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "22", "index" : "8", "section" : "1", "goal" : "2", "datetype" : "1",
+ "message" : "How is your blood pressure doing today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "23", "index" : "9", "section" : "1", "goal" : "2", "datetype" : "2",
+ "message" : "Monitoring your blood pressure can be an important part of your health.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "24", "index" : "10", "section" : "1", "goal" : "2", "datetype" : "2",
+ "message" : "Have you checked your blood pressure recently?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "25", "index" : "11", "section" : "1", "goal" : "2", "datetype" : "2",
+ "message" : "Maintaining a healthy blood pressure is good for your heart.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "26", "index" : "12", "section" : "1", "goal" : "2", "datetype" : "2",
+ "message" : "You can lower your blood pressure through activity, diet, and medications.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "27", "index" : "13", "section" : "1", "goal" : "2", "datetype" : "2",
+ "message" : "Eating less salt can lower your blood pressure.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "28", "index" : "14", "section" : "1", "goal" : "2", "datetype" : "2",
+ "message" : "Being more active can lower your blood pressure.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "29", "index" : "15", "section" : "1", "goal" : "2", "datetype" : "2",
+ "message" : "Taking your medications regularly is important for maintaining a healthy blood pressure.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "30", "index" : "16", "section" : "1", "goal" : "2", "datetype" : "3",
+ "message" : "Monitoring your blood pressure can be an important part of your health.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "31", "index" : "17", "section" : "1", "goal" : "2", "datetype" : "3",
+ "message" : "Have you checked your blood pressure recently?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "32", "index" : "18", "section" : "1", "goal" : "2", "datetype" : "3",
+ "message" : "Maintaining a healthy blood pressure is good for your heart.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "33", "index" : "19", "section" : "1", "goal" : "2", "datetype" : "3",
+ "message" : "You can lower your blood pressure through activity, diet, and medications.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "34", "index" : "20", "section" : "1", "goal" : "2", "datetype" : "3",
+ "message" : "Eating less salt can lower your blood pressure.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "35", "index" : "21", "section" : "1", "goal" : "2", "datetype" : "3",
+ "message" : "Being more active can lower your blood pressure.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "36", "index" : "22", "section" : "1", "goal" : "2", "datetype" : "3",
+ "message" : "Taking your medications regularly is important for maintaining a healthy blood pressure.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "37", "index" : "23", "section" : "1", "goal" : "3", "datetype" : "1",
+ "message" : "Please enter your glucose for today.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "38", "index" : "24", "section" : "1", "goal" : "3", "datetype" : "1",
+ "message" : "Did you measure your glucose today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "39", "index" : "25", "section" : "1", "goal" : "3", "datetype" : "1",
+ "message" : "Did you check your glucose today?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "40", "index" : "26", "section" : "1", "goal" : "3", "datetype" : "2",
+ "message" : "If you have Diabetes, it is important to monitor your glucose.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "41", "index" : "27", "section" : "1", "goal" : "3", "datetype" : "2",
+ "message" : "Monitoring your glucose can improve your health.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "42", "index" : "28", "section" : "1", "goal" : "3", "datetype" : "3",
+ "message" : "If you have Diabetes, it is important to monitor your glucose.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "43", "index" : "29", "section" : "1", "goal" : "3", "datetype" : "3",
+ "message" : "Monitoring your glucose can improve your health.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "1", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "44", "index" : "30", "section" : "1", "goal" : "4", "datetype" : "1",
+ "message" : "Eating soluble fiber (like in oats) can help lower cholesterol",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "45", "index" : "31", "section" : "1", "goal" : "4", "datetype" : "1",
+ "message" : "Substitute olive oil for butter",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "46", "index" : "32", "section" : "1", "goal" : "4", "datetype" : "1",
+ "message" : "Eat more fish and lean meats",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "47", "index" : "33", "section" : "1", "goal" : "4", "datetype" : "1",
+ "message" : "Try to reduce the amount of saturated fat in your diet",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "48", "index" : "34", "section" : "1", "goal" : "4", "datetype" : "1",
+ "message" : "Medications are an important part of keeping your cholesterol low",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "49", "index" : "35", "section" : "1", "goal" : "4", "datetype" : "1",
+ "message" : "Remember to take your medications today.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "50", "index" : "36", "section" : "1", "goal" : "4", "datetype" : "2",
+ "message" : "Have you had your cholesterol checked recently?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "51", "index" : "37", "section" : "1", "goal" : "4", "datetype" : "2",
+ "message" : "Eating soluble fiber (like in oats) can help lower cholesterol",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "52", "index" : "38", "section" : "1", "goal" : "4", "datetype" : "2",
+ "message" : "Substitute olive oil for butter",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "53", "index" : "39", "section" : "1", "goal" : "4", "datetype" : "2",
+ "message" : "Eat more fish and lean meats",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "54", "index" : "40", "section" : "1", "goal" : "4", "datetype" : "2",
+ "message" : "Try to reduce the amount of saturated fat in your diet",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "55", "index" : "41", "section" : "1", "goal" : "4", "datetype" : "2",
+ "message" : "Medications are an important part of keeping your cholesterol low",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "56", "index" : "42", "section" : "1", "goal" : "4", "datetype" : "2",
+ "message" : "Remember to take your medications.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "57", "index" : "43", "section" : "1", "goal" : "4", "datetype" : "3",
+ "message" : "Have you had your cholesterol checked recently?",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "2", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "58", "index" : "44", "section" : "1", "goal" : "4", "datetype" : "3",
+ "message" : "Eating soluble fiber (like in oats) can help lower cholesterol",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "59", "index" : "45", "section" : "1", "goal" : "4", "datetype" : "3",
+ "message" : "Substitute olive oil for butter",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "60", "index" : "46", "section" : "1", "goal" : "4", "datetype" : "3",
+ "message" : "Eat more fish and lean meats",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "61", "index" : "47", "section" : "1", "goal" : "4", "datetype" : "3",
+ "message" : "Try to reduce the amount of saturated fat in your diet",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "62", "index" : "48", "section" : "1", "goal" : "4", "datetype" : "3",
+ "message" : "Medications are an important part of keeping your cholesterol low",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "63", "index" : "49", "section" : "1", "goal" : "4", "datetype" : "3",
+ "message" : "Remember to take your medications.",
+ "actionMessage" : "", "actionSection" : "1", "actionScreen" : "0", "actionItem" : "0"
+ }
+ 
+ 
+]

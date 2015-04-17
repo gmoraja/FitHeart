@@ -1,0 +1,2016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0B961B184C9F4B00883FA6 /* FTLogGroupedData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0B961A184C9F4B00883FA6 /* FTLogGroupedData.m */; };
+		DB0B961F184CE2E800883FA6 /* FTFrequencySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0B961E184CE2E800883FA6 /* FTFrequencySlider.m */; };
+		DB0B9622184D438600883FA6 /* FTReminderSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0B9621184D438600883FA6 /* FTReminderSelectView.m */; };
+		DB0B9626184E484600883FA6 /* FTReminderData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0B9625184E484600883FA6 /* FTReminderData.m */; };
+		DB1C33DC18BC18CD006E6688 /* FTGlucoseSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1C33DB18BC18CD006E6688 /* FTGlucoseSelectView.m */; };
+		DB2166521855DD8600DD1579 /* FTEffortSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2166511855DD8600DD1579 /* FTEffortSelectView.m */; };
+		DB223A8E19634DD80055D85F /* FTWeeksLogCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB223A8D19634DD80055D85F /* FTWeeksLogCellView.m */; };
+		DB223A91196355B30055D85F /* FTWeeksLogHeaderCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB223A90196355B30055D85F /* FTWeeksLogHeaderCellView.m */; };
+		DB223A93196362E40055D85F /* FitnessWeeksLogsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB223A92196362E40055D85F /* FitnessWeeksLogsView.xib */; };
+		DB26B19E195D072500E07F1A /* FitnessAfterGoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB26B19D195D072500E07F1A /* FitnessAfterGoalViewController.m */; };
+		DB26B1A0195D073E00E07F1A /* FitnessAfterGoalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB26B19F195D073E00E07F1A /* FitnessAfterGoalView.xib */; };
+		DB2CE34019748A6D009F80A4 /* SupportPeopleLikeYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CE33F19748A6D009F80A4 /* SupportPeopleLikeYouViewController.m */; };
+		DB2CE34219748A83009F80A4 /* SupportPeopleLikeYouView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE34119748A83009F80A4 /* SupportPeopleLikeYouView.xib */; };
+		DB2CE34519748E3E009F80A4 /* SupportFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CE34419748E3E009F80A4 /* SupportFamilyViewController.m */; };
+		DB2CE34719748E51009F80A4 /* SupportFamilyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE34619748E51009F80A4 /* SupportFamilyView.xib */; };
+		DB2CE34A19748F2E009F80A4 /* SupportHealthProvidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CE34919748F2E009F80A4 /* SupportHealthProvidersViewController.m */; };
+		DB2CE34C19748F49009F80A4 /* SupportHealthProvidersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE34B19748F49009F80A4 /* SupportHealthProvidersView.xib */; };
+		DB3000181AAE55C6001EB8A3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3000161AAE55C5001EB8A3 /* Crashlytics.framework */; };
+		DB3000191AAE55C6001EB8A3 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3000171AAE55C5001EB8A3 /* Fabric.framework */; };
+		DB31F9581A24CEC3002B79E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB31F9571A24CEC3002B79E7 /* CoreData.framework */; };
+		DB31F95A1A24CEDD002B79E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB31F9591A24CEDD002B79E7 /* SystemConfiguration.framework */; };
+		DB31F95C1A24CEF8002B79E7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB31F95B1A24CEF8002B79E7 /* libz.dylib */; };
+		DB31F98B1A252CAD002B79E7 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB31F98A1A252CAD002B79E7 /* libGoogleAnalyticsServices.a */; };
+		DB3437031968275200794424 /* MoodHowDoYouFeelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3437021968275200794424 /* MoodHowDoYouFeelView.xib */; };
+		DB3AA8DB19631DE900942A10 /* FTWeeksLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3AA8DA19631DE900942A10 /* FTWeeksLogsViewController.m */; };
+		DB3EE1381975DA7100829D18 /* SettingsSyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE1371975DA7100829D18 /* SettingsSyncViewController.m */; };
+		DB3EE13A1975DB2000829D18 /* SettingsSyncView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE1391975DB2000829D18 /* SettingsSyncView.xib */; };
+		DB45283A18524171001E34DE /* FTActivitySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45283918524171001E34DE /* FTActivitySelectView.m */; };
+		DB45283D185266BE001E34DE /* FTExpandableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45283C185266BE001E34DE /* FTExpandableView.m */; };
+		DB45284118528D03001E34DE /* FTCircularTimerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45284018528D03001E34DE /* FTCircularTimerSlider.m */; };
+		DB47E2DA1892DD4500DF9603 /* health_local_notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = DB47E2D91892DD4500DF9603 /* health_local_notifications.json */; };
+		DB47E2E01896AE2400DF9603 /* FTNotificationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB47E2DF1896AE2400DF9603 /* FTNotificationAction.m */; };
+		DB4AEB941965CC3C00615007 /* FTHowDoYouFeelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AEB931965CC3C00615007 /* FTHowDoYouFeelViewController.m */; };
+		DB4AEB961965CC5C00615007 /* FitnessHowDoYouFeelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4AEB951965CC5C00615007 /* FitnessHowDoYouFeelView.xib */; };
+		DB4DFCF6195D9DC1004E04FC /* FTGoalGroupedData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4DFCF5195D9DC1004E04FC /* FTGoalGroupedData.m */; };
+		DB4DFCFC195DA43A004E04FC /* FTGoalHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4DFCFB195DA43A004E04FC /* FTGoalHistoryViewController.m */; };
+		DB4DFCFE195DA670004E04FC /* FitnessGoalHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4DFCFD195DA670004E04FC /* FitnessGoalHistoryView.xib */; };
+		DB4DFD01195DABF8004E04FC /* FTGoalHistoryCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4DFD00195DABF8004E04FC /* FTGoalHistoryCellView.m */; };
+		DB4E773418465EFF0000C054 /* FTCircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4E773318465EFF0000C054 /* FTCircularView.m */; };
+		DB4EC5D31A517B5600E234F1 /* ScreenMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4EC5D21A517B5600E234F1 /* ScreenMaskView.m */; };
+		DB4EC5D61A51A87000E234F1 /* LearnDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4EC5D51A51A87000E234F1 /* LearnDetailViewController.m */; };
+		DB4EC5D81A51A91300E234F1 /* LearnMoreDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4EC5D71A51A91300E234F1 /* LearnMoreDetailView.xib */; };
+		DB4ECBBC19684DFA0033CC05 /* MoodAfterLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4ECBBB19684DFA0033CC05 /* MoodAfterLogViewController.m */; };
+		DB4ECBBE19684E110033CC05 /* MoodAfterLogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4ECBBD19684E110033CC05 /* MoodAfterLogView.xib */; };
+		DB4ECBC1196969130033CC05 /* FTReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4ECBC0196969130033CC05 /* FTReminderViewController.m */; };
+		DB4ECBC319696C9E0033CC05 /* MoodReminderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4ECBC219696C9E0033CC05 /* MoodReminderView.xib */; };
+		DB4ECBC61969AB130033CC05 /* MoodHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4ECBC51969AB130033CC05 /* MoodHistoryViewController.m */; };
+		DB4ECBC91969AB500033CC05 /* MoodHistoryCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4ECBC81969AB500033CC05 /* MoodHistoryCellView.m */; };
+		DB4ECBCB1969CCC40033CC05 /* MoodHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4ECBCA1969CCC40033CC05 /* MoodHistoryView.xib */; };
+		DB52B54218A5288E00D7007D /* FTHomeDatetypeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB52B54118A5288E00D7007D /* FTHomeDatetypeSelectView.m */; };
+		DB57DB5A182146B100AD9E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB57DB59182146B100AD9E1E /* Foundation.framework */; };
+		DB57DB5C182146B100AD9E1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB57DB5B182146B100AD9E1E /* CoreGraphics.framework */; };
+		DB57DB5E182146B100AD9E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB57DB5D182146B100AD9E1E /* UIKit.framework */; };
+		DB57DB64182146B100AD9E1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB57DB62182146B100AD9E1E /* InfoPlist.strings */; };
+		DB57DB66182146B100AD9E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB57DB65182146B100AD9E1E /* main.m */; };
+		DB57DB6A182146B100AD9E1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB57DB69182146B100AD9E1E /* AppDelegate.m */; };
+		DB57DB6C182146B100AD9E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB57DB6B182146B100AD9E1E /* Images.xcassets */; };
+		DB57DB73182146B100AD9E1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB57DB72182146B100AD9E1E /* XCTest.framework */; };
+		DB57DB74182146B100AD9E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB57DB59182146B100AD9E1E /* Foundation.framework */; };
+		DB57DB75182146B100AD9E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB57DB5D182146B100AD9E1E /* UIKit.framework */; };
+		DB57DB7D182146B100AD9E1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB57DB7B182146B100AD9E1E /* InfoPlist.strings */; };
+		DB57DB7F182146B100AD9E1E /* UCFSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB57DB7E182146B100AD9E1E /* UCFSTests.m */; };
+		DB6151DD18215EF100BDDA7E /* EulaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6151DC18215EF100BDDA7E /* EulaView.xib */; };
+		DB6151E11821619500BDDA7E /* EulaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6151E01821619500BDDA7E /* EulaViewController.m */; };
+		DB6151E818228FFE00BDDA7E /* EulaSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6151E718228FFE00BDDA7E /* EulaSection.m */; };
+		DB6151EB1822E74400BDDA7E /* StudyIdSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6151EA1822E74400BDDA7E /* StudyIdSection.m */; };
+		DB6151EE1822E81000BDDA7E /* StudyIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6151ED1822E81000BDDA7E /* StudyIdViewController.m */; };
+		DB6151F01822E8A200BDDA7E /* StudyIdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6151EF1822E8A200BDDA7E /* StudyIdView.xib */; };
+		DB67B5A7183E68F9006B9478 /* UITextArc.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67B5A6183E68F9006B9478 /* UITextArc.m */; };
+		DB67B5AD183F7E22006B9478 /* FTGoalData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67B5AC183F7E22006B9478 /* FTGoalData.m */; };
+		DB70571718ABBB300070C7D2 /* FTDateLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB70571618ABBB300070C7D2 /* FTDateLogData.m */; };
+		DB769A66187F2AB200A05BA0 /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = DB769A5E187F2AB200A05BA0 /* BSKeyboardControls.m */; };
+		DB769A67187F2AB200A05BA0 /* BSKeyboardControls.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB769A5F187F2AB200A05BA0 /* BSKeyboardControls.strings */; };
+		DB769A6A187F646F00A05BA0 /* FTEmptyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB769A69187F646F00A05BA0 /* FTEmptyHeaderView.m */; };
+		DB769A6E187FFEBE00A05BA0 /* FTGoalAchivedSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB769A6D187FFEBE00A05BA0 /* FTGoalAchivedSelectView.m */; };
+		DB769A71188178E400A05BA0 /* FTDoubleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB769A70188178E400A05BA0 /* FTDoubleHeaderView.m */; };
+		DB781A21199FC72E002BD533 /* GFunctor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB781A20199FC72E002BD533 /* GFunctor.m */; };
+		DB81208919532A570024D90C /* FTDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81208819532A570024D90C /* FTDataType.m */; };
+		DB82703218C0FDAB0031C32F /* mood_local_notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = DB82703118C0FDAB0031C32F /* mood_local_notifications.json */; };
+		DB85980E182E8AE600CE5364 /* OrientationSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85980D182E8AE600CE5364 /* OrientationSection.m */; };
+		DB859810182E8CFC00CE5364 /* OrientationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB85980F182E8CFC00CE5364 /* OrientationView.xib */; };
+		DB859813182E8D8D00CE5364 /* OrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB859812182E8D8D00CE5364 /* OrientationViewController.m */; };
+		DB870A3819D308970057CBC9 /* mindfulness_captions.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB870A3719D308970057CBC9 /* mindfulness_captions.xml */; };
+		DB870A3B19D335410057CBC9 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB870A3A19D335410057CBC9 /* TutorialViewController.m */; };
+		DB870A3D19D3355A0057CBC9 /* TutorialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB870A3C19D3355A0057CBC9 /* TutorialView.xib */; };
+		DB8F01871848E709000085F9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F01861848E709000085F9 /* libsqlite3.dylib */; };
+		DB8F018A1848EAD7000085F9 /* FTDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F01891848EAD7000085F9 /* FTDatabase.m */; };
+		DB8F6F7B18745CBE006DFB98 /* HealthSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F6F7A18745CBE006DFB98 /* HealthSection.m */; };
+		DB8F6F7E1874D2B8006DFB98 /* HealthHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F6F7D1874D2B8006DFB98 /* HealthHomeViewController.m */; };
+		DB8F6F801874D2CE006DFB98 /* HealthHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8F6F7F1874D2CE006DFB98 /* HealthHomeView.xib */; };
+		DB8F6F821874D962006DFB98 /* HealthGoalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8F6F811874D962006DFB98 /* HealthGoalView.xib */; };
+		DB8F6F841874D975006DFB98 /* HealthLogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8F6F831874D975006DFB98 /* HealthLogView.xib */; };
+		DB8F6F8718757B97006DFB98 /* HealthGoalSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F6F8618757B97006DFB98 /* HealthGoalSelectorView.m */; };
+		DB8F6F9718798AC7006DFB98 /* FTDateTypeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F6F9618798AC7006DFB98 /* FTDateTypeSelectView.m */; };
+		DB979DCD199F57BB00E0087C /* VideoCaptionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB979DCC199F57BB00E0087C /* VideoCaptionParser.m */; };
+		DB979DD0199F57D100E0087C /* Caption.m in Sources */ = {isa = PBXBuildFile; fileRef = DB979DCF199F57D100E0087C /* Caption.m */; };
+		DB980CD4199A8B1F00AB6149 /* EffortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB980CD3199A8B1F00AB6149 /* EffortTableViewCell.m */; };
+		DB980CD7199ADDAC00AB6149 /* AFPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB980CD6199ADDAC00AB6149 /* AFPickerView.m */; };
+		DB9AF9331A9BCCD600C1AD4F /* SupportStressReductionVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9AF9321A9BCCD600C1AD4F /* SupportStressReductionVideoViewController.m */; };
+		DB9AF9351A9BCD2200C1AD4F /* SupportStressReductionVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9AF9341A9BCD2200C1AD4F /* SupportStressReductionVideoView.xib */; };
+		DB9AF9381A9BD31800C1AD4F /* SupportMindfulnessMeditationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9AF9371A9BD31800C1AD4F /* SupportMindfulnessMeditationViewController.m */; };
+		DB9AF93A1A9BD34400C1AD4F /* SupportMindfulnessMeditationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9AF9391A9BD34400C1AD4F /* SupportMindfulnessMeditationView.xib */; };
+		DB9AF93D1A9BE7CE00C1AD4F /* SupportCompassionMeditationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9AF93C1A9BE7CE00C1AD4F /* SupportCompassionMeditationViewController.m */; };
+		DB9AF93F1A9BE80300C1AD4F /* SupportCompassionMeditationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9AF93E1A9BE80300C1AD4F /* SupportCompassionMeditationView.xib */; };
+		DBA37816186709F70005A921 /* FTSimplePleasureSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA37815186709F70005A921 /* FTSimplePleasureSelectView.m */; };
+		DBA4F1B4184FB28500E17589 /* FTDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F1B3184FB28500E17589 /* FTDialogView.m */; };
+		DBA4F1B91850C8AB00E17589 /* FTEntriesGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F1B81850C8AB00E17589 /* FTEntriesGraph.m */; };
+		DBA4F1BC1850F6E100E17589 /* FTLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F1BB1850F6E100E17589 /* FTLogData.m */; };
+		DBA4F1C2185218B900E17589 /* FitnessLogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA4F1C1185218B900E17589 /* FitnessLogView.xib */; };
+		DBA4F1C51852210A00E17589 /* FTOptionGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F1C41852210A00E17589 /* FTOptionGroupView.m */; };
+		DBA4F1C91852220600E17589 /* FTDateSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA4F1C81852220600E17589 /* FTDateSelectView.m */; };
+		DBA66A04195C649700736F9D /* FitnessStartDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA66A03195C649700736F9D /* FitnessStartDateViewController.m */; };
+		DBA66A06195C64A900736F9D /* FitnessStartDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA66A05195C64A900736F9D /* FitnessStartDateView.xib */; };
+		DBA66A09195C76F300736F9D /* FTCircularEntriesGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA66A08195C76F300736F9D /* FTCircularEntriesGraph.m */; };
+		DBA66A10195CDAC800736F9D /* FTDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA66A0F195CDAC800736F9D /* FTDateViewController.m */; };
+		DBA66A12195CDADA00736F9D /* FitnessDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA66A11195CDADA00736F9D /* FitnessDateView.xib */; };
+		DBA66A15195CDAEE00736F9D /* FitnessActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA66A14195CDAEE00736F9D /* FitnessActivityViewController.m */; };
+		DBA66A17195CDB0000736F9D /* FitnessActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA66A16195CDB0000736F9D /* FitnessActivityView.xib */; };
+		DBA66A1A195CDB1800736F9D /* FitnessEffortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA66A19195CDB1800736F9D /* FitnessEffortViewController.m */; };
+		DBA66A1C195CDB2900736F9D /* FitnessEffortView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA66A1B195CDB2900736F9D /* FitnessEffortView.xib */; };
+		DBADAEE219548B0200E98427 /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAED6195489AF00E98427 /* SourceSansPro-SemiboldIt.otf */; };
+		DBADAEE319548B0500E98427 /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAED7195489AF00E98427 /* SourceSansPro-Semibold.otf */; };
+		DBADAEE419548B0700E98427 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAED8195489AF00E98427 /* SourceSansPro-Regular.otf */; };
+		DBADAEE519548B0900E98427 /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAED9195489AF00E98427 /* SourceSansPro-LightIt.otf */; };
+		DBADAEE619548B0C00E98427 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEDA195489AF00E98427 /* SourceSansPro-Light.otf */; };
+		DBADAEE719548B0E00E98427 /* SourceSansPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEDB195489AF00E98427 /* SourceSansPro-It.otf */; };
+		DBADAEE819548B1000E98427 /* SourceSansPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEDC195489AF00E98427 /* SourceSansPro-ExtraLightIt.otf */; };
+		DBADAEE919548B1200E98427 /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEDD195489AF00E98427 /* SourceSansPro-ExtraLight.otf */; };
+		DBADAEEA19548B1600E98427 /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEDE195489AF00E98427 /* SourceSansPro-BoldIt.otf */; };
+		DBADAEEB19548B1800E98427 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEDF195489AF00E98427 /* SourceSansPro-Bold.otf */; };
+		DBADAEEC19548B1A00E98427 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEE0195489AF00E98427 /* SourceSansPro-BlackIt.otf */; };
+		DBADAEED19548B1C00E98427 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAEE1195489AF00E98427 /* SourceSansPro-Black.otf */; };
+		DBADAEEE19548B1E00E98427 /* FuturaStd-Condensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBFCA68118316780004EB33D /* FuturaStd-Condensed.otf */; };
+		DBADAEEF19548B2000E98427 /* FuturaStd-CondensedBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBFCA68218316780004EB33D /* FuturaStd-CondensedBold.otf */; };
+		DBADAEF019548B2300E98427 /* FuturaStd-CondensedLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBFCA68318316780004EB33D /* FuturaStd-CondensedLight.otf */; };
+		DBB4BCAE18897D4F0004CA4E /* LearnMoreSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4BCAD18897D4F0004CA4E /* LearnMoreSection.m */; };
+		DBB4BCB11889834C0004CA4E /* LearnMoreHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4BCB01889834C0004CA4E /* LearnMoreHomeViewController.m */; };
+		DBB4BCB31889836C0004CA4E /* LearnMoreHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCB21889836C0004CA4E /* LearnMoreHomeView.xib */; };
+		DBB4BCB51889D7AB0004CA4E /* LearnMoreContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCB41889D7AB0004CA4E /* LearnMoreContentView.xib */; };
+		DBB4BCB81889D7C20004CA4E /* LearnMoreContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4BCB71889D7C20004CA4E /* LearnMoreContentViewController.m */; };
+		DBB4BCBA1889E1FC0004CA4E /* learnmore_fitness.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCB91889E1FC0004CA4E /* learnmore_fitness.json */; };
+		DBB4BCBC1889EB130004CA4E /* learnmore_health.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCBB1889EB130004CA4E /* learnmore_health.json */; };
+		DBB4BCBE1889EFF00004CA4E /* learnmore_nutrition.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCBD1889EFF00004CA4E /* learnmore_nutrition.json */; };
+		DBB4BCC01889F1470004CA4E /* learnmore_mood.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCBF1889F1470004CA4E /* learnmore_mood.json */; };
+		DBB4BCC2188D40B70004CA4E /* fitness_banner_notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCC1188D40B70004CA4E /* fitness_banner_notifications.json */; };
+		DBB4BCC5188D46FD0004CA4E /* FTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4BCC4188D46FD0004CA4E /* FTNotification.m */; };
+		DBB4BCC9188D87020004CA4E /* FTBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4BCC8188D87020004CA4E /* FTBannerView.m */; };
+		DBB4BCCB188DF6120004CA4E /* health_banner_notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCCA188DF6120004CA4E /* health_banner_notifications.json */; };
+		DBB4BCCF188E85990004CA4E /* mood_banner_notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB4BCCE188E85990004CA4E /* mood_banner_notifications.json */; };
+		DBB4BCD2188EB4190004CA4E /* FTAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4BCD1188EB4190004CA4E /* FTAppSettings.m */; };
+		DBB5798F195882E400802F8D /* StudyIdTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5798E195882E400802F8D /* StudyIdTextField.m */; };
+		DBB579921958CAD300802F8D /* FitnessIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB579911958CAD300802F8D /* FitnessIntroViewController.m */; };
+		DBB579941958CAEF00802F8D /* FitnessIntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB579931958CAEF00802F8D /* FitnessIntroView.xib */; };
+		DBBA985A18A28AA400098A24 /* FTHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBA985918A28AA400098A24 /* FTHomeView.m */; };
+		DBBF614919714EB600F5ACA1 /* SupportSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF614819714EB600F5ACA1 /* SupportSection.m */; };
+		DBBF614C1971500C00F5ACA1 /* SupportHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF614B1971500C00F5ACA1 /* SupportHomeViewController.m */; };
+		DBBF614E1971502700F5ACA1 /* SupportHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBF614D1971502700F5ACA1 /* SupportHomeView.xib */; };
+		DBBF6151197429B500F5ACA1 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF6150197429B500F5ACA1 /* MenuTableViewCell.m */; };
+		DBC026D3186091D8002813D6 /* FTLogTimerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC026D2186091D7002813D6 /* FTLogTimerContainerView.m */; };
+		DBC026D718632916002813D6 /* SettingsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC026D618632916002813D6 /* SettingsSection.m */; };
+		DBC026DA186329DE002813D6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC026D9186329DE002813D6 /* SettingsViewController.m */; };
+		DBC026DC186329F3002813D6 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC026DB186329F3002813D6 /* SettingsView.xib */; };
+		DBC026E0186393EE002813D6 /* MoodSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC026DF186393EE002813D6 /* MoodSection.m */; };
+		DBC026E318639CB3002813D6 /* MoodHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC026E218639CB3002813D6 /* MoodHomeViewController.m */; };
+		DBC026E518639D2C002813D6 /* MoodHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC026E418639D2C002813D6 /* MoodHomeView.xib */; };
+		DBC026E7186481DA002813D6 /* SupportMindfulnessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC026E6186481DA002813D6 /* SupportMindfulnessView.xib */; };
+		DBC026EA186481EB002813D6 /* SupportMindfulnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC026E9186481EB002813D6 /* SupportMindfulnessViewController.m */; };
+		DBC3410E18883F5E004CC0C9 /* RESwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBC3410B18883F5E004CC0C9 /* RESwitch.bundle */; };
+		DBC3410F18883F5E004CC0C9 /* RESwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC3410D18883F5E004CC0C9 /* RESwitch.m */; };
+		DBC3411318885BBF004CC0C9 /* AboutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC3411218885BBF004CC0C9 /* AboutSection.m */; };
+		DBC3411518888345004CC0C9 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC3411418888345004CC0C9 /* AboutView.xib */; };
+		DBC3411818888369004CC0C9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC3411718888369004CC0C9 /* AboutViewController.m */; };
+		DBC3411A18888FBF004CC0C9 /* about.json in Resources */ = {isa = PBXBuildFile; fileRef = DBC3411918888FBF004CC0C9 /* about.json */; };
+		DBC3411E18889240004CC0C9 /* RTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC3411D18889240004CC0C9 /* RTLabel.m */; };
+		DBC3412318889E2D004CC0C9 /* FTNote.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC3412218889E2D004CC0C9 /* FTNote.m */; };
+		DBC3412618889EDE004CC0C9 /* FTNoteHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC3412518889EDE004CC0C9 /* FTNoteHeader.m */; };
+		DBC49E711891715B00D1B9B2 /* FTNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC49E701891715B00D1B9B2 /* FTNotificationManager.m */; };
+		DBC49E731891915C00D1B9B2 /* fitness_local_notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = DBC49E721891915C00D1B9B2 /* fitness_local_notifications.json */; };
+		DBDECB3F196C906C00AC6A87 /* HealthGoalHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDECB3E196C906C00AC6A87 /* HealthGoalHomeViewController.m */; };
+		DBDECB41196C907E00AC6A87 /* HealthGoalHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDECB40196C907E00AC6A87 /* HealthGoalHomeView.xib */; };
+		DBDECB43196C9E4900AC6A87 /* HealthReminderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDECB42196C9E4900AC6A87 /* HealthReminderView.xib */; };
+		DBDECB45196CAFD100AC6A87 /* HealthDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDECB44196CAFD100AC6A87 /* HealthDateView.xib */; };
+		DBDECB48196CB50900AC6A87 /* HealthSelectorItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDECB47196CB50900AC6A87 /* HealthSelectorItemView.m */; };
+		DBDECB4B196DDF7500AC6A87 /* HealthHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDECB4A196DDF7500AC6A87 /* HealthHistoryViewController.m */; };
+		DBDECB4E196DDFAB00AC6A87 /* HealthHistoryCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDECB4D196DDFAB00AC6A87 /* HealthHistoryCellView.m */; };
+		DBDECB50196DFACF00AC6A87 /* HealthHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDECB4F196DFACF00AC6A87 /* HealthHistoryView.xib */; };
+		DBDECB55196ED70A00AC6A87 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDECB54196ED70A00AC6A87 /* libxml2.2.dylib */; };
+		DBDECCDE196ED85900AC6A87 /* FTSalesForce.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDECCDD196ED85900AC6A87 /* FTSalesForce.m */; };
+		DBE799BD1859D6BD00E559F5 /* FTSingleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE799BC1859D6BD00E559F5 /* FTSingleHeaderView.m */; };
+		DBE799C0185A10EC00E559F5 /* FTGoalContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE799BF185A10EC00E559F5 /* FTGoalContainerView.m */; };
+		DBE799C5185A300A00E559F5 /* FTHeaderConf.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE799C4185A300A00E559F5 /* FTHeaderConf.m */; };
+		DBE799C8185A635100E559F5 /* FTHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE799C7185A635100E559F5 /* FTHeaderView.m */; };
+		DBE799CB185B7B6C00E559F5 /* FTLogContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE799CA185B7B6C00E559F5 /* FTLogContainerView.m */; };
+		DBE799CE185B7BD200E559F5 /* FTTimerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE799CD185B7BD200E559F5 /* FTTimerHeaderView.m */; };
+		DBE8A44C195B0B9500A3497B /* FTHomeActionDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A44B195B0B9500A3497B /* FTHomeActionDialogView.m */; };
+		DBE8A44F195B0EE300A3497B /* FitnessSwitcherView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A44E195B0EE300A3497B /* FitnessSwitcherView.m */; };
+		DBE8A45D195C34D300A3497B /* FitnessReminderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE8A45C195C34D300A3497B /* FitnessReminderView.xib */; };
+		DBF466811869FCCE008D18EB /* lilac_breath_awareness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBF466801869FCCE008D18EB /* lilac_breath_awareness.mp3 */; };
+		DBF46687186D8637008D18EB /* FTNoteHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF46686186D8637008D18EB /* FTNoteHeaderView.m */; };
+		DBF4668A1870AA7E008D18EB /* FTSectionHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF466891870AA7E008D18EB /* FTSectionHomeViewController.m */; };
+		DBF466951871E2F8008D18EB /* FTSectionGoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF466941871E2F8008D18EB /* FTSectionGoalViewController.m */; };
+		DBF466981871F3CB008D18EB /* FTSectionLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF466971871F3CB008D18EB /* FTSectionLogViewController.m */; };
+		DBF4669F18722C29008D18EB /* FTMealSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF4669E18722C29008D18EB /* FTMealSelectView.m */; };
+		DBFCA68618317660004EB33D /* UCFSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA68518317660004EB33D /* UCFSUtil.m */; };
+		DBFCA68A18318DD3004EB33D /* FitnessSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA68918318DD3004EB33D /* FitnessSection.m */; };
+		DBFCA68C1831905C004EB33D /* FitnessHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFCA68B1831905C004EB33D /* FitnessHomeView.xib */; };
+		DBFCA68F1831908B004EB33D /* FitnessHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA68E1831908B004EB33D /* FitnessHomeViewController.m */; };
+		DBFCA69A1831A040004EB33D /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA6921831A040004EB33D /* MMDrawerBarButtonItem.m */; };
+		DBFCA69B1831A040004EB33D /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA6951831A040004EB33D /* MMDrawerController.m */; };
+		DBFCA69C1831A040004EB33D /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA6971831A040004EB33D /* MMDrawerVisualState.m */; };
+		DBFCA69D1831A040004EB33D /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA6991831A040004EB33D /* UIViewController+MMDrawerController.m */; };
+		DBFCA6A21831A2D0004EB33D /* LateralMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA6A11831A2D0004EB33D /* LateralMenuViewController.m */; };
+		DBFCA6A41831A2E1004EB33D /* LateralMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFCA6A31831A2E1004EB33D /* LateralMenuView.xib */; };
+		DBFCA6A7183235B4004EB33D /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA6A6183235B4004EB33D /* MenuItem.m */; };
+		DBFCA6AC1832657E004EB33D /* FitnessGoalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFCA6AB1832657E004EB33D /* FitnessGoalView.xib */; };
+		DBFCA6B318328E55004EB33D /* TBCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFCA6B218328E55004EB33D /* TBCircularSlider.m */; };
+		EDEE41AFBC354F7CAB05347D /* libPods-FitHeart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B488368186894A1A9C051231 /* libPods-FitHeart.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB57DB76182146B100AD9E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB57DB4E182146B100AD9E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB57DB55182146B100AD9E1E;
+			remoteInfo = UCFS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B488368186894A1A9C051231 /* libPods-FitHeart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitHeart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2CD6E126714E93871A1859 /* Pods-FitHeart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHeart.xcconfig"; path = "Pods/Pods-FitHeart.xcconfig"; sourceTree = "<group>"; };
+		DB0B9619184C9F4B00883FA6 /* FTLogGroupedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTLogGroupedData.h; sourceTree = "<group>"; };
+		DB0B961A184C9F4B00883FA6 /* FTLogGroupedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTLogGroupedData.m; sourceTree = "<group>"; };
+		DB0B961D184CE2E800883FA6 /* FTFrequencySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFrequencySlider.h; sourceTree = "<group>"; };
+		DB0B961E184CE2E800883FA6 /* FTFrequencySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFrequencySlider.m; sourceTree = "<group>"; };
+		DB0B9620184D438600883FA6 /* FTReminderSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTReminderSelectView.h; sourceTree = "<group>"; };
+		DB0B9621184D438600883FA6 /* FTReminderSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTReminderSelectView.m; sourceTree = "<group>"; };
+		DB0B9624184E484600883FA6 /* FTReminderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTReminderData.h; sourceTree = "<group>"; };
+		DB0B9625184E484600883FA6 /* FTReminderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTReminderData.m; sourceTree = "<group>"; };
+		DB1C33DA18BC18CD006E6688 /* FTGlucoseSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGlucoseSelectView.h; sourceTree = "<group>"; };
+		DB1C33DB18BC18CD006E6688 /* FTGlucoseSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGlucoseSelectView.m; sourceTree = "<group>"; };
+		DB2166501855DD8600DD1579 /* FTEffortSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTEffortSelectView.h; sourceTree = "<group>"; };
+		DB2166511855DD8600DD1579 /* FTEffortSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTEffortSelectView.m; sourceTree = "<group>"; };
+		DB223A8C19634DD80055D85F /* FTWeeksLogCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWeeksLogCellView.h; sourceTree = "<group>"; };
+		DB223A8D19634DD80055D85F /* FTWeeksLogCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWeeksLogCellView.m; sourceTree = "<group>"; };
+		DB223A8F196355B30055D85F /* FTWeeksLogHeaderCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWeeksLogHeaderCellView.h; sourceTree = "<group>"; };
+		DB223A90196355B30055D85F /* FTWeeksLogHeaderCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWeeksLogHeaderCellView.m; sourceTree = "<group>"; };
+		DB223A92196362E40055D85F /* FitnessWeeksLogsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessWeeksLogsView.xib; sourceTree = "<group>"; };
+		DB26B19C195D072500E07F1A /* FitnessAfterGoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessAfterGoalViewController.h; sourceTree = "<group>"; };
+		DB26B19D195D072500E07F1A /* FitnessAfterGoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessAfterGoalViewController.m; sourceTree = "<group>"; };
+		DB26B19F195D073E00E07F1A /* FitnessAfterGoalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessAfterGoalView.xib; sourceTree = "<group>"; };
+		DB2CE33E19748A6D009F80A4 /* SupportPeopleLikeYouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportPeopleLikeYouViewController.h; sourceTree = "<group>"; };
+		DB2CE33F19748A6D009F80A4 /* SupportPeopleLikeYouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportPeopleLikeYouViewController.m; sourceTree = "<group>"; };
+		DB2CE34119748A83009F80A4 /* SupportPeopleLikeYouView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportPeopleLikeYouView.xib; sourceTree = "<group>"; };
+		DB2CE34319748E3E009F80A4 /* SupportFamilyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportFamilyViewController.h; sourceTree = "<group>"; };
+		DB2CE34419748E3E009F80A4 /* SupportFamilyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportFamilyViewController.m; sourceTree = "<group>"; };
+		DB2CE34619748E51009F80A4 /* SupportFamilyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportFamilyView.xib; sourceTree = "<group>"; };
+		DB2CE34819748F2E009F80A4 /* SupportHealthProvidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportHealthProvidersViewController.h; sourceTree = "<group>"; };
+		DB2CE34919748F2E009F80A4 /* SupportHealthProvidersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportHealthProvidersViewController.m; sourceTree = "<group>"; };
+		DB2CE34B19748F49009F80A4 /* SupportHealthProvidersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportHealthProvidersView.xib; sourceTree = "<group>"; };
+		DB3000161AAE55C5001EB8A3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		DB3000171AAE55C5001EB8A3 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		DB31F94D1A24CE8C002B79E7 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		DB31F94E1A24CE8C002B79E7 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		DB31F94F1A24CE8C002B79E7 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		DB31F9501A24CE8C002B79E7 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		DB31F9511A24CE8C002B79E7 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		DB31F9521A24CE8C002B79E7 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		DB31F9531A24CE8C002B79E7 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		DB31F9541A24CE8C002B79E7 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		DB31F9551A24CE8C002B79E7 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		DB31F9561A24CE8C002B79E7 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		DB31F9571A24CEC3002B79E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DB31F9591A24CEDD002B79E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB31F95B1A24CEF8002B79E7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DB31F98A1A252CAD002B79E7 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../GoogleAnalyticsServicesiOS_3.10/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		DB31F98C1A252CC5002B79E7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DB31F98E1A252F60002B79E7 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdIdAccess.a; path = ../../GoogleAnalyticsServicesiOS_3.10/libAdIdAccess.a; sourceTree = "<group>"; };
+		DB3437021968275200794424 /* MoodHowDoYouFeelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodHowDoYouFeelView.xib; sourceTree = "<group>"; };
+		DB3AA8D919631DE900942A10 /* FTWeeksLogsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWeeksLogsViewController.h; sourceTree = "<group>"; };
+		DB3AA8DA19631DE900942A10 /* FTWeeksLogsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWeeksLogsViewController.m; sourceTree = "<group>"; };
+		DB3EE1361975DA7100829D18 /* SettingsSyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsSyncViewController.h; sourceTree = "<group>"; };
+		DB3EE1371975DA7100829D18 /* SettingsSyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsSyncViewController.m; sourceTree = "<group>"; };
+		DB3EE1391975DB2000829D18 /* SettingsSyncView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsSyncView.xib; sourceTree = "<group>"; };
+		DB45283818524171001E34DE /* FTActivitySelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTActivitySelectView.h; sourceTree = "<group>"; };
+		DB45283918524171001E34DE /* FTActivitySelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTActivitySelectView.m; sourceTree = "<group>"; };
+		DB45283B185266BE001E34DE /* FTExpandableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTExpandableView.h; sourceTree = "<group>"; };
+		DB45283C185266BE001E34DE /* FTExpandableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTExpandableView.m; sourceTree = "<group>"; };
+		DB45283F18528D03001E34DE /* FTCircularTimerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCircularTimerSlider.h; sourceTree = "<group>"; };
+		DB45284018528D03001E34DE /* FTCircularTimerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCircularTimerSlider.m; sourceTree = "<group>"; };
+		DB47E2D91892DD4500DF9603 /* health_local_notifications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = health_local_notifications.json; sourceTree = "<group>"; };
+		DB47E2DE1896AE2400DF9603 /* FTNotificationAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationAction.h; sourceTree = "<group>"; };
+		DB47E2DF1896AE2400DF9603 /* FTNotificationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationAction.m; sourceTree = "<group>"; };
+		DB4AEB921965CC3C00615007 /* FTHowDoYouFeelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTHowDoYouFeelViewController.h; sourceTree = "<group>"; };
+		DB4AEB931965CC3C00615007 /* FTHowDoYouFeelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTHowDoYouFeelViewController.m; sourceTree = "<group>"; };
+		DB4AEB951965CC5C00615007 /* FitnessHowDoYouFeelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessHowDoYouFeelView.xib; sourceTree = "<group>"; };
+		DB4DFCF4195D9DC1004E04FC /* FTGoalGroupedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGoalGroupedData.h; sourceTree = "<group>"; };
+		DB4DFCF5195D9DC1004E04FC /* FTGoalGroupedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGoalGroupedData.m; sourceTree = "<group>"; };
+		DB4DFCFA195DA43A004E04FC /* FTGoalHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGoalHistoryViewController.h; sourceTree = "<group>"; };
+		DB4DFCFB195DA43A004E04FC /* FTGoalHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGoalHistoryViewController.m; sourceTree = "<group>"; };
+		DB4DFCFD195DA670004E04FC /* FitnessGoalHistoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessGoalHistoryView.xib; sourceTree = "<group>"; };
+		DB4DFCFF195DABF8004E04FC /* FTGoalHistoryCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGoalHistoryCellView.h; sourceTree = "<group>"; };
+		DB4DFD00195DABF8004E04FC /* FTGoalHistoryCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGoalHistoryCellView.m; sourceTree = "<group>"; };
+		DB4E773218465EFF0000C054 /* FTCircularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCircularView.h; sourceTree = "<group>"; };
+		DB4E773318465EFF0000C054 /* FTCircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCircularView.m; sourceTree = "<group>"; };
+		DB4EC5D11A517B5600E234F1 /* ScreenMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenMaskView.h; sourceTree = "<group>"; };
+		DB4EC5D21A517B5600E234F1 /* ScreenMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenMaskView.m; sourceTree = "<group>"; };
+		DB4EC5D41A51A87000E234F1 /* LearnDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnDetailViewController.h; sourceTree = "<group>"; };
+		DB4EC5D51A51A87000E234F1 /* LearnDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnDetailViewController.m; sourceTree = "<group>"; };
+		DB4EC5D71A51A91300E234F1 /* LearnMoreDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearnMoreDetailView.xib; sourceTree = "<group>"; };
+		DB4ECBBA19684DFA0033CC05 /* MoodAfterLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodAfterLogViewController.h; sourceTree = "<group>"; };
+		DB4ECBBB19684DFA0033CC05 /* MoodAfterLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodAfterLogViewController.m; sourceTree = "<group>"; };
+		DB4ECBBD19684E110033CC05 /* MoodAfterLogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodAfterLogView.xib; sourceTree = "<group>"; };
+		DB4ECBBF196968FA0033CC05 /* FTReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTReminderViewController.h; sourceTree = "<group>"; };
+		DB4ECBC0196969130033CC05 /* FTReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTReminderViewController.m; sourceTree = "<group>"; };
+		DB4ECBC219696C9E0033CC05 /* MoodReminderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodReminderView.xib; sourceTree = "<group>"; };
+		DB4ECBC41969AB130033CC05 /* MoodHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodHistoryViewController.h; sourceTree = "<group>"; };
+		DB4ECBC51969AB130033CC05 /* MoodHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodHistoryViewController.m; sourceTree = "<group>"; };
+		DB4ECBC71969AB500033CC05 /* MoodHistoryCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodHistoryCellView.h; sourceTree = "<group>"; };
+		DB4ECBC81969AB500033CC05 /* MoodHistoryCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodHistoryCellView.m; sourceTree = "<group>"; };
+		DB4ECBCA1969CCC40033CC05 /* MoodHistoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodHistoryView.xib; sourceTree = "<group>"; };
+		DB52B54018A5288E00D7007D /* FTHomeDatetypeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTHomeDatetypeSelectView.h; sourceTree = "<group>"; };
+		DB52B54118A5288E00D7007D /* FTHomeDatetypeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTHomeDatetypeSelectView.m; sourceTree = "<group>"; };
+		DB57DB56182146B100AD9E1E /* FitHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB57DB59182146B100AD9E1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB57DB5B182146B100AD9E1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB57DB5D182146B100AD9E1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB57DB61182146B100AD9E1E /* FitHeart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitHeart-Info.plist"; sourceTree = "<group>"; };
+		DB57DB63182146B100AD9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB57DB65182146B100AD9E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB57DB67182146B100AD9E1E /* FitHeart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitHeart-Prefix.pch"; sourceTree = "<group>"; };
+		DB57DB68182146B100AD9E1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB57DB69182146B100AD9E1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB57DB6B182146B100AD9E1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB57DB71182146B100AD9E1E /* FitHeartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHeartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB57DB72182146B100AD9E1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB57DB7A182146B100AD9E1E /* FitHeartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitHeartTests-Info.plist"; sourceTree = "<group>"; };
+		DB57DB7C182146B100AD9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB57DB7E182146B100AD9E1E /* UCFSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCFSTests.m; sourceTree = "<group>"; };
+		DB6151DC18215EF100BDDA7E /* EulaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EulaView.xib; sourceTree = "<group>"; };
+		DB6151DF1821619500BDDA7E /* EulaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulaViewController.h; sourceTree = "<group>"; };
+		DB6151E01821619500BDDA7E /* EulaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulaViewController.m; sourceTree = "<group>"; };
+		DB6151E518228F4600BDDA7E /* FTSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSection.h; sourceTree = "<group>"; };
+		DB6151E618228FFE00BDDA7E /* EulaSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulaSection.h; sourceTree = "<group>"; };
+		DB6151E718228FFE00BDDA7E /* EulaSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulaSection.m; sourceTree = "<group>"; };
+		DB6151E91822E74400BDDA7E /* StudyIdSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyIdSection.h; sourceTree = "<group>"; };
+		DB6151EA1822E74400BDDA7E /* StudyIdSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyIdSection.m; sourceTree = "<group>"; };
+		DB6151EC1822E81000BDDA7E /* StudyIdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyIdViewController.h; sourceTree = "<group>"; };
+		DB6151ED1822E81000BDDA7E /* StudyIdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyIdViewController.m; sourceTree = "<group>"; };
+		DB6151EF1822E8A200BDDA7E /* StudyIdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudyIdView.xib; sourceTree = "<group>"; };
+		DB67B5A5183E68F9006B9478 /* UITextArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextArc.h; sourceTree = "<group>"; };
+		DB67B5A6183E68F9006B9478 /* UITextArc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextArc.m; sourceTree = "<group>"; };
+		DB67B5AB183F7E22006B9478 /* FTGoalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGoalData.h; sourceTree = "<group>"; };
+		DB67B5AC183F7E22006B9478 /* FTGoalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGoalData.m; sourceTree = "<group>"; };
+		DB70571518ABBB300070C7D2 /* FTDateLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDateLogData.h; sourceTree = "<group>"; };
+		DB70571618ABBB300070C7D2 /* FTDateLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDateLogData.m; sourceTree = "<group>"; };
+		DB769A5D187F2AB200A05BA0 /* BSKeyboardControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKeyboardControls.h; sourceTree = "<group>"; };
+		DB769A5E187F2AB200A05BA0 /* BSKeyboardControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKeyboardControls.m; sourceTree = "<group>"; };
+		DB769A60187F2AB200A05BA0 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/BSKeyboardControls.strings; sourceTree = "<group>"; };
+		DB769A61187F2AB200A05BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BSKeyboardControls.strings; sourceTree = "<group>"; };
+		DB769A62187F2AB200A05BA0 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/BSKeyboardControls.strings; sourceTree = "<group>"; };
+		DB769A63187F2AB200A05BA0 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/BSKeyboardControls.strings"; sourceTree = "<group>"; };
+		DB769A64187F2AB200A05BA0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/BSKeyboardControls.strings; sourceTree = "<group>"; };
+		DB769A65187F2AB200A05BA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/BSKeyboardControls.strings; sourceTree = "<group>"; };
+		DB769A68187F646F00A05BA0 /* FTEmptyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTEmptyHeaderView.h; sourceTree = "<group>"; };
+		DB769A69187F646F00A05BA0 /* FTEmptyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTEmptyHeaderView.m; sourceTree = "<group>"; };
+		DB769A6C187FFEBE00A05BA0 /* FTGoalAchivedSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGoalAchivedSelectView.h; sourceTree = "<group>"; };
+		DB769A6D187FFEBE00A05BA0 /* FTGoalAchivedSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGoalAchivedSelectView.m; sourceTree = "<group>"; };
+		DB769A6F188178E400A05BA0 /* FTDoubleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDoubleHeaderView.h; sourceTree = "<group>"; };
+		DB769A70188178E400A05BA0 /* FTDoubleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDoubleHeaderView.m; sourceTree = "<group>"; };
+		DB781A1F199FC72E002BD533 /* GFunctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFunctor.h; sourceTree = "<group>"; };
+		DB781A20199FC72E002BD533 /* GFunctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFunctor.m; sourceTree = "<group>"; };
+		DB81208719532A570024D90C /* FTDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDataType.h; sourceTree = "<group>"; };
+		DB81208819532A570024D90C /* FTDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDataType.m; sourceTree = "<group>"; };
+		DB82703118C0FDAB0031C32F /* mood_local_notifications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mood_local_notifications.json; sourceTree = "<group>"; };
+		DB85980C182E8AE600CE5364 /* OrientationSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrientationSection.h; sourceTree = "<group>"; };
+		DB85980D182E8AE600CE5364 /* OrientationSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrientationSection.m; sourceTree = "<group>"; };
+		DB85980F182E8CFC00CE5364 /* OrientationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrientationView.xib; sourceTree = "<group>"; };
+		DB859811182E8D8D00CE5364 /* OrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrientationViewController.h; sourceTree = "<group>"; };
+		DB859812182E8D8D00CE5364 /* OrientationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrientationViewController.m; sourceTree = "<group>"; };
+		DB870A3719D308970057CBC9 /* mindfulness_captions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mindfulness_captions.xml; sourceTree = "<group>"; };
+		DB870A3919D335410057CBC9 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		DB870A3A19D335410057CBC9 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		DB870A3C19D3355A0057CBC9 /* TutorialView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialView.xib; sourceTree = "<group>"; };
+		DB8F01861848E709000085F9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DB8F01881848EAD7000085F9 /* FTDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDatabase.h; sourceTree = "<group>"; };
+		DB8F01891848EAD7000085F9 /* FTDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDatabase.m; sourceTree = "<group>"; };
+		DB8F6F7918745CBE006DFB98 /* HealthSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthSection.h; sourceTree = "<group>"; };
+		DB8F6F7A18745CBE006DFB98 /* HealthSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthSection.m; sourceTree = "<group>"; };
+		DB8F6F7C1874D2B8006DFB98 /* HealthHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthHomeViewController.h; sourceTree = "<group>"; };
+		DB8F6F7D1874D2B8006DFB98 /* HealthHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthHomeViewController.m; sourceTree = "<group>"; };
+		DB8F6F7F1874D2CE006DFB98 /* HealthHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthHomeView.xib; sourceTree = "<group>"; };
+		DB8F6F811874D962006DFB98 /* HealthGoalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthGoalView.xib; sourceTree = "<group>"; };
+		DB8F6F831874D975006DFB98 /* HealthLogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthLogView.xib; sourceTree = "<group>"; };
+		DB8F6F8518757B97006DFB98 /* HealthGoalSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthGoalSelectorView.h; sourceTree = "<group>"; };
+		DB8F6F8618757B97006DFB98 /* HealthGoalSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthGoalSelectorView.m; sourceTree = "<group>"; };
+		DB8F6F9518798AC7006DFB98 /* FTDateTypeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDateTypeSelectView.h; sourceTree = "<group>"; };
+		DB8F6F9618798AC7006DFB98 /* FTDateTypeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDateTypeSelectView.m; sourceTree = "<group>"; };
+		DB979DCB199F57BB00E0087C /* VideoCaptionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptionParser.h; sourceTree = "<group>"; };
+		DB979DCC199F57BB00E0087C /* VideoCaptionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCaptionParser.m; sourceTree = "<group>"; };
+		DB979DCE199F57D100E0087C /* Caption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caption.h; sourceTree = "<group>"; };
+		DB979DCF199F57D100E0087C /* Caption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caption.m; sourceTree = "<group>"; };
+		DB980CD2199A8B1F00AB6149 /* EffortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffortTableViewCell.h; sourceTree = "<group>"; };
+		DB980CD3199A8B1F00AB6149 /* EffortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffortTableViewCell.m; sourceTree = "<group>"; };
+		DB980CD5199ADDAC00AB6149 /* AFPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPickerView.h; sourceTree = "<group>"; };
+		DB980CD6199ADDAC00AB6149 /* AFPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPickerView.m; sourceTree = "<group>"; };
+		DB9AF9311A9BCCD600C1AD4F /* SupportStressReductionVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportStressReductionVideoViewController.h; sourceTree = "<group>"; };
+		DB9AF9321A9BCCD600C1AD4F /* SupportStressReductionVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportStressReductionVideoViewController.m; sourceTree = "<group>"; };
+		DB9AF9341A9BCD2200C1AD4F /* SupportStressReductionVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportStressReductionVideoView.xib; sourceTree = "<group>"; };
+		DB9AF9361A9BD31800C1AD4F /* SupportMindfulnessMeditationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportMindfulnessMeditationViewController.h; sourceTree = "<group>"; };
+		DB9AF9371A9BD31800C1AD4F /* SupportMindfulnessMeditationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportMindfulnessMeditationViewController.m; sourceTree = "<group>"; };
+		DB9AF9391A9BD34400C1AD4F /* SupportMindfulnessMeditationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportMindfulnessMeditationView.xib; sourceTree = "<group>"; };
+		DB9AF93B1A9BE7CE00C1AD4F /* SupportCompassionMeditationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportCompassionMeditationViewController.h; sourceTree = "<group>"; };
+		DB9AF93C1A9BE7CE00C1AD4F /* SupportCompassionMeditationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportCompassionMeditationViewController.m; sourceTree = "<group>"; };
+		DB9AF93E1A9BE80300C1AD4F /* SupportCompassionMeditationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportCompassionMeditationView.xib; sourceTree = "<group>"; };
+		DBA37814186709F70005A921 /* FTSimplePleasureSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSimplePleasureSelectView.h; sourceTree = "<group>"; };
+		DBA37815186709F70005A921 /* FTSimplePleasureSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSimplePleasureSelectView.m; sourceTree = "<group>"; };
+		DBA4F1B2184FB28500E17589 /* FTDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDialogView.h; sourceTree = "<group>"; };
+		DBA4F1B3184FB28500E17589 /* FTDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDialogView.m; sourceTree = "<group>"; };
+		DBA4F1B71850C8AB00E17589 /* FTEntriesGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTEntriesGraph.h; sourceTree = "<group>"; };
+		DBA4F1B81850C8AB00E17589 /* FTEntriesGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTEntriesGraph.m; sourceTree = "<group>"; };
+		DBA4F1BA1850F6E100E17589 /* FTLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTLogData.h; sourceTree = "<group>"; };
+		DBA4F1BB1850F6E100E17589 /* FTLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTLogData.m; sourceTree = "<group>"; };
+		DBA4F1C1185218B900E17589 /* FitnessLogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessLogView.xib; sourceTree = "<group>"; };
+		DBA4F1C31852210A00E17589 /* FTOptionGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTOptionGroupView.h; sourceTree = "<group>"; };
+		DBA4F1C41852210A00E17589 /* FTOptionGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTOptionGroupView.m; sourceTree = "<group>"; };
+		DBA4F1C71852220600E17589 /* FTDateSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDateSelectView.h; sourceTree = "<group>"; };
+		DBA4F1C81852220600E17589 /* FTDateSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDateSelectView.m; sourceTree = "<group>"; };
+		DBA66A02195C649700736F9D /* FitnessStartDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessStartDateViewController.h; sourceTree = "<group>"; };
+		DBA66A03195C649700736F9D /* FitnessStartDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessStartDateViewController.m; sourceTree = "<group>"; };
+		DBA66A05195C64A900736F9D /* FitnessStartDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessStartDateView.xib; sourceTree = "<group>"; };
+		DBA66A07195C76F300736F9D /* FTCircularEntriesGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCircularEntriesGraph.h; sourceTree = "<group>"; };
+		DBA66A08195C76F300736F9D /* FTCircularEntriesGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCircularEntriesGraph.m; sourceTree = "<group>"; };
+		DBA66A0E195CDAC800736F9D /* FTDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDateViewController.h; sourceTree = "<group>"; };
+		DBA66A0F195CDAC800736F9D /* FTDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDateViewController.m; sourceTree = "<group>"; };
+		DBA66A11195CDADA00736F9D /* FitnessDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessDateView.xib; sourceTree = "<group>"; };
+		DBA66A13195CDAEE00736F9D /* FitnessActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessActivityViewController.h; sourceTree = "<group>"; };
+		DBA66A14195CDAEE00736F9D /* FitnessActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessActivityViewController.m; sourceTree = "<group>"; };
+		DBA66A16195CDB0000736F9D /* FitnessActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessActivityView.xib; sourceTree = "<group>"; };
+		DBA66A18195CDB1800736F9D /* FitnessEffortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessEffortViewController.h; sourceTree = "<group>"; };
+		DBA66A19195CDB1800736F9D /* FitnessEffortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessEffortViewController.m; sourceTree = "<group>"; };
+		DBA66A1B195CDB2900736F9D /* FitnessEffortView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessEffortView.xib; sourceTree = "<group>"; };
+		DBADAED6195489AF00E98427 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		DBADAED7195489AF00E98427 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		DBADAED8195489AF00E98427 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		DBADAED9195489AF00E98427 /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		DBADAEDA195489AF00E98427 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		DBADAEDB195489AF00E98427 /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		DBADAEDC195489AF00E98427 /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		DBADAEDD195489AF00E98427 /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		DBADAEDE195489AF00E98427 /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		DBADAEDF195489AF00E98427 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		DBADAEE0195489AF00E98427 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		DBADAEE1195489AF00E98427 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		DBB4BCAC18897D4F0004CA4E /* LearnMoreSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnMoreSection.h; sourceTree = "<group>"; };
+		DBB4BCAD18897D4F0004CA4E /* LearnMoreSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnMoreSection.m; sourceTree = "<group>"; };
+		DBB4BCAF1889834C0004CA4E /* LearnMoreHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnMoreHomeViewController.h; sourceTree = "<group>"; };
+		DBB4BCB01889834C0004CA4E /* LearnMoreHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnMoreHomeViewController.m; sourceTree = "<group>"; };
+		DBB4BCB21889836C0004CA4E /* LearnMoreHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearnMoreHomeView.xib; sourceTree = "<group>"; };
+		DBB4BCB41889D7AB0004CA4E /* LearnMoreContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearnMoreContentView.xib; sourceTree = "<group>"; };
+		DBB4BCB61889D7C20004CA4E /* LearnMoreContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnMoreContentViewController.h; sourceTree = "<group>"; };
+		DBB4BCB71889D7C20004CA4E /* LearnMoreContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnMoreContentViewController.m; sourceTree = "<group>"; };
+		DBB4BCB91889E1FC0004CA4E /* learnmore_fitness.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = learnmore_fitness.json; sourceTree = "<group>"; };
+		DBB4BCBB1889EB130004CA4E /* learnmore_health.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = learnmore_health.json; sourceTree = "<group>"; };
+		DBB4BCBD1889EFF00004CA4E /* learnmore_nutrition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = learnmore_nutrition.json; sourceTree = "<group>"; };
+		DBB4BCBF1889F1470004CA4E /* learnmore_mood.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = learnmore_mood.json; sourceTree = "<group>"; };
+		DBB4BCC1188D40B70004CA4E /* fitness_banner_notifications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fitness_banner_notifications.json; sourceTree = "<group>"; };
+		DBB4BCC3188D46FD0004CA4E /* FTNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotification.h; sourceTree = "<group>"; };
+		DBB4BCC4188D46FD0004CA4E /* FTNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotification.m; sourceTree = "<group>"; };
+		DBB4BCC7188D87020004CA4E /* FTBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBannerView.h; sourceTree = "<group>"; };
+		DBB4BCC8188D87020004CA4E /* FTBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBannerView.m; sourceTree = "<group>"; };
+		DBB4BCCA188DF6120004CA4E /* health_banner_notifications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = health_banner_notifications.json; sourceTree = "<group>"; };
+		DBB4BCCE188E85990004CA4E /* mood_banner_notifications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mood_banner_notifications.json; sourceTree = "<group>"; };
+		DBB4BCD0188EB4190004CA4E /* FTAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAppSettings.h; sourceTree = "<group>"; };
+		DBB4BCD1188EB4190004CA4E /* FTAppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAppSettings.m; sourceTree = "<group>"; };
+		DBB5798D195882E400802F8D /* StudyIdTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyIdTextField.h; sourceTree = "<group>"; };
+		DBB5798E195882E400802F8D /* StudyIdTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyIdTextField.m; sourceTree = "<group>"; };
+		DBB579901958CAD300802F8D /* FitnessIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessIntroViewController.h; sourceTree = "<group>"; };
+		DBB579911958CAD300802F8D /* FitnessIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessIntroViewController.m; sourceTree = "<group>"; };
+		DBB579931958CAEF00802F8D /* FitnessIntroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessIntroView.xib; sourceTree = "<group>"; };
+		DBBA985818A28AA400098A24 /* FTHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTHomeView.h; sourceTree = "<group>"; };
+		DBBA985918A28AA400098A24 /* FTHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTHomeView.m; sourceTree = "<group>"; };
+		DBBF614719714EB600F5ACA1 /* SupportSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportSection.h; sourceTree = "<group>"; };
+		DBBF614819714EB600F5ACA1 /* SupportSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportSection.m; sourceTree = "<group>"; };
+		DBBF614A1971500C00F5ACA1 /* SupportHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportHomeViewController.h; sourceTree = "<group>"; };
+		DBBF614B1971500C00F5ACA1 /* SupportHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportHomeViewController.m; sourceTree = "<group>"; };
+		DBBF614D1971502700F5ACA1 /* SupportHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportHomeView.xib; sourceTree = "<group>"; };
+		DBBF614F197429B500F5ACA1 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		DBBF6150197429B500F5ACA1 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		DBC0199318BE46E800EC132A /* MoodReminderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodReminderView.xib; sourceTree = "<group>"; };
+		DBC026D1186091D7002813D6 /* FTLogTimerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTLogTimerContainerView.h; sourceTree = "<group>"; };
+		DBC026D2186091D7002813D6 /* FTLogTimerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTLogTimerContainerView.m; sourceTree = "<group>"; };
+		DBC026D518632916002813D6 /* SettingsSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsSection.h; sourceTree = "<group>"; };
+		DBC026D618632916002813D6 /* SettingsSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsSection.m; sourceTree = "<group>"; };
+		DBC026D8186329DE002813D6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		DBC026D9186329DE002813D6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		DBC026DB186329F3002813D6 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		DBC026DE186393EE002813D6 /* MoodSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodSection.h; sourceTree = "<group>"; };
+		DBC026DF186393EE002813D6 /* MoodSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodSection.m; sourceTree = "<group>"; };
+		DBC026E118639CB3002813D6 /* MoodHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodHomeViewController.h; sourceTree = "<group>"; };
+		DBC026E218639CB3002813D6 /* MoodHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodHomeViewController.m; sourceTree = "<group>"; };
+		DBC026E418639D2C002813D6 /* MoodHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodHomeView.xib; sourceTree = "<group>"; };
+		DBC026E6186481DA002813D6 /* SupportMindfulnessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportMindfulnessView.xib; sourceTree = "<group>"; };
+		DBC026E8186481EB002813D6 /* SupportMindfulnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportMindfulnessViewController.h; sourceTree = "<group>"; };
+		DBC026E9186481EB002813D6 /* SupportMindfulnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportMindfulnessViewController.m; sourceTree = "<group>"; };
+		DBC3410B18883F5E004CC0C9 /* RESwitch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RESwitch.bundle; sourceTree = "<group>"; };
+		DBC3410C18883F5E004CC0C9 /* RESwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESwitch.h; sourceTree = "<group>"; };
+		DBC3410D18883F5E004CC0C9 /* RESwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESwitch.m; sourceTree = "<group>"; };
+		DBC3411118885BBF004CC0C9 /* AboutSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutSection.h; sourceTree = "<group>"; };
+		DBC3411218885BBF004CC0C9 /* AboutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutSection.m; sourceTree = "<group>"; };
+		DBC3411418888345004CC0C9 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		DBC3411618888369004CC0C9 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		DBC3411718888369004CC0C9 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		DBC3411918888FBF004CC0C9 /* about.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = about.json; sourceTree = "<group>"; };
+		DBC3411C18889240004CC0C9 /* RTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLabel.h; sourceTree = "<group>"; };
+		DBC3411D18889240004CC0C9 /* RTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLabel.m; sourceTree = "<group>"; };
+		DBC3412118889E2D004CC0C9 /* FTNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNote.h; sourceTree = "<group>"; };
+		DBC3412218889E2D004CC0C9 /* FTNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNote.m; sourceTree = "<group>"; };
+		DBC3412418889EDE004CC0C9 /* FTNoteHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNoteHeader.h; sourceTree = "<group>"; };
+		DBC3412518889EDE004CC0C9 /* FTNoteHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNoteHeader.m; sourceTree = "<group>"; };
+		DBC49E6F1891715B00D1B9B2 /* FTNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationManager.h; sourceTree = "<group>"; };
+		DBC49E701891715B00D1B9B2 /* FTNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationManager.m; sourceTree = "<group>"; };
+		DBC49E721891915C00D1B9B2 /* fitness_local_notifications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fitness_local_notifications.json; sourceTree = "<group>"; };
+		DBDECB3D196C906C00AC6A87 /* HealthGoalHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthGoalHomeViewController.h; sourceTree = "<group>"; };
+		DBDECB3E196C906C00AC6A87 /* HealthGoalHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthGoalHomeViewController.m; sourceTree = "<group>"; };
+		DBDECB40196C907E00AC6A87 /* HealthGoalHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthGoalHomeView.xib; sourceTree = "<group>"; };
+		DBDECB42196C9E4900AC6A87 /* HealthReminderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthReminderView.xib; sourceTree = "<group>"; };
+		DBDECB44196CAFD100AC6A87 /* HealthDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthDateView.xib; sourceTree = "<group>"; };
+		DBDECB46196CB50900AC6A87 /* HealthSelectorItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthSelectorItemView.h; sourceTree = "<group>"; };
+		DBDECB47196CB50900AC6A87 /* HealthSelectorItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthSelectorItemView.m; sourceTree = "<group>"; };
+		DBDECB49196DDF7500AC6A87 /* HealthHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthHistoryViewController.h; sourceTree = "<group>"; };
+		DBDECB4A196DDF7500AC6A87 /* HealthHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthHistoryViewController.m; sourceTree = "<group>"; };
+		DBDECB4C196DDFAB00AC6A87 /* HealthHistoryCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthHistoryCellView.h; sourceTree = "<group>"; };
+		DBDECB4D196DDFAB00AC6A87 /* HealthHistoryCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthHistoryCellView.m; sourceTree = "<group>"; };
+		DBDECB4F196DFACF00AC6A87 /* HealthHistoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthHistoryView.xib; sourceTree = "<group>"; };
+		DBDECB54196ED70A00AC6A87 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		DBDECCDC196ED85900AC6A87 /* FTSalesForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSalesForce.h; sourceTree = "<group>"; };
+		DBDECCDD196ED85900AC6A87 /* FTSalesForce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSalesForce.m; sourceTree = "<group>"; };
+		DBE799BB1859D6BD00E559F5 /* FTSingleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSingleHeaderView.h; sourceTree = "<group>"; };
+		DBE799BC1859D6BD00E559F5 /* FTSingleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSingleHeaderView.m; sourceTree = "<group>"; };
+		DBE799BE185A10EC00E559F5 /* FTGoalContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGoalContainerView.h; sourceTree = "<group>"; };
+		DBE799BF185A10EC00E559F5 /* FTGoalContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGoalContainerView.m; sourceTree = "<group>"; };
+		DBE799C1185A1B8E00E559F5 /* FTFirstLaunch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFirstLaunch.h; sourceTree = "<group>"; };
+		DBE799C3185A300A00E559F5 /* FTHeaderConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTHeaderConf.h; sourceTree = "<group>"; };
+		DBE799C4185A300A00E559F5 /* FTHeaderConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTHeaderConf.m; sourceTree = "<group>"; };
+		DBE799C6185A635100E559F5 /* FTHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTHeaderView.h; sourceTree = "<group>"; };
+		DBE799C7185A635100E559F5 /* FTHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTHeaderView.m; sourceTree = "<group>"; };
+		DBE799C9185B7B6C00E559F5 /* FTLogContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTLogContainerView.h; sourceTree = "<group>"; };
+		DBE799CA185B7B6C00E559F5 /* FTLogContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTLogContainerView.m; sourceTree = "<group>"; };
+		DBE799CC185B7BD200E559F5 /* FTTimerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTimerHeaderView.h; sourceTree = "<group>"; };
+		DBE799CD185B7BD200E559F5 /* FTTimerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTimerHeaderView.m; sourceTree = "<group>"; };
+		DBE8A44A195B0B9500A3497B /* FTHomeActionDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTHomeActionDialogView.h; sourceTree = "<group>"; };
+		DBE8A44B195B0B9500A3497B /* FTHomeActionDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTHomeActionDialogView.m; sourceTree = "<group>"; };
+		DBE8A44D195B0EE300A3497B /* FitnessSwitcherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessSwitcherView.h; sourceTree = "<group>"; };
+		DBE8A44E195B0EE300A3497B /* FitnessSwitcherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessSwitcherView.m; sourceTree = "<group>"; };
+		DBE8A45C195C34D300A3497B /* FitnessReminderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessReminderView.xib; sourceTree = "<group>"; };
+		DBF466801869FCCE008D18EB /* lilac_breath_awareness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lilac_breath_awareness.mp3; sourceTree = "<group>"; };
+		DBF46685186D8637008D18EB /* FTNoteHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNoteHeaderView.h; sourceTree = "<group>"; };
+		DBF46686186D8637008D18EB /* FTNoteHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNoteHeaderView.m; sourceTree = "<group>"; };
+		DBF466881870AA7E008D18EB /* FTSectionHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSectionHomeViewController.h; sourceTree = "<group>"; };
+		DBF466891870AA7E008D18EB /* FTSectionHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSectionHomeViewController.m; sourceTree = "<group>"; };
+		DBF466931871E2F8008D18EB /* FTSectionGoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSectionGoalViewController.h; sourceTree = "<group>"; };
+		DBF466941871E2F8008D18EB /* FTSectionGoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSectionGoalViewController.m; sourceTree = "<group>"; };
+		DBF466961871F3CB008D18EB /* FTSectionLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSectionLogViewController.h; sourceTree = "<group>"; };
+		DBF466971871F3CB008D18EB /* FTSectionLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSectionLogViewController.m; sourceTree = "<group>"; };
+		DBF4669D18722C29008D18EB /* FTMealSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMealSelectView.h; sourceTree = "<group>"; };
+		DBF4669E18722C29008D18EB /* FTMealSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMealSelectView.m; sourceTree = "<group>"; };
+		DBFCA68118316780004EB33D /* FuturaStd-Condensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-Condensed.otf"; sourceTree = "<group>"; };
+		DBFCA68218316780004EB33D /* FuturaStd-CondensedBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedBold.otf"; sourceTree = "<group>"; };
+		DBFCA68318316780004EB33D /* FuturaStd-CondensedLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedLight.otf"; sourceTree = "<group>"; };
+		DBFCA68418317660004EB33D /* UCFSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCFSUtil.h; sourceTree = "<group>"; };
+		DBFCA68518317660004EB33D /* UCFSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCFSUtil.m; sourceTree = "<group>"; };
+		DBFCA68818318DD3004EB33D /* FitnessSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessSection.h; sourceTree = "<group>"; };
+		DBFCA68918318DD3004EB33D /* FitnessSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessSection.m; sourceTree = "<group>"; };
+		DBFCA68B1831905C004EB33D /* FitnessHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessHomeView.xib; sourceTree = "<group>"; };
+		DBFCA68D1831908B004EB33D /* FitnessHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitnessHomeViewController.h; sourceTree = "<group>"; };
+		DBFCA68E1831908B004EB33D /* FitnessHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitnessHomeViewController.m; sourceTree = "<group>"; };
+		DBFCA6911831A040004EB33D /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		DBFCA6921831A040004EB33D /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		DBFCA6931831A040004EB33D /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		DBFCA6941831A040004EB33D /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		DBFCA6951831A040004EB33D /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		DBFCA6961831A040004EB33D /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		DBFCA6971831A040004EB33D /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		DBFCA6981831A040004EB33D /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		DBFCA6991831A040004EB33D /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		DBFCA6A01831A2D0004EB33D /* LateralMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LateralMenuViewController.h; sourceTree = "<group>"; };
+		DBFCA6A11831A2D0004EB33D /* LateralMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LateralMenuViewController.m; sourceTree = "<group>"; };
+		DBFCA6A31831A2E1004EB33D /* LateralMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LateralMenuView.xib; sourceTree = "<group>"; };
+		DBFCA6A5183235B4004EB33D /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		DBFCA6A6183235B4004EB33D /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		DBFCA6AB1832657E004EB33D /* FitnessGoalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitnessGoalView.xib; sourceTree = "<group>"; };
+		DBFCA6B118328E55004EB33D /* TBCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCircularSlider.h; sourceTree = "<group>"; };
+		DBFCA6B218328E55004EB33D /* TBCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCircularSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB57DB53182146B100AD9E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB31F98B1A252CAD002B79E7 /* libGoogleAnalyticsServices.a in Frameworks */,
+				DB31F95C1A24CEF8002B79E7 /* libz.dylib in Frameworks */,
+				DB31F95A1A24CEDD002B79E7 /* SystemConfiguration.framework in Frameworks */,
+				DB31F9581A24CEC3002B79E7 /* CoreData.framework in Frameworks */,
+				DBDECB55196ED70A00AC6A87 /* libxml2.2.dylib in Frameworks */,
+				DB8F01871848E709000085F9 /* libsqlite3.dylib in Frameworks */,
+				DB57DB5C182146B100AD9E1E /* CoreGraphics.framework in Frameworks */,
+				DB57DB5E182146B100AD9E1E /* UIKit.framework in Frameworks */,
+				DB57DB5A182146B100AD9E1E /* Foundation.framework in Frameworks */,
+				EDEE41AFBC354F7CAB05347D /* libPods-FitHeart.a in Frameworks */,
+				DB3000181AAE55C6001EB8A3 /* Crashlytics.framework in Frameworks */,
+				DB3000191AAE55C6001EB8A3 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB57DB6E182146B100AD9E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB57DB73182146B100AD9E1E /* XCTest.framework in Frameworks */,
+				DB57DB75182146B100AD9E1E /* UIKit.framework in Frameworks */,
+				DB57DB74182146B100AD9E1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0B961C184CE2A000883FA6 /* FrequencySlider */ = {
+			isa = PBXGroup;
+			children = (
+				DB0B961D184CE2E800883FA6 /* FTFrequencySlider.h */,
+				DB0B961E184CE2E800883FA6 /* FTFrequencySlider.m */,
+			);
+			name = FrequencySlider;
+			sourceTree = "<group>";
+		};
+		DB0B9623184D438B00883FA6 /* ReminderSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DB0B9620184D438600883FA6 /* FTReminderSelectView.h */,
+				DB0B9621184D438600883FA6 /* FTReminderSelectView.m */,
+			);
+			name = ReminderSelectView;
+			sourceTree = "<group>";
+		};
+		DB0B9627184E488900883FA6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DBDECCDC196ED85900AC6A87 /* FTSalesForce.h */,
+				DBDECCDD196ED85900AC6A87 /* FTSalesForce.m */,
+				DB47E2DD18967E1A00DF9603 /* notification */,
+				DBC3412018889C58004CC0C9 /* note */,
+				DBC3411F18889C26004CC0C9 /* section */,
+				DBFCA6A5183235B4004EB33D /* MenuItem.h */,
+				DBFCA6A6183235B4004EB33D /* MenuItem.m */,
+				DB45283B185266BE001E34DE /* FTExpandableView.h */,
+				DB45283C185266BE001E34DE /* FTExpandableView.m */,
+				DBA4F1C31852210A00E17589 /* FTOptionGroupView.h */,
+				DBA4F1C41852210A00E17589 /* FTOptionGroupView.m */,
+				DBE799C1185A1B8E00E559F5 /* FTFirstLaunch.h */,
+				DB6151E518228F4600BDDA7E /* FTSection.h */,
+				DBFCA68418317660004EB33D /* UCFSUtil.h */,
+				DBFCA68518317660004EB33D /* UCFSUtil.m */,
+				DBB4BCD0188EB4190004CA4E /* FTAppSettings.h */,
+				DBB4BCD1188EB4190004CA4E /* FTAppSettings.m */,
+				DB4EC5D11A517B5600E234F1 /* ScreenMaskView.h */,
+				DB4EC5D21A517B5600E234F1 /* ScreenMaskView.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		DB1C33D918BC18B0006E6688 /* GlucoseSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C33DA18BC18CD006E6688 /* FTGlucoseSelectView.h */,
+				DB1C33DB18BC18CD006E6688 /* FTGlucoseSelectView.m */,
+			);
+			name = GlucoseSelectView;
+			sourceTree = "<group>";
+		};
+		DB21664E1855DB5100DD1579 /* EffortSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DB2166501855DD8600DD1579 /* FTEffortSelectView.h */,
+				DB2166511855DD8600DD1579 /* FTEffortSelectView.m */,
+			);
+			name = EffortSelectView;
+			sourceTree = "<group>";
+		};
+		DB21664F1855DB6C00DD1579 /* select */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C33D918BC18B0006E6688 /* GlucoseSelectView */,
+				DB769A6B187FFE7800A05BA0 /* GoalAchivedSelectView */,
+				DB8F6F9118798A8C006DFB98 /* DateTypeSelectView */,
+				DBF4669C18722BE8008D18EB /* MealSelectView */,
+				DBA37813186709BD0005A921 /* SimplePleasuresSelectView */,
+				DB0B9623184D438B00883FA6 /* ReminderSelectView */,
+				DBA4F1C6185221CA00E17589 /* DateSelectView */,
+				DB4528371852414A001E34DE /* ActivitySelectView */,
+				DB21664E1855DB5100DD1579 /* EffortSelectView */,
+			);
+			name = select;
+			sourceTree = "<group>";
+		};
+		DB31F94C1A24CE72002B79E7 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				DB31F94D1A24CE8C002B79E7 /* GAI.h */,
+				DB31F94E1A24CE8C002B79E7 /* GAIDictionaryBuilder.h */,
+				DB31F94F1A24CE8C002B79E7 /* GAIEcommerceFields.h */,
+				DB31F9501A24CE8C002B79E7 /* GAIEcommerceProduct.h */,
+				DB31F9511A24CE8C002B79E7 /* GAIEcommerceProductAction.h */,
+				DB31F9521A24CE8C002B79E7 /* GAIEcommercePromotion.h */,
+				DB31F9531A24CE8C002B79E7 /* GAIFields.h */,
+				DB31F9541A24CE8C002B79E7 /* GAILogger.h */,
+				DB31F9551A24CE8C002B79E7 /* GAITrackedViewController.h */,
+				DB31F9561A24CE8C002B79E7 /* GAITracker.h */,
+			);
+			name = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		DB4528371852414A001E34DE /* ActivitySelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DB45283818524171001E34DE /* FTActivitySelectView.h */,
+				DB45283918524171001E34DE /* FTActivitySelectView.m */,
+			);
+			name = ActivitySelectView;
+			sourceTree = "<group>";
+		};
+		DB45283E18528ABC001E34DE /* CircularTimerSlider */ = {
+			isa = PBXGroup;
+			children = (
+				DB45283F18528D03001E34DE /* FTCircularTimerSlider.h */,
+				DB45284018528D03001E34DE /* FTCircularTimerSlider.m */,
+			);
+			name = CircularTimerSlider;
+			sourceTree = "<group>";
+		};
+		DB47E2DD18967E1A00DF9603 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4BCC3188D46FD0004CA4E /* FTNotification.h */,
+				DBB4BCC4188D46FD0004CA4E /* FTNotification.m */,
+				DBC49E6F1891715B00D1B9B2 /* FTNotificationManager.h */,
+				DBC49E701891715B00D1B9B2 /* FTNotificationManager.m */,
+				DB47E2DE1896AE2400DF9603 /* FTNotificationAction.h */,
+				DB47E2DF1896AE2400DF9603 /* FTNotificationAction.m */,
+			);
+			name = notification;
+			sourceTree = "<group>";
+		};
+		DB4E77311846524F0000C054 /* CircularView */ = {
+			isa = PBXGroup;
+			children = (
+				DB4E773218465EFF0000C054 /* FTCircularView.h */,
+				DB4E773318465EFF0000C054 /* FTCircularView.m */,
+			);
+			name = CircularView;
+			sourceTree = "<group>";
+		};
+		DB57DB4D182146B100AD9E1E = {
+			isa = PBXGroup;
+			children = (
+				DB3000161AAE55C5001EB8A3 /* Crashlytics.framework */,
+				DB3000171AAE55C5001EB8A3 /* Fabric.framework */,
+				DB57DB5F182146B100AD9E1E /* FT */,
+				DB57DB78182146B100AD9E1E /* UCFSTests */,
+				DB57DB58182146B100AD9E1E /* Frameworks */,
+				DB57DB57182146B100AD9E1E /* Products */,
+				CF2CD6E126714E93871A1859 /* Pods-FitHeart.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DB57DB57182146B100AD9E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB57DB56182146B100AD9E1E /* FitHeart.app */,
+				DB57DB71182146B100AD9E1E /* FitHeartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB57DB58182146B100AD9E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB31F98E1A252F60002B79E7 /* libAdIdAccess.a */,
+				DB31F98C1A252CC5002B79E7 /* libsqlite3.0.dylib */,
+				DB31F98A1A252CAD002B79E7 /* libGoogleAnalyticsServices.a */,
+				DB31F95B1A24CEF8002B79E7 /* libz.dylib */,
+				DB31F9591A24CEDD002B79E7 /* SystemConfiguration.framework */,
+				DB31F9571A24CEC3002B79E7 /* CoreData.framework */,
+				DBDECB54196ED70A00AC6A87 /* libxml2.2.dylib */,
+				DB8F01861848E709000085F9 /* libsqlite3.dylib */,
+				DB57DB59182146B100AD9E1E /* Foundation.framework */,
+				DB57DB5B182146B100AD9E1E /* CoreGraphics.framework */,
+				DB57DB5D182146B100AD9E1E /* UIKit.framework */,
+				DB57DB72182146B100AD9E1E /* XCTest.framework */,
+				B488368186894A1A9C051231 /* libPods-FitHeart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB57DB5F182146B100AD9E1E /* FT */ = {
+			isa = PBXGroup;
+			children = (
+				DBC026D4186328EF002813D6 /* Settings */,
+				DBBF614619714E3E00F5ACA1 /* Support */,
+				DBB4BCAB188979880004CA4E /* LearnMore */,
+				DBC3411018885B7A004CC0C9 /* About */,
+				DBFCA68018316770004EB33D /* fonts */,
+				DB9D42071830F4B300BBE7B4 /* lib */,
+				DB6151DE1821613D00BDDA7E /* FirstLaunch */,
+				DBFCA69F1831A2A1004EB33D /* LateralMenu */,
+				DBFCA68718318D62004EB33D /* Fitness */,
+				DBF4669B1871FAE4008D18EB /* Health */,
+				DBC026DD18639366002813D6 /* Mood */,
+				DBA4F1BD1851010700E17589 /* database */,
+				DB0B9627184E488900883FA6 /* common */,
+				DB57DB68182146B100AD9E1E /* AppDelegate.h */,
+				DB57DB69182146B100AD9E1E /* AppDelegate.m */,
+				DB57DB6B182146B100AD9E1E /* Images.xcassets */,
+				DB57DB60182146B100AD9E1E /* Supporting Files */,
+			);
+			name = FT;
+			path = UCFS;
+			sourceTree = "<group>";
+		};
+		DB57DB60182146B100AD9E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB57DB61182146B100AD9E1E /* FitHeart-Info.plist */,
+				DB57DB62182146B100AD9E1E /* InfoPlist.strings */,
+				DB57DB65182146B100AD9E1E /* main.m */,
+				DB57DB67182146B100AD9E1E /* FitHeart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB57DB78182146B100AD9E1E /* UCFSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB57DB7E182146B100AD9E1E /* UCFSTests.m */,
+				DB57DB79182146B100AD9E1E /* Supporting Files */,
+			);
+			path = UCFSTests;
+			sourceTree = "<group>";
+		};
+		DB57DB79182146B100AD9E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB57DB7A182146B100AD9E1E /* FitHeartTests-Info.plist */,
+				DB57DB7B182146B100AD9E1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB6151DE1821613D00BDDA7E /* FirstLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				DB6151DC18215EF100BDDA7E /* EulaView.xib */,
+				DB6151DF1821619500BDDA7E /* EulaViewController.h */,
+				DB6151E01821619500BDDA7E /* EulaViewController.m */,
+				DB6151E618228FFE00BDDA7E /* EulaSection.h */,
+				DB6151E718228FFE00BDDA7E /* EulaSection.m */,
+				DB6151E91822E74400BDDA7E /* StudyIdSection.h */,
+				DB6151EA1822E74400BDDA7E /* StudyIdSection.m */,
+				DB6151EC1822E81000BDDA7E /* StudyIdViewController.h */,
+				DB6151ED1822E81000BDDA7E /* StudyIdViewController.m */,
+				DB6151EF1822E8A200BDDA7E /* StudyIdView.xib */,
+				DB85980C182E8AE600CE5364 /* OrientationSection.h */,
+				DB85980D182E8AE600CE5364 /* OrientationSection.m */,
+				DB859811182E8D8D00CE5364 /* OrientationViewController.h */,
+				DB859812182E8D8D00CE5364 /* OrientationViewController.m */,
+				DB85980F182E8CFC00CE5364 /* OrientationView.xib */,
+				DBB5798D195882E400802F8D /* StudyIdTextField.h */,
+				DBB5798E195882E400802F8D /* StudyIdTextField.m */,
+			);
+			name = FirstLaunch;
+			sourceTree = "<group>";
+		};
+		DB67B5A1183E4BFF006B9478 /* TextArc */ = {
+			isa = PBXGroup;
+			children = (
+				DB67B5A5183E68F9006B9478 /* UITextArc.h */,
+				DB67B5A6183E68F9006B9478 /* UITextArc.m */,
+			);
+			name = TextArc;
+			sourceTree = "<group>";
+		};
+		DB769A5C187F2AB200A05BA0 /* BSKeyboardControls */ = {
+			isa = PBXGroup;
+			children = (
+				DB769A5D187F2AB200A05BA0 /* BSKeyboardControls.h */,
+				DB769A5E187F2AB200A05BA0 /* BSKeyboardControls.m */,
+				DB769A5F187F2AB200A05BA0 /* BSKeyboardControls.strings */,
+			);
+			path = BSKeyboardControls;
+			sourceTree = "<group>";
+		};
+		DB769A6B187FFE7800A05BA0 /* GoalAchivedSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DB769A6C187FFEBE00A05BA0 /* FTGoalAchivedSelectView.h */,
+				DB769A6D187FFEBE00A05BA0 /* FTGoalAchivedSelectView.m */,
+			);
+			name = GoalAchivedSelectView;
+			sourceTree = "<group>";
+		};
+		DB8F6F9118798A8C006DFB98 /* DateTypeSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F6F9518798AC7006DFB98 /* FTDateTypeSelectView.h */,
+				DB8F6F9618798AC7006DFB98 /* FTDateTypeSelectView.m */,
+			);
+			name = DateTypeSelectView;
+			sourceTree = "<group>";
+		};
+		DB9D42071830F4B300BBE7B4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DB31F94C1A24CE72002B79E7 /* GoogleAnalytics */,
+				DBBA985718A28A7E00098A24 /* HomeView */,
+				DBB4BCC6188D837F0004CA4E /* FTBannerView */,
+				DBC3411B18889230004CC0C9 /* RTLabel */,
+				DBC3410A18883F5E004CC0C9 /* RESwitch */,
+				DB769A5C187F2AB200A05BA0 /* BSKeyboardControls */,
+				DBE799B21859D29400E559F5 /* header */,
+				DB21664F1855DB6C00DD1579 /* select */,
+				DB45283E18528ABC001E34DE /* CircularTimerSlider */,
+				DBA4F1B61850C87D00E17589 /* EntriesGraph */,
+				DBA4F1B5184FB29200E17589 /* DialogView */,
+				DB0B961C184CE2A000883FA6 /* FrequencySlider */,
+				DB4E77311846524F0000C054 /* CircularView */,
+				DB67B5A1183E4BFF006B9478 /* TextArc */,
+				DBFCA6AD18326B86004EB33D /* CircularSlider */,
+				DBFCA69E1831A051004EB33D /* PickerView */,
+				DBFCA6901831A040004EB33D /* MMDrawerController */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DBA37813186709BD0005A921 /* SimplePleasuresSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DBA37814186709F70005A921 /* FTSimplePleasureSelectView.h */,
+				DBA37815186709F70005A921 /* FTSimplePleasureSelectView.m */,
+			);
+			name = SimplePleasuresSelectView;
+			sourceTree = "<group>";
+		};
+		DBA4F1B5184FB29200E17589 /* DialogView */ = {
+			isa = PBXGroup;
+			children = (
+				DBA4F1B2184FB28500E17589 /* FTDialogView.h */,
+				DBA4F1B3184FB28500E17589 /* FTDialogView.m */,
+			);
+			name = DialogView;
+			sourceTree = "<group>";
+		};
+		DBA4F1B61850C87D00E17589 /* EntriesGraph */ = {
+			isa = PBXGroup;
+			children = (
+				DBA4F1B71850C8AB00E17589 /* FTEntriesGraph.h */,
+				DBA4F1B81850C8AB00E17589 /* FTEntriesGraph.m */,
+				DBA66A07195C76F300736F9D /* FTCircularEntriesGraph.h */,
+				DBA66A08195C76F300736F9D /* FTCircularEntriesGraph.m */,
+			);
+			name = EntriesGraph;
+			sourceTree = "<group>";
+		};
+		DBA4F1BD1851010700E17589 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				DBA4F1BA1850F6E100E17589 /* FTLogData.h */,
+				DBA4F1BB1850F6E100E17589 /* FTLogData.m */,
+				DB70571518ABBB300070C7D2 /* FTDateLogData.h */,
+				DB70571618ABBB300070C7D2 /* FTDateLogData.m */,
+				DB67B5AB183F7E22006B9478 /* FTGoalData.h */,
+				DB67B5AC183F7E22006B9478 /* FTGoalData.m */,
+				DB0B9619184C9F4B00883FA6 /* FTLogGroupedData.h */,
+				DB0B961A184C9F4B00883FA6 /* FTLogGroupedData.m */,
+				DB0B9624184E484600883FA6 /* FTReminderData.h */,
+				DB0B9625184E484600883FA6 /* FTReminderData.m */,
+				DB8F01881848EAD7000085F9 /* FTDatabase.h */,
+				DB8F01891848EAD7000085F9 /* FTDatabase.m */,
+				DB81208719532A570024D90C /* FTDataType.h */,
+				DB81208819532A570024D90C /* FTDataType.m */,
+				DB4DFCF4195D9DC1004E04FC /* FTGoalGroupedData.h */,
+				DB4DFCF5195D9DC1004E04FC /* FTGoalGroupedData.m */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		DBA4F1C6185221CA00E17589 /* DateSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DBA4F1C71852220600E17589 /* FTDateSelectView.h */,
+				DBA4F1C81852220600E17589 /* FTDateSelectView.m */,
+			);
+			name = DateSelectView;
+			sourceTree = "<group>";
+		};
+		DBB4BCAB188979880004CA4E /* LearnMore */ = {
+			isa = PBXGroup;
+			children = (
+				DB4EC5D41A51A87000E234F1 /* LearnDetailViewController.h */,
+				DB4EC5D51A51A87000E234F1 /* LearnDetailViewController.m */,
+				DB4EC5D71A51A91300E234F1 /* LearnMoreDetailView.xib */,
+				DBB4BCAC18897D4F0004CA4E /* LearnMoreSection.h */,
+				DBB4BCAD18897D4F0004CA4E /* LearnMoreSection.m */,
+				DBB4BCB21889836C0004CA4E /* LearnMoreHomeView.xib */,
+				DBB4BCAF1889834C0004CA4E /* LearnMoreHomeViewController.h */,
+				DBB4BCB01889834C0004CA4E /* LearnMoreHomeViewController.m */,
+				DBB4BCB41889D7AB0004CA4E /* LearnMoreContentView.xib */,
+				DBB4BCB61889D7C20004CA4E /* LearnMoreContentViewController.h */,
+				DBB4BCB71889D7C20004CA4E /* LearnMoreContentViewController.m */,
+				DBB4BCB91889E1FC0004CA4E /* learnmore_fitness.json */,
+				DBB4BCBB1889EB130004CA4E /* learnmore_health.json */,
+				DBB4BCBD1889EFF00004CA4E /* learnmore_nutrition.json */,
+				DBB4BCBF1889F1470004CA4E /* learnmore_mood.json */,
+			);
+			name = LearnMore;
+			sourceTree = "<group>";
+		};
+		DBB4BCC6188D837F0004CA4E /* FTBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4BCC7188D87020004CA4E /* FTBannerView.h */,
+				DBB4BCC8188D87020004CA4E /* FTBannerView.m */,
+			);
+			name = FTBannerView;
+			sourceTree = "<group>";
+		};
+		DBBA985718A28A7E00098A24 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA985818A28AA400098A24 /* FTHomeView.h */,
+				DBBA985918A28AA400098A24 /* FTHomeView.m */,
+				DB52B54018A5288E00D7007D /* FTHomeDatetypeSelectView.h */,
+				DB52B54118A5288E00D7007D /* FTHomeDatetypeSelectView.m */,
+				DBE8A44A195B0B9500A3497B /* FTHomeActionDialogView.h */,
+				DBE8A44B195B0B9500A3497B /* FTHomeActionDialogView.m */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		DBBF614619714E3E00F5ACA1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DB870A3719D308970057CBC9 /* mindfulness_captions.xml */,
+				DB781A1F199FC72E002BD533 /* GFunctor.h */,
+				DB781A20199FC72E002BD533 /* GFunctor.m */,
+				DB979DCE199F57D100E0087C /* Caption.h */,
+				DB979DCF199F57D100E0087C /* Caption.m */,
+				DB979DCB199F57BB00E0087C /* VideoCaptionParser.h */,
+				DB979DCC199F57BB00E0087C /* VideoCaptionParser.m */,
+				DBBF614719714EB600F5ACA1 /* SupportSection.h */,
+				DBBF614819714EB600F5ACA1 /* SupportSection.m */,
+				DBBF614A1971500C00F5ACA1 /* SupportHomeViewController.h */,
+				DBBF614B1971500C00F5ACA1 /* SupportHomeViewController.m */,
+				DBBF614D1971502700F5ACA1 /* SupportHomeView.xib */,
+				DBC026E6186481DA002813D6 /* SupportMindfulnessView.xib */,
+				DBC026E8186481EB002813D6 /* SupportMindfulnessViewController.h */,
+				DBC026E9186481EB002813D6 /* SupportMindfulnessViewController.m */,
+				DBF466801869FCCE008D18EB /* lilac_breath_awareness.mp3 */,
+				DB2CE33E19748A6D009F80A4 /* SupportPeopleLikeYouViewController.h */,
+				DB2CE33F19748A6D009F80A4 /* SupportPeopleLikeYouViewController.m */,
+				DB2CE34119748A83009F80A4 /* SupportPeopleLikeYouView.xib */,
+				DB2CE34319748E3E009F80A4 /* SupportFamilyViewController.h */,
+				DB2CE34419748E3E009F80A4 /* SupportFamilyViewController.m */,
+				DB2CE34619748E51009F80A4 /* SupportFamilyView.xib */,
+				DB2CE34819748F2E009F80A4 /* SupportHealthProvidersViewController.h */,
+				DB2CE34919748F2E009F80A4 /* SupportHealthProvidersViewController.m */,
+				DB2CE34B19748F49009F80A4 /* SupportHealthProvidersView.xib */,
+				DB9AF9311A9BCCD600C1AD4F /* SupportStressReductionVideoViewController.h */,
+				DB9AF9321A9BCCD600C1AD4F /* SupportStressReductionVideoViewController.m */,
+				DB9AF9341A9BCD2200C1AD4F /* SupportStressReductionVideoView.xib */,
+				DB9AF9361A9BD31800C1AD4F /* SupportMindfulnessMeditationViewController.h */,
+				DB9AF9371A9BD31800C1AD4F /* SupportMindfulnessMeditationViewController.m */,
+				DB9AF9391A9BD34400C1AD4F /* SupportMindfulnessMeditationView.xib */,
+				DB9AF93B1A9BE7CE00C1AD4F /* SupportCompassionMeditationViewController.h */,
+				DB9AF93C1A9BE7CE00C1AD4F /* SupportCompassionMeditationViewController.m */,
+				DB9AF93E1A9BE80300C1AD4F /* SupportCompassionMeditationView.xib */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		DBC026D4186328EF002813D6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DBC026D518632916002813D6 /* SettingsSection.h */,
+				DBC026D618632916002813D6 /* SettingsSection.m */,
+				DBC026D8186329DE002813D6 /* SettingsViewController.h */,
+				DBC026D9186329DE002813D6 /* SettingsViewController.m */,
+				DBC026DB186329F3002813D6 /* SettingsView.xib */,
+				DB3EE1361975DA7100829D18 /* SettingsSyncViewController.h */,
+				DB3EE1371975DA7100829D18 /* SettingsSyncViewController.m */,
+				DB3EE1391975DB2000829D18 /* SettingsSyncView.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		DBC026DD18639366002813D6 /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				DB4ECBC219696C9E0033CC05 /* MoodReminderView.xib */,
+				DB3437021968275200794424 /* MoodHowDoYouFeelView.xib */,
+				DBC026DE186393EE002813D6 /* MoodSection.h */,
+				DBC026DF186393EE002813D6 /* MoodSection.m */,
+				DBC026E418639D2C002813D6 /* MoodHomeView.xib */,
+				DBC026E118639CB3002813D6 /* MoodHomeViewController.h */,
+				DBC026E218639CB3002813D6 /* MoodHomeViewController.m */,
+				DBC0199318BE46E800EC132A /* MoodReminderView.xib */,
+				DBB4BCCE188E85990004CA4E /* mood_banner_notifications.json */,
+				DB82703118C0FDAB0031C32F /* mood_local_notifications.json */,
+				DB4ECBBA19684DFA0033CC05 /* MoodAfterLogViewController.h */,
+				DB4ECBBB19684DFA0033CC05 /* MoodAfterLogViewController.m */,
+				DB4ECBBD19684E110033CC05 /* MoodAfterLogView.xib */,
+				DB4ECBC41969AB130033CC05 /* MoodHistoryViewController.h */,
+				DB4ECBC51969AB130033CC05 /* MoodHistoryViewController.m */,
+				DB4ECBC71969AB500033CC05 /* MoodHistoryCellView.h */,
+				DB4ECBC81969AB500033CC05 /* MoodHistoryCellView.m */,
+				DB4ECBCA1969CCC40033CC05 /* MoodHistoryView.xib */,
+			);
+			name = Mood;
+			sourceTree = "<group>";
+		};
+		DBC3410A18883F5E004CC0C9 /* RESwitch */ = {
+			isa = PBXGroup;
+			children = (
+				DBC3410B18883F5E004CC0C9 /* RESwitch.bundle */,
+				DBC3410C18883F5E004CC0C9 /* RESwitch.h */,
+				DBC3410D18883F5E004CC0C9 /* RESwitch.m */,
+			);
+			path = RESwitch;
+			sourceTree = "<group>";
+		};
+		DBC3411018885B7A004CC0C9 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				DBC3411118885BBF004CC0C9 /* AboutSection.h */,
+				DBC3411218885BBF004CC0C9 /* AboutSection.m */,
+				DBC3411418888345004CC0C9 /* AboutView.xib */,
+				DBC3411618888369004CC0C9 /* AboutViewController.h */,
+				DBC3411718888369004CC0C9 /* AboutViewController.m */,
+				DBC3411918888FBF004CC0C9 /* about.json */,
+				DB870A3919D335410057CBC9 /* TutorialViewController.h */,
+				DB870A3A19D335410057CBC9 /* TutorialViewController.m */,
+				DB870A3C19D3355A0057CBC9 /* TutorialView.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		DBC3411B18889230004CC0C9 /* RTLabel */ = {
+			isa = PBXGroup;
+			children = (
+				DBC3411C18889240004CC0C9 /* RTLabel.h */,
+				DBC3411D18889240004CC0C9 /* RTLabel.m */,
+			);
+			name = RTLabel;
+			sourceTree = "<group>";
+		};
+		DBC3411F18889C26004CC0C9 /* section */ = {
+			isa = PBXGroup;
+			children = (
+				DBE799C3185A300A00E559F5 /* FTHeaderConf.h */,
+				DBE799C4185A300A00E559F5 /* FTHeaderConf.m */,
+				DBE799BE185A10EC00E559F5 /* FTGoalContainerView.h */,
+				DBE799BF185A10EC00E559F5 /* FTGoalContainerView.m */,
+				DBE799C9185B7B6C00E559F5 /* FTLogContainerView.h */,
+				DBE799CA185B7B6C00E559F5 /* FTLogContainerView.m */,
+				DBF466881870AA7E008D18EB /* FTSectionHomeViewController.h */,
+				DBF466891870AA7E008D18EB /* FTSectionHomeViewController.m */,
+				DBF466931871E2F8008D18EB /* FTSectionGoalViewController.h */,
+				DBF466941871E2F8008D18EB /* FTSectionGoalViewController.m */,
+				DBF466961871F3CB008D18EB /* FTSectionLogViewController.h */,
+				DBF466971871F3CB008D18EB /* FTSectionLogViewController.m */,
+				DB4DFCFA195DA43A004E04FC /* FTGoalHistoryViewController.h */,
+				DB4DFCFB195DA43A004E04FC /* FTGoalHistoryViewController.m */,
+				DB4DFCFF195DABF8004E04FC /* FTGoalHistoryCellView.h */,
+				DB4DFD00195DABF8004E04FC /* FTGoalHistoryCellView.m */,
+				DB3AA8D919631DE900942A10 /* FTWeeksLogsViewController.h */,
+				DB3AA8DA19631DE900942A10 /* FTWeeksLogsViewController.m */,
+				DB223A8C19634DD80055D85F /* FTWeeksLogCellView.h */,
+				DB223A8D19634DD80055D85F /* FTWeeksLogCellView.m */,
+				DB223A8F196355B30055D85F /* FTWeeksLogHeaderCellView.h */,
+				DB223A90196355B30055D85F /* FTWeeksLogHeaderCellView.m */,
+				DB4AEB921965CC3C00615007 /* FTHowDoYouFeelViewController.h */,
+				DB4AEB931965CC3C00615007 /* FTHowDoYouFeelViewController.m */,
+				DB4ECBBF196968FA0033CC05 /* FTReminderViewController.h */,
+				DB4ECBC0196969130033CC05 /* FTReminderViewController.m */,
+				DBA66A0E195CDAC800736F9D /* FTDateViewController.h */,
+				DBA66A0F195CDAC800736F9D /* FTDateViewController.m */,
+			);
+			name = section;
+			sourceTree = "<group>";
+		};
+		DBC3412018889C58004CC0C9 /* note */ = {
+			isa = PBXGroup;
+			children = (
+				DBC3412118889E2D004CC0C9 /* FTNote.h */,
+				DBC3412218889E2D004CC0C9 /* FTNote.m */,
+				DBC3412418889EDE004CC0C9 /* FTNoteHeader.h */,
+				DBC3412518889EDE004CC0C9 /* FTNoteHeader.m */,
+				DBF46685186D8637008D18EB /* FTNoteHeaderView.h */,
+				DBF46686186D8637008D18EB /* FTNoteHeaderView.m */,
+			);
+			name = note;
+			sourceTree = "<group>";
+		};
+		DBE799B21859D29400E559F5 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				DBE799CC185B7BD200E559F5 /* FTTimerHeaderView.h */,
+				DBE799CD185B7BD200E559F5 /* FTTimerHeaderView.m */,
+				DB769A6F188178E400A05BA0 /* FTDoubleHeaderView.h */,
+				DB769A70188178E400A05BA0 /* FTDoubleHeaderView.m */,
+				DBE799BB1859D6BD00E559F5 /* FTSingleHeaderView.h */,
+				DBE799BC1859D6BD00E559F5 /* FTSingleHeaderView.m */,
+				DB769A68187F646F00A05BA0 /* FTEmptyHeaderView.h */,
+				DB769A69187F646F00A05BA0 /* FTEmptyHeaderView.m */,
+				DBE799C6185A635100E559F5 /* FTHeaderView.h */,
+				DBE799C7185A635100E559F5 /* FTHeaderView.m */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		DBF4669B1871FAE4008D18EB /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				DBDECB44196CAFD100AC6A87 /* HealthDateView.xib */,
+				DBDECB42196C9E4900AC6A87 /* HealthReminderView.xib */,
+				DB8F6F7918745CBE006DFB98 /* HealthSection.h */,
+				DB8F6F7A18745CBE006DFB98 /* HealthSection.m */,
+				DB8F6F7F1874D2CE006DFB98 /* HealthHomeView.xib */,
+				DB8F6F7C1874D2B8006DFB98 /* HealthHomeViewController.h */,
+				DB8F6F7D1874D2B8006DFB98 /* HealthHomeViewController.m */,
+				DB8F6F811874D962006DFB98 /* HealthGoalView.xib */,
+				DB8F6F831874D975006DFB98 /* HealthLogView.xib */,
+				DB8F6F8518757B97006DFB98 /* HealthGoalSelectorView.h */,
+				DB8F6F8618757B97006DFB98 /* HealthGoalSelectorView.m */,
+				DBDECB46196CB50900AC6A87 /* HealthSelectorItemView.h */,
+				DBDECB47196CB50900AC6A87 /* HealthSelectorItemView.m */,
+				DBB4BCCA188DF6120004CA4E /* health_banner_notifications.json */,
+				DB47E2D91892DD4500DF9603 /* health_local_notifications.json */,
+				DBDECB3D196C906C00AC6A87 /* HealthGoalHomeViewController.h */,
+				DBDECB3E196C906C00AC6A87 /* HealthGoalHomeViewController.m */,
+				DBDECB40196C907E00AC6A87 /* HealthGoalHomeView.xib */,
+				DBDECB49196DDF7500AC6A87 /* HealthHistoryViewController.h */,
+				DBDECB4A196DDF7500AC6A87 /* HealthHistoryViewController.m */,
+				DBDECB4C196DDFAB00AC6A87 /* HealthHistoryCellView.h */,
+				DBDECB4D196DDFAB00AC6A87 /* HealthHistoryCellView.m */,
+				DBDECB4F196DFACF00AC6A87 /* HealthHistoryView.xib */,
+			);
+			name = Health;
+			sourceTree = "<group>";
+		};
+		DBF4669C18722BE8008D18EB /* MealSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4669D18722C29008D18EB /* FTMealSelectView.h */,
+				DBF4669E18722C29008D18EB /* FTMealSelectView.m */,
+			);
+			name = MealSelectView;
+			sourceTree = "<group>";
+		};
+		DBFCA68018316770004EB33D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DBADAED6195489AF00E98427 /* SourceSansPro-SemiboldIt.otf */,
+				DBADAED7195489AF00E98427 /* SourceSansPro-Semibold.otf */,
+				DBADAED8195489AF00E98427 /* SourceSansPro-Regular.otf */,
+				DBADAED9195489AF00E98427 /* SourceSansPro-LightIt.otf */,
+				DBADAEDA195489AF00E98427 /* SourceSansPro-Light.otf */,
+				DBADAEDB195489AF00E98427 /* SourceSansPro-It.otf */,
+				DBADAEDC195489AF00E98427 /* SourceSansPro-ExtraLightIt.otf */,
+				DBADAEDD195489AF00E98427 /* SourceSansPro-ExtraLight.otf */,
+				DBADAEDE195489AF00E98427 /* SourceSansPro-BoldIt.otf */,
+				DBADAEDF195489AF00E98427 /* SourceSansPro-Bold.otf */,
+				DBADAEE0195489AF00E98427 /* SourceSansPro-BlackIt.otf */,
+				DBADAEE1195489AF00E98427 /* SourceSansPro-Black.otf */,
+				DBFCA68118316780004EB33D /* FuturaStd-Condensed.otf */,
+				DBFCA68218316780004EB33D /* FuturaStd-CondensedBold.otf */,
+				DBFCA68318316780004EB33D /* FuturaStd-CondensedLight.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		DBFCA68718318D62004EB33D /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				DBFCA68818318DD3004EB33D /* FitnessSection.h */,
+				DBFCA68918318DD3004EB33D /* FitnessSection.m */,
+				DBFCA68B1831905C004EB33D /* FitnessHomeView.xib */,
+				DBFCA68D1831908B004EB33D /* FitnessHomeViewController.h */,
+				DBFCA68E1831908B004EB33D /* FitnessHomeViewController.m */,
+				DBFCA6AB1832657E004EB33D /* FitnessGoalView.xib */,
+				DBA4F1C1185218B900E17589 /* FitnessLogView.xib */,
+				DBC026D1186091D7002813D6 /* FTLogTimerContainerView.h */,
+				DBC026D2186091D7002813D6 /* FTLogTimerContainerView.m */,
+				DBB4BCC1188D40B70004CA4E /* fitness_banner_notifications.json */,
+				DBC49E721891915C00D1B9B2 /* fitness_local_notifications.json */,
+				DBB579931958CAEF00802F8D /* FitnessIntroView.xib */,
+				DBB579901958CAD300802F8D /* FitnessIntroViewController.h */,
+				DBB579911958CAD300802F8D /* FitnessIntroViewController.m */,
+				DBE8A44D195B0EE300A3497B /* FitnessSwitcherView.h */,
+				DBE8A44E195B0EE300A3497B /* FitnessSwitcherView.m */,
+				DBE8A45C195C34D300A3497B /* FitnessReminderView.xib */,
+				DBA66A02195C649700736F9D /* FitnessStartDateViewController.h */,
+				DBA66A03195C649700736F9D /* FitnessStartDateViewController.m */,
+				DBA66A05195C64A900736F9D /* FitnessStartDateView.xib */,
+				DBA66A13195CDAEE00736F9D /* FitnessActivityViewController.h */,
+				DBA66A14195CDAEE00736F9D /* FitnessActivityViewController.m */,
+				DBA66A16195CDB0000736F9D /* FitnessActivityView.xib */,
+				DBA66A18195CDB1800736F9D /* FitnessEffortViewController.h */,
+				DBA66A19195CDB1800736F9D /* FitnessEffortViewController.m */,
+				DBA66A1B195CDB2900736F9D /* FitnessEffortView.xib */,
+				DB980CD2199A8B1F00AB6149 /* EffortTableViewCell.h */,
+				DB980CD3199A8B1F00AB6149 /* EffortTableViewCell.m */,
+				DB26B19C195D072500E07F1A /* FitnessAfterGoalViewController.h */,
+				DB26B19D195D072500E07F1A /* FitnessAfterGoalViewController.m */,
+				DB26B19F195D073E00E07F1A /* FitnessAfterGoalView.xib */,
+				DB4DFCFD195DA670004E04FC /* FitnessGoalHistoryView.xib */,
+				DB223A92196362E40055D85F /* FitnessWeeksLogsView.xib */,
+				DB4AEB951965CC5C00615007 /* FitnessHowDoYouFeelView.xib */,
+				DBA66A11195CDADA00736F9D /* FitnessDateView.xib */,
+			);
+			name = Fitness;
+			sourceTree = "<group>";
+		};
+		DBFCA6901831A040004EB33D /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				DBFCA6911831A040004EB33D /* MMDrawerBarButtonItem.h */,
+				DBFCA6921831A040004EB33D /* MMDrawerBarButtonItem.m */,
+				DBFCA6931831A040004EB33D /* MMDrawerController+Subclass.h */,
+				DBFCA6941831A040004EB33D /* MMDrawerController.h */,
+				DBFCA6951831A040004EB33D /* MMDrawerController.m */,
+				DBFCA6961831A040004EB33D /* MMDrawerVisualState.h */,
+				DBFCA6971831A040004EB33D /* MMDrawerVisualState.m */,
+				DBFCA6981831A040004EB33D /* UIViewController+MMDrawerController.h */,
+				DBFCA6991831A040004EB33D /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		DBFCA69E1831A051004EB33D /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				DB980CD5199ADDAC00AB6149 /* AFPickerView.h */,
+				DB980CD6199ADDAC00AB6149 /* AFPickerView.m */,
+			);
+			name = PickerView;
+			sourceTree = "<group>";
+		};
+		DBFCA69F1831A2A1004EB33D /* LateralMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DBFCA6A01831A2D0004EB33D /* LateralMenuViewController.h */,
+				DBFCA6A11831A2D0004EB33D /* LateralMenuViewController.m */,
+				DBFCA6A31831A2E1004EB33D /* LateralMenuView.xib */,
+				DBBF614F197429B500F5ACA1 /* MenuTableViewCell.h */,
+				DBBF6150197429B500F5ACA1 /* MenuTableViewCell.m */,
+			);
+			name = LateralMenu;
+			sourceTree = "<group>";
+		};
+		DBFCA6AD18326B86004EB33D /* CircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				DBFCA6B118328E55004EB33D /* TBCircularSlider.h */,
+				DBFCA6B218328E55004EB33D /* TBCircularSlider.m */,
+			);
+			name = CircularSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB57DB55182146B100AD9E1E /* FitHeart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB57DB82182146B100AD9E1E /* Build configuration list for PBXNativeTarget "FitHeart" */;
+			buildPhases = (
+				A5F0443CB8754522863FB031 /* Check Pods Manifest.lock */,
+				DB57DB52182146B100AD9E1E /* Sources */,
+				DB57DB53182146B100AD9E1E /* Frameworks */,
+				DB57DB54182146B100AD9E1E /* Resources */,
+				16C86D9359714F47933269B3 /* Copy Pods Resources */,
+				DB3000151AAE5585001EB8A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitHeart;
+			productName = UCFS;
+			productReference = DB57DB56182146B100AD9E1E /* FitHeart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB57DB70182146B100AD9E1E /* FitHeartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB57DB85182146B100AD9E1E /* Build configuration list for PBXNativeTarget "FitHeartTests" */;
+			buildPhases = (
+				DB57DB6D182146B100AD9E1E /* Sources */,
+				DB57DB6E182146B100AD9E1E /* Frameworks */,
+				DB57DB6F182146B100AD9E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB57DB77182146B100AD9E1E /* PBXTargetDependency */,
+			);
+			name = FitHeartTests;
+			productName = UCFSTests;
+			productReference = DB57DB71182146B100AD9E1E /* FitHeartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB57DB4E182146B100AD9E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = VPD;
+				TargetAttributes = {
+					DB57DB55182146B100AD9E1E = {
+						DevelopmentTeam = 95F2WTM9NK;
+					};
+					DB57DB70182146B100AD9E1E = {
+						TestTargetID = DB57DB55182146B100AD9E1E;
+					};
+				};
+			};
+			buildConfigurationList = DB57DB51182146B100AD9E1E /* Build configuration list for PBXProject "FitHeart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				da,
+				pt,
+				"ru-RU",
+				ru,
+				sv,
+			);
+			mainGroup = DB57DB4D182146B100AD9E1E;
+			productRefGroup = DB57DB57182146B100AD9E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB57DB55182146B100AD9E1E /* FitHeart */,
+				DB57DB70182146B100AD9E1E /* FitHeartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB57DB54182146B100AD9E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBADAEE619548B0C00E98427 /* SourceSansPro-Light.otf in Resources */,
+				DB26B1A0195D073E00E07F1A /* FitnessAfterGoalView.xib in Resources */,
+				DB9AF9351A9BCD2200C1AD4F /* SupportStressReductionVideoView.xib in Resources */,
+				DB4ECBBE19684E110033CC05 /* MoodAfterLogView.xib in Resources */,
+				DBB4BCB51889D7AB0004CA4E /* LearnMoreContentView.xib in Resources */,
+				DBADAEEA19548B1600E98427 /* SourceSansPro-BoldIt.otf in Resources */,
+				DBB4BCC01889F1470004CA4E /* learnmore_mood.json in Resources */,
+				DBC3410E18883F5E004CC0C9 /* RESwitch.bundle in Resources */,
+				DBADAEE319548B0500E98427 /* SourceSansPro-Semibold.otf in Resources */,
+				DBB4BCCF188E85990004CA4E /* mood_banner_notifications.json in Resources */,
+				DB9AF93F1A9BE80300C1AD4F /* SupportCompassionMeditationView.xib in Resources */,
+				DBC026E518639D2C002813D6 /* MoodHomeView.xib in Resources */,
+				DBB4BCBA1889E1FC0004CA4E /* learnmore_fitness.json in Resources */,
+				DBADAEE219548B0200E98427 /* SourceSansPro-SemiboldIt.otf in Resources */,
+				DBBF614E1971502700F5ACA1 /* SupportHomeView.xib in Resources */,
+				DBADAEE819548B1000E98427 /* SourceSansPro-ExtraLightIt.otf in Resources */,
+				DBDECB43196C9E4900AC6A87 /* HealthReminderView.xib in Resources */,
+				DB47E2DA1892DD4500DF9603 /* health_local_notifications.json in Resources */,
+				DBB4BCC2188D40B70004CA4E /* fitness_banner_notifications.json in Resources */,
+				DBADAEEB19548B1800E98427 /* SourceSansPro-Bold.otf in Resources */,
+				DBB579941958CAEF00802F8D /* FitnessIntroView.xib in Resources */,
+				DBFCA68C1831905C004EB33D /* FitnessHomeView.xib in Resources */,
+				DB3437031968275200794424 /* MoodHowDoYouFeelView.xib in Resources */,
+				DBF466811869FCCE008D18EB /* lilac_breath_awareness.mp3 in Resources */,
+				DBA66A17195CDB0000736F9D /* FitnessActivityView.xib in Resources */,
+				DBDECB50196DFACF00AC6A87 /* HealthHistoryView.xib in Resources */,
+				DB4AEB961965CC5C00615007 /* FitnessHowDoYouFeelView.xib in Resources */,
+				DB2CE34719748E51009F80A4 /* SupportFamilyView.xib in Resources */,
+				DBADAEE519548B0900E98427 /* SourceSansPro-LightIt.otf in Resources */,
+				DBDECB41196C907E00AC6A87 /* HealthGoalHomeView.xib in Resources */,
+				DB8F6F821874D962006DFB98 /* HealthGoalView.xib in Resources */,
+				DBC49E731891915C00D1B9B2 /* fitness_local_notifications.json in Resources */,
+				DB4ECBCB1969CCC40033CC05 /* MoodHistoryView.xib in Resources */,
+				DBC026E7186481DA002813D6 /* SupportMindfulnessView.xib in Resources */,
+				DB4EC5D81A51A91300E234F1 /* LearnMoreDetailView.xib in Resources */,
+				DB57DB64182146B100AD9E1E /* InfoPlist.strings in Resources */,
+				DBADAEE919548B1200E98427 /* SourceSansPro-ExtraLight.otf in Resources */,
+				DBA66A06195C64A900736F9D /* FitnessStartDateView.xib in Resources */,
+				DB8F6F841874D975006DFB98 /* HealthLogView.xib in Resources */,
+				DBA4F1C2185218B900E17589 /* FitnessLogView.xib in Resources */,
+				DB2CE34C19748F49009F80A4 /* SupportHealthProvidersView.xib in Resources */,
+				DB2CE34219748A83009F80A4 /* SupportPeopleLikeYouView.xib in Resources */,
+				DBC3411518888345004CC0C9 /* AboutView.xib in Resources */,
+				DB6151F01822E8A200BDDA7E /* StudyIdView.xib in Resources */,
+				DB769A67187F2AB200A05BA0 /* BSKeyboardControls.strings in Resources */,
+				DB223A93196362E40055D85F /* FitnessWeeksLogsView.xib in Resources */,
+				DB4ECBC319696C9E0033CC05 /* MoodReminderView.xib in Resources */,
+				DBADAEEE19548B1E00E98427 /* FuturaStd-Condensed.otf in Resources */,
+				DB57DB6C182146B100AD9E1E /* Images.xcassets in Resources */,
+				DBA66A12195CDADA00736F9D /* FitnessDateView.xib in Resources */,
+				DBADAEEC19548B1A00E98427 /* SourceSansPro-BlackIt.otf in Resources */,
+				DB3EE13A1975DB2000829D18 /* SettingsSyncView.xib in Resources */,
+				DBE8A45D195C34D300A3497B /* FitnessReminderView.xib in Resources */,
+				DBA66A1C195CDB2900736F9D /* FitnessEffortView.xib in Resources */,
+				DBB4BCCB188DF6120004CA4E /* health_banner_notifications.json in Resources */,
+				DBDECB45196CAFD100AC6A87 /* HealthDateView.xib in Resources */,
+				DB82703218C0FDAB0031C32F /* mood_local_notifications.json in Resources */,
+				DBB4BCBC1889EB130004CA4E /* learnmore_health.json in Resources */,
+				DB9AF93A1A9BD34400C1AD4F /* SupportMindfulnessMeditationView.xib in Resources */,
+				DBFCA6A41831A2E1004EB33D /* LateralMenuView.xib in Resources */,
+				DB859810182E8CFC00CE5364 /* OrientationView.xib in Resources */,
+				DB870A3D19D3355A0057CBC9 /* TutorialView.xib in Resources */,
+				DBB4BCBE1889EFF00004CA4E /* learnmore_nutrition.json in Resources */,
+				DBADAEE419548B0700E98427 /* SourceSansPro-Regular.otf in Resources */,
+				DBADAEED19548B1C00E98427 /* SourceSansPro-Black.otf in Resources */,
+				DBC026DC186329F3002813D6 /* SettingsView.xib in Resources */,
+				DBFCA6AC1832657E004EB33D /* FitnessGoalView.xib in Resources */,
+				DBC3411A18888FBF004CC0C9 /* about.json in Resources */,
+				DB8F6F801874D2CE006DFB98 /* HealthHomeView.xib in Resources */,
+				DBADAEE719548B0E00E98427 /* SourceSansPro-It.otf in Resources */,
+				DB6151DD18215EF100BDDA7E /* EulaView.xib in Resources */,
+				DBADAEEF19548B2000E98427 /* FuturaStd-CondensedBold.otf in Resources */,
+				DBADAEF019548B2300E98427 /* FuturaStd-CondensedLight.otf in Resources */,
+				DBB4BCB31889836C0004CA4E /* LearnMoreHomeView.xib in Resources */,
+				DB4DFCFE195DA670004E04FC /* FitnessGoalHistoryView.xib in Resources */,
+				DB870A3819D308970057CBC9 /* mindfulness_captions.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB57DB6F182146B100AD9E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB57DB7D182146B100AD9E1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16C86D9359714F47933269B3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FitHeart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F0443CB8754522863FB031 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3000151AAE5585001EB8A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "./Fabric.framework/run 09e722b62c9637895649ca811f8827f8e748ac68 ab43f7f640767ef16e99eb10c468f60dfe287ea041a85c6d34dc2d99d2becf34";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB57DB52182146B100AD9E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA66A10195CDAC800736F9D /* FTDateViewController.m in Sources */,
+				DB0B961F184CE2E800883FA6 /* FTFrequencySlider.m in Sources */,
+				DB4EC5D31A517B5600E234F1 /* ScreenMaskView.m in Sources */,
+				DBE8A44F195B0EE300A3497B /* FitnessSwitcherView.m in Sources */,
+				DBC3411318885BBF004CC0C9 /* AboutSection.m in Sources */,
+				DBC49E711891715B00D1B9B2 /* FTNotificationManager.m in Sources */,
+				DBE8A44C195B0B9500A3497B /* FTHomeActionDialogView.m in Sources */,
+				DB4ECBC61969AB130033CC05 /* MoodHistoryViewController.m in Sources */,
+				DBA66A15195CDAEE00736F9D /* FitnessActivityViewController.m in Sources */,
+				DB769A71188178E400A05BA0 /* FTDoubleHeaderView.m in Sources */,
+				DBBF614919714EB600F5ACA1 /* SupportSection.m in Sources */,
+				DB3EE1381975DA7100829D18 /* SettingsSyncViewController.m in Sources */,
+				DBFCA69C1831A040004EB33D /* MMDrawerVisualState.m in Sources */,
+				DB85980E182E8AE600CE5364 /* OrientationSection.m in Sources */,
+				DB781A21199FC72E002BD533 /* GFunctor.m in Sources */,
+				DB979DCD199F57BB00E0087C /* VideoCaptionParser.m in Sources */,
+				DBA66A1A195CDB1800736F9D /* FitnessEffortViewController.m in Sources */,
+				DB0B961B184C9F4B00883FA6 /* FTLogGroupedData.m in Sources */,
+				DBA66A09195C76F300736F9D /* FTCircularEntriesGraph.m in Sources */,
+				DB2CE34019748A6D009F80A4 /* SupportPeopleLikeYouViewController.m in Sources */,
+				DBE799C0185A10EC00E559F5 /* FTGoalContainerView.m in Sources */,
+				DBC026E0186393EE002813D6 /* MoodSection.m in Sources */,
+				DB6151E818228FFE00BDDA7E /* EulaSection.m in Sources */,
+				DBF466981871F3CB008D18EB /* FTSectionLogViewController.m in Sources */,
+				DB45284118528D03001E34DE /* FTCircularTimerSlider.m in Sources */,
+				DBFCA6B318328E55004EB33D /* TBCircularSlider.m in Sources */,
+				DBE799C5185A300A00E559F5 /* FTHeaderConf.m in Sources */,
+				DBDECB4E196DDFAB00AC6A87 /* HealthHistoryCellView.m in Sources */,
+				DBC026E318639CB3002813D6 /* MoodHomeViewController.m in Sources */,
+				DB8F6F9718798AC7006DFB98 /* FTDateTypeSelectView.m in Sources */,
+				DB26B19E195D072500E07F1A /* FitnessAfterGoalViewController.m in Sources */,
+				DBA37816186709F70005A921 /* FTSimplePleasureSelectView.m in Sources */,
+				DB4EC5D61A51A87000E234F1 /* LearnDetailViewController.m in Sources */,
+				DB1C33DC18BC18CD006E6688 /* FTGlucoseSelectView.m in Sources */,
+				DBBA985A18A28AA400098A24 /* FTHomeView.m in Sources */,
+				DB52B54218A5288E00D7007D /* FTHomeDatetypeSelectView.m in Sources */,
+				DBF46687186D8637008D18EB /* FTNoteHeaderView.m in Sources */,
+				DBC3412318889E2D004CC0C9 /* FTNote.m in Sources */,
+				DBE799BD1859D6BD00E559F5 /* FTSingleHeaderView.m in Sources */,
+				DBE799CB185B7B6C00E559F5 /* FTLogContainerView.m in Sources */,
+				DBC3411818888369004CC0C9 /* AboutViewController.m in Sources */,
+				DBB4BCAE18897D4F0004CA4E /* LearnMoreSection.m in Sources */,
+				DBC026EA186481EB002813D6 /* SupportMindfulnessViewController.m in Sources */,
+				DBF4669F18722C29008D18EB /* FTMealSelectView.m in Sources */,
+				DBA4F1BC1850F6E100E17589 /* FTLogData.m in Sources */,
+				DB8F018A1848EAD7000085F9 /* FTDatabase.m in Sources */,
+				DBC026D3186091D8002813D6 /* FTLogTimerContainerView.m in Sources */,
+				DBF4668A1870AA7E008D18EB /* FTSectionHomeViewController.m in Sources */,
+				DBC3411E18889240004CC0C9 /* RTLabel.m in Sources */,
+				DB4DFD01195DABF8004E04FC /* FTGoalHistoryCellView.m in Sources */,
+				DBC3412618889EDE004CC0C9 /* FTNoteHeader.m in Sources */,
+				DBFCA69B1831A040004EB33D /* MMDrawerController.m in Sources */,
+				DBE799CE185B7BD200E559F5 /* FTTimerHeaderView.m in Sources */,
+				DB4ECBC1196969130033CC05 /* FTReminderViewController.m in Sources */,
+				DBB4BCD2188EB4190004CA4E /* FTAppSettings.m in Sources */,
+				DB4E773418465EFF0000C054 /* FTCircularView.m in Sources */,
+				DB45283D185266BE001E34DE /* FTExpandableView.m in Sources */,
+				DB223A8E19634DD80055D85F /* FTWeeksLogCellView.m in Sources */,
+				DBA4F1C91852220600E17589 /* FTDateSelectView.m in Sources */,
+				DB81208919532A570024D90C /* FTDataType.m in Sources */,
+				DB6151E11821619500BDDA7E /* EulaViewController.m in Sources */,
+				DB57DB6A182146B100AD9E1E /* AppDelegate.m in Sources */,
+				DB4ECBC91969AB500033CC05 /* MoodHistoryCellView.m in Sources */,
+				DB980CD7199ADDAC00AB6149 /* AFPickerView.m in Sources */,
+				DB769A6E187FFEBE00A05BA0 /* FTGoalAchivedSelectView.m in Sources */,
+				DBBF614C1971500C00F5ACA1 /* SupportHomeViewController.m in Sources */,
+				DB6151EB1822E74400BDDA7E /* StudyIdSection.m in Sources */,
+				DBA4F1B4184FB28500E17589 /* FTDialogView.m in Sources */,
+				DB769A66187F2AB200A05BA0 /* BSKeyboardControls.m in Sources */,
+				DBBF6151197429B500F5ACA1 /* MenuTableViewCell.m in Sources */,
+				DB6151EE1822E81000BDDA7E /* StudyIdViewController.m in Sources */,
+				DBFCA68A18318DD3004EB33D /* FitnessSection.m in Sources */,
+				DB870A3B19D335410057CBC9 /* TutorialViewController.m in Sources */,
+				DBFCA6A7183235B4004EB33D /* MenuItem.m in Sources */,
+				DBB4BCC9188D87020004CA4E /* FTBannerView.m in Sources */,
+				DBDECCDE196ED85900AC6A87 /* FTSalesForce.m in Sources */,
+				DB9AF93D1A9BE7CE00C1AD4F /* SupportCompassionMeditationViewController.m in Sources */,
+				DB8F6F7E1874D2B8006DFB98 /* HealthHomeViewController.m in Sources */,
+				DB980CD4199A8B1F00AB6149 /* EffortTableViewCell.m in Sources */,
+				DBF466951871E2F8008D18EB /* FTSectionGoalViewController.m in Sources */,
+				DBA4F1B91850C8AB00E17589 /* FTEntriesGraph.m in Sources */,
+				DBFCA68618317660004EB33D /* UCFSUtil.m in Sources */,
+				DBB4BCB11889834C0004CA4E /* LearnMoreHomeViewController.m in Sources */,
+				DBA66A04195C649700736F9D /* FitnessStartDateViewController.m in Sources */,
+				DB0B9626184E484600883FA6 /* FTReminderData.m in Sources */,
+				DBB579921958CAD300802F8D /* FitnessIntroViewController.m in Sources */,
+				DB4AEB941965CC3C00615007 /* FTHowDoYouFeelViewController.m in Sources */,
+				DB47E2E01896AE2400DF9603 /* FTNotificationAction.m in Sources */,
+				DB859813182E8D8D00CE5364 /* OrientationViewController.m in Sources */,
+				DB4DFCFC195DA43A004E04FC /* FTGoalHistoryViewController.m in Sources */,
+				DB0B9622184D438600883FA6 /* FTReminderSelectView.m in Sources */,
+				DB9AF9331A9BCCD600C1AD4F /* SupportStressReductionVideoViewController.m in Sources */,
+				DB979DD0199F57D100E0087C /* Caption.m in Sources */,
+				DB3AA8DB19631DE900942A10 /* FTWeeksLogsViewController.m in Sources */,
+				DBC026D718632916002813D6 /* SettingsSection.m in Sources */,
+				DBB4BCC5188D46FD0004CA4E /* FTNotification.m in Sources */,
+				DBE799C8185A635100E559F5 /* FTHeaderView.m in Sources */,
+				DB2CE34A19748F2E009F80A4 /* SupportHealthProvidersViewController.m in Sources */,
+				DB2CE34519748E3E009F80A4 /* SupportFamilyViewController.m in Sources */,
+				DB45283A18524171001E34DE /* FTActivitySelectView.m in Sources */,
+				DB9AF9381A9BD31800C1AD4F /* SupportMindfulnessMeditationViewController.m in Sources */,
+				DBFCA6A21831A2D0004EB33D /* LateralMenuViewController.m in Sources */,
+				DB4ECBBC19684DFA0033CC05 /* MoodAfterLogViewController.m in Sources */,
+				DB67B5A7183E68F9006B9478 /* UITextArc.m in Sources */,
+				DBFCA69D1831A040004EB33D /* UIViewController+MMDrawerController.m in Sources */,
+				DB57DB66182146B100AD9E1E /* main.m in Sources */,
+				DB223A91196355B30055D85F /* FTWeeksLogHeaderCellView.m in Sources */,
+				DB769A6A187F646F00A05BA0 /* FTEmptyHeaderView.m in Sources */,
+				DBDECB4B196DDF7500AC6A87 /* HealthHistoryViewController.m in Sources */,
+				DBFCA68F1831908B004EB33D /* FitnessHomeViewController.m in Sources */,
+				DBFCA69A1831A040004EB33D /* MMDrawerBarButtonItem.m in Sources */,
+				DBB5798F195882E400802F8D /* StudyIdTextField.m in Sources */,
+				DBDECB48196CB50900AC6A87 /* HealthSelectorItemView.m in Sources */,
+				DB2166521855DD8600DD1579 /* FTEffortSelectView.m in Sources */,
+				DBC026DA186329DE002813D6 /* SettingsViewController.m in Sources */,
+				DBC3410F18883F5E004CC0C9 /* RESwitch.m in Sources */,
+				DB67B5AD183F7E22006B9478 /* FTGoalData.m in Sources */,
+				DB70571718ABBB300070C7D2 /* FTDateLogData.m in Sources */,
+				DBDECB3F196C906C00AC6A87 /* HealthGoalHomeViewController.m in Sources */,
+				DB4DFCF6195D9DC1004E04FC /* FTGoalGroupedData.m in Sources */,
+				DB8F6F8718757B97006DFB98 /* HealthGoalSelectorView.m in Sources */,
+				DBA4F1C51852210A00E17589 /* FTOptionGroupView.m in Sources */,
+				DB8F6F7B18745CBE006DFB98 /* HealthSection.m in Sources */,
+				DBB4BCB81889D7C20004CA4E /* LearnMoreContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB57DB6D182146B100AD9E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB57DB7F182146B100AD9E1E /* UCFSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB57DB77182146B100AD9E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB57DB55182146B100AD9E1E /* FitHeart */;
+			targetProxy = DB57DB76182146B100AD9E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB57DB62182146B100AD9E1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB57DB63182146B100AD9E1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB57DB7B182146B100AD9E1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB57DB7C182146B100AD9E1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB769A5F187F2AB200A05BA0 /* BSKeyboardControls.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB769A60187F2AB200A05BA0 /* da */,
+				DB769A61187F2AB200A05BA0 /* en */,
+				DB769A62187F2AB200A05BA0 /* pt */,
+				DB769A63187F2AB200A05BA0 /* ru-RU */,
+				DB769A64187F2AB200A05BA0 /* ru */,
+				DB769A65187F2AB200A05BA0 /* sv */,
+			);
+			name = BSKeyboardControls.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB57DB80182146B100AD9E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BITGEARS SNC DI TERZO MAURIZIO & TARANTINO FABIO (95F2WTM9NK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: BITGEARS SNC DI TERZO MAURIZIO & TARANTINO FABIO (95F2WTM9NK)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		DB57DB81182146B100AD9E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BITGEARS SNC DI TERZO MAURIZIO & TARANTINO FABIO (95F2WTM9NK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: BITGEARS SNC DI TERZO MAURIZIO & TARANTINO FABIO (95F2WTM9NK)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		DB57DB83182146B100AD9E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2CD6E126714E93871A1859 /* Pods-FitHeart.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FitHeartIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = FitHeartSplash;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCFS/FitHeart-Prefix.pch";
+				INFOPLIST_FILE = "UCFS/FitHeart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UCFS/Dependencies/MKNetworkKit-iOS",
+					"$(PROJECT_DIR)/UCFS/Dependencies/openssl",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceCommonUtils",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceNativeSDK",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceNetworkSDK",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceOAuth",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceSDKCore",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceSecurity",
+					"$(PROJECT_DIR)/UCFS/Dependencies/sqlcipher",
+					/Users/bitgears/work/vpd/FitHeart2/GoogleAnalyticsServicesiOS_3.10,
+				);
+				PRODUCT_NAME = FitHeart;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB57DB84182146B100AD9E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2CD6E126714E93871A1859 /* Pods-FitHeart.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FitHeartIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = FitHeartSplash;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCFS/FitHeart-Prefix.pch";
+				INFOPLIST_FILE = "UCFS/FitHeart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UCFS/Dependencies/MKNetworkKit-iOS",
+					"$(PROJECT_DIR)/UCFS/Dependencies/openssl",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceCommonUtils",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceNativeSDK",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceNetworkSDK",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceOAuth",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceSDKCore",
+					"$(PROJECT_DIR)/UCFS/Dependencies/SalesforceSecurity",
+					"$(PROJECT_DIR)/UCFS/Dependencies/sqlcipher",
+					/Users/bitgears/work/vpd/FitHeart2/GoogleAnalyticsServicesiOS_3.10,
+				);
+				PRODUCT_NAME = FitHeart;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB57DB86182146B100AD9E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UCFS.app/UCFS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCFS/UCFS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UCFSTests/FitHeartTests-Info.plist";
+				PRODUCT_NAME = FitHeartTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB57DB87182146B100AD9E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UCFS.app/UCFS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCFS/UCFS-Prefix.pch";
+				INFOPLIST_FILE = "UCFSTests/FitHeartTests-Info.plist";
+				PRODUCT_NAME = FitHeartTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB57DB51182146B100AD9E1E /* Build configuration list for PBXProject "FitHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB57DB80182146B100AD9E1E /* Debug */,
+				DB57DB81182146B100AD9E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB57DB82182146B100AD9E1E /* Build configuration list for PBXNativeTarget "FitHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB57DB83182146B100AD9E1E /* Debug */,
+				DB57DB84182146B100AD9E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB57DB85182146B100AD9E1E /* Build configuration list for PBXNativeTarget "FitHeartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB57DB86182146B100AD9E1E /* Debug */,
+				DB57DB87182146B100AD9E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB57DB4E182146B100AD9E1E /* Project object */;
+}

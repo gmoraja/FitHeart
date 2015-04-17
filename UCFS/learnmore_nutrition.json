@@ -1,0 +1,42 @@
+ [
+  {
+  "uniqueId" : "0",
+  "label" : "Quick Tips",
+  "notes" : [ {
+             "note" : "A few tips that apply for just about every one:<p><font color='#000000'><ul><li>Eat more fresh fruits and vegetables</li><li>Limit portion size</li><li>Reduce salt intake (link to photo of canned soup, frozen dinners, and salt shaker?)</li><li>Minimize sugar-sweetened beverages (soda, juice, energy drinks)</li><li>Stay away from junk food (chips, candy, sweets)</li><li>Avoid high fat foods</li></ul></font></p><br><br><a href='https://www.cardiosmart.org/Healthy-Living/Eat-Better'>Learn more</a>",
+             "noteAcc" : "A few tips that apply for just about every one: Eat more fresh fruits and vegetables. Limit portion size. Reduce salt intake. Minimize sugar-sweetened beverages (soda, juice, energy drinks). Stay away from junk food (chips, candy, sweets). Avoid high fat foods. Click here to Learn more: link to www.cardiosmart.org ",
+             "linkAcc" : "https://www.cardiosmart.org/Healthy-Living/Eat-Better"
+             }
+             ]
+  }, {
+  "uniqueId" : "1",
+  "label" : "Weight",
+  "notes" : [ {
+             "note" :  "Maintaining a healthy weight is an important part of staying healthy. If you are overweight or obese, losing weight can help lower blood pressure, lower cholesterol, and improve blood sugar.<br><br><a href='http://www.heart.org/HEARTORG/GettingHealthy/WeightManagement/WeightManagement_UCM_001081_SubHomePage.jsp#mainContent'>Learn more</a>",
+             "noteAcc" : "Maintaining a healthy weight is an important part of staying healthy. If you are overweight or obese, losing weight can help lower blood pressure, lower cholesterol, and improve blood sugar. Click here to Learn more: link to www.heart.org",
+             "linkAcc" : "http://www.heart.org/HEARTORG/GettingHealthy/WeightManagement/WeightManagement_UCM_001081_SubHomePage.jsp#mainContent"
+             }
+             ]
+  }, {
+  "uniqueId" : "2",
+  "label" : "Calories",
+  "notes" : [ {
+             "note" :  "A calorie is the unit that is used to measure how much energy you can get from food. You can usually figure out how many calories are in foods by looking at Nutrition Facts labels, by searching the internet, or from a cookbook.<br><br>2000 is an average number of calories for weight maintenance, but you will need to eat fewer calories to lose weight.<br><br><a href='http://hawaiifoods.hawaii.edu/lname.asp'>You can look up how many calories are in foods here</a>",
+             "noteAcc" : "A calorie refers to how much energy you can get from food. About 2000 calories are needed per day for weight maintenance, but you would need to eat fewer calories to lose weight. Determine the number of calories in foods by looking through Nutrition Facts labels, cookbooks, or the internet. You can look up how many calories are in foods here: link tohawaiifoods.hawaii.edu ",
+             "linkAcc" : "http://hawaiifoods.hawaii.edu/lname.asp"
+             }
+             ]
+  }
+  , {
+  "uniqueId" : "3",
+  "label" : "Links",
+  "notes" : [ {
+             "note" : "<a href=\"http://www.heart.org/HEARTORG/Conditions/More/CardiacRehab/Cardiac-Rehab_UCM_002079_SubHomePage.jsp#mainContent\" >American Heart Association (AHA)</a><br><br><a href=\"https://www.cardiosmart.org/Heart-Conditions/Coronary-Artery-Disease\">American College of Cardiology (ACC)</a><br><br><a href=\"https://www.aacvpr.org/CardiacRehabilitationPatients/tabid/503/Default.aspx\">American Association of Cardiovascular and Pulmonary Rehabilitation (AACVPR)</a><br><br><a href=\"http://pcna.net/patients---preventive-cardiovascular-nurses-association\">Preventive Cardiovascular Nurses Association</a><br><br><a href=\"http://hawaiifoods.hawaii.edu/lname.asp\">Calories Look-Up</a>",
+             "noteAcc" : "Link to American Heart Association. Link to American College of Cardiology. Link to American Association of Cardiovascular and Pulmonary Rehabilitation. Link to Preventive Cardiovascular Nurses Association. Calories Look-Up link."
+             }
+             ]
+  }
+  
+  
+  ]
+

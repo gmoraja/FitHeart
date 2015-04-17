@@ -1,0 +1,33 @@
+[
+ {
+ "uniqueId" : "76", "index" : "0", "section" : "3", "goal" : "0", "datetype" : "0",
+ "message" : "Even under stress, people can still have positive experiences, too.",
+ "actionMessage" : "", "actionSection" : "2", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "77", "index" : "0", "section" : "3", "goal" : "0", "datetype" : "0",
+ "message" : "Noticing and remembering positive events can improve your mood.",
+ "actionMessage" : "", "actionSection" : "2", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "78", "index" : "0", "section" : "3", "goal" : "0", "datetype" : "0",
+ "message" : "Expressing gratitude can make you feel better.",
+ "actionMessage" : "", "actionSection" : "2", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "79", "index" : "0", "section" : "3", "goal" : "0", "datetype" : "0",
+ "message" : "Managing stress is an important part of your health.",
+ "actionMessage" : "", "actionSection" : "2", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "80", "index" : "0", "section" : "3", "goal" : "0", "datetype" : "0",
+ "message" : "Have you found something positive about a mildly stressful situation recently?",
+ "actionMessage" : "", "actionSection" : "2", "actionScreen" : "0", "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "81", "index" : "0", "section" : "3", "goal" : "0", "datetype" : "0",
+ "message" : "Have you given or received any acts of kindness recently?",
+ "actionMessage" : "", "actionSection" : "2", "actionScreen" : "0", "actionItem" : "0"
+ }
+ 
+ ]

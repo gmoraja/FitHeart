@@ -1,0 +1,181 @@
+[
+ {
+ "uniqueId" : "47",
+ "index" : "0",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Your mood can help improve your health. This section contains tools to help you! Learn More.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "48",
+ "index" : "1",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Even under stress, people can still have positive experiences, too.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "49",
+ "index" : "2",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Positive emotions – like joy, interest, contentment, and love – can reduce stress.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "50",
+ "index" : "3",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Savoring positive activities can help you cope with stress.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "51",
+ "index" : "4",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Savor positive activities: Celebrate! Slow down and enjoy it. Write. Tell a friend. Create a memento.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "52",
+ "index" : "5",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Think back on something good that happened. How did it make you feel then? Now?",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "53",
+ "index" : "6",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Gratitude can be the way you feel when you’re thankful for something. Are you thankful?",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "54",
+ "index" : "7",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Gratitude can lead to positive emotions and reduce stress. Are you thankful for something?",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "55",
+ "index" : "8",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Mindfulness is a way of paying attention to what is happening, on purpose, in the present moment, and non-judgmentally.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "56",
+ "index" : "9",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Mindfulness can make bad things less overwhelming and help you note good things you might have overlooked.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "57",
+ "index" : "10",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "How you think about and interpret an event can make it feel stressful, relaxing, wonderful, or meaningful.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "58",
+ "index" : "11",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Think about something mildly stressful from the past day. Can you find a way to think about it in a more positive way?",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "59",
+ "index" : "12",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "You can use your personal strengths to help you cope with stress in a positive way.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "60",
+ "index" : "13",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Achieving your goals can help you to experience positive emotions, improve health, and reduce stress.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "61",
+ "index" : "14",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Doing nice things for other people is one of the best ways to make yourself feel better, even if get nothing in return.",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ },
+ {
+ "uniqueId" : "62",
+ "index" : "15",
+ "section" : "3",
+ "goal" : "-1",
+ "message" : "Think of something nice that someone has done for you. Have you done something nice for someone else?",
+ "actionMessage" : "",
+ "actionSection" : "-1",
+ "actionScreen" : "0",
+ "actionItem" : "0"
+ }
+ 
+ ]
+ 
+ 
